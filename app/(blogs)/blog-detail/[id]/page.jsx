@@ -10,6 +10,12 @@ export const metadata = {
   title: "Blog Details || Ecomus - Ultimate Nextjs Ecommerce Template",
   description: "Ecomus - Ultimate Nextjs Ecommerce Template",
 };
+
+export async function generateStaticParams() {
+  return allBlogs.map((blog) => ({
+    id: blog.id.toString(),
+  }));
+}
 export default function page({ params }) {
   const blog = allBlogs.filter((elm) => elm.id == params.id)[0] || allBlogs[0];
   return (

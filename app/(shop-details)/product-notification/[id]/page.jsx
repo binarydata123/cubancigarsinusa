@@ -13,6 +13,11 @@ export const metadata = {
 };
 import { allProducts } from "@/data/products";
 import ProductSinglePrevNext from "@/components/common/ProductSinglePrevNext";
+export async function generateStaticParams() {
+  return allProducts.map((product) => ({
+    id: product.id.toString(), // Ensure IDs are strings
+  }));
+}
 export default function page({ params }) {
   const product =
     allProducts.filter((elm) => elm.id == params.id)[0] || allProducts[0];
