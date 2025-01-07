@@ -2,4 +2,6 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/cubancigarsinusa/public_html/
-    - /bin/cp * $DEPLOYPATH
+    - npm install
+    - npm run export
+    - /bin/cp -r out/* $DEPLOYPATH
