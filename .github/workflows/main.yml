@@ -18,9 +18,8 @@ jobs:
         with:
           host: ${{ secrets.SSH_HOST }}
           username: ${{ secrets.SSH_USER }}
-          password: ${{ secrets.SSH_PASSWORD }}
+          password: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
-            [[ -s $HOME/.nvm/nvm.sh ]] && . $HOME/.nvm/nvm.sh
             cd /home/cubancigarsinusa/public_html/
             git add .
             git commit -m "merge previous changes"
