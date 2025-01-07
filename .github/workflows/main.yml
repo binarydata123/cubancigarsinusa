@@ -1,0 +1,29 @@
+name: Deploy to the production
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: SSH to VPS and deploy
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.SSH_HOST }}
+          username: ${{ secrets.SSH_USER }}
+          password: ${{ secrets.SSH_PASSWORD }}
+          script: |
+            [[ -s $HOME/.nvm/nvm.sh ]] && . $HOME/.nvm/nvm.sh
+            cd /home/cubancigarsinusa/public_html/
+            git add .
+            git commit -m "merge previous changes"
+            git pull origin main
+            npm run setup
+            npm run build
