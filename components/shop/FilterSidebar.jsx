@@ -2,9 +2,7 @@
 import { layouts } from "@/data/shop";
 import ProductGrid from "./ProductGrid";
 import { useState } from "react";
-
 import SidebarFilter from "./SidebarFilter";
-
 import Pagination from "../common/Pagination";
 import Sorting from "./Sorting";
 
@@ -44,7 +42,6 @@ export default function FilterSidebar() {
             <div className="tf-shop-content wrapper-control-shop">
               <div className="meta-filter-shop" />
               <ProductGrid allproducts={finalSorted} gridItems={gridItems} />
-              {/* pagination */}{" "}
               {finalSorted.length ? (
                 <ul className="tf-pagination-wrap tf-pagination-list tf-pagination-btn">
                   <Pagination />

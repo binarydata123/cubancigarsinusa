@@ -25,7 +25,9 @@ const filterColors = [
   { name: "Grey", colorClass: "bg_grey" },
   { name: "Light Pink", colorClass: "bg_light-pink" },
 ];
-const brands = ["Ecomus", "M&H"];
+const brands = ["COHIBA", "ROMEO Y JULIETA", "PARTAGÁS", "HOYO DE MONTERREY", "H. UPMANN", "BOLÍVAR", "TRINIDAD", "PUNCH", "RAMÓN ALLONES", "JUAN LÓPEZ",
+  "SAN CRISTÓBAL", "CUABA", "DIPLOMÁTICOS"
+];
 const availabilities = [
   { id: 1, isAvailable: true, text: "Available", count: 14 },
   { id: 2, isAvailable: false, text: "Out of Stock", count: 2 },
@@ -167,7 +169,7 @@ export default function ShopFilter({ setProducts, products = products1 }) {
           />
         </header>
         <div className="canvas-body">
-          <div className="widget-facet wd-categories">
+          {/* <div className="widget-facet wd-categories">
             <div
               className="facet-title"
               data-bs-target="#categories"
@@ -195,7 +197,44 @@ export default function ShopFilter({ setProducts, products = products1 }) {
                 ))}
               </ul>
             </div>
-          </div>
+          </div> */}
+          <div className="widget-facet">
+              <div
+                className="facet-title"
+                data-bs-target="#brand"
+                data-bs-toggle="collapse"
+                aria-expanded="true"
+                aria-controls="brand"
+              >
+                <span>Brand</span>
+                <span className="icon icon-arrow-up" />
+              </div>
+              <div id="brand" className="collapse show">
+                <ul className="tf-filter-group current-scrollbar mb_36">
+                  {brands.map((brand) => (
+                    <li
+                      key={brand}
+                      className="list-item d-flex gap-12 align-items-center"
+                      onClick={() => handleSelectBrand(brand)}
+                    >
+                      <input
+                        type="radio"
+                        className="tf-check"
+                        readOnly
+                        checked={selectedBrands.includes(brand)}
+                      />
+                      <label className="label">
+                        <span>{brand}</span>&nbsp;
+                        <span>
+                          ({products.filter((elm) => elm.brand == brand).length}
+                          )
+                        </span>
+                      </label>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </div>
           <form
             onSubmit={(e) => e.preventDefault()}
             action="#"
@@ -284,43 +323,7 @@ export default function ShopFilter({ setProducts, products = products1 }) {
                 </div>
               </div>
             </div>
-            <div className="widget-facet">
-              <div
-                className="facet-title"
-                data-bs-target="#brand"
-                data-bs-toggle="collapse"
-                aria-expanded="true"
-                aria-controls="brand"
-              >
-                <span>Brand</span>
-                <span className="icon icon-arrow-up" />
-              </div>
-              <div id="brand" className="collapse show">
-                <ul className="tf-filter-group current-scrollbar mb_36">
-                  {brands.map((brand) => (
-                    <li
-                      key={brand}
-                      className="list-item d-flex gap-12 align-items-center"
-                      onClick={() => handleSelectBrand(brand)}
-                    >
-                      <input
-                        type="radio"
-                        className="tf-check"
-                        readOnly
-                        checked={selectedBrands.includes(brand)}
-                      />
-                      <label className="label">
-                        <span>{brand}</span>&nbsp;
-                        <span>
-                          ({products.filter((elm) => elm.brand == brand).length}
-                          )
-                        </span>
-                      </label>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            </div>
+            
             <div className="widget-facet">
               <div
                 className="facet-title"

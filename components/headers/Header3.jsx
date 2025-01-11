@@ -53,7 +53,7 @@ export default function Header3() {
                     href="https://themeforest.net/item/ecomus-ultimate-html5-template/53417990?s_rank=3"
                     className="item-link"
                   >
-                    Buy now
+                    {/* Buy now */}
                   </a>
                 </li>
               </ul>
