@@ -296,37 +296,37 @@ export const productsPages = [
     heading: "Shop layouts",
     links: [
       { href: "/shop-default", text: "Default" },
-      { href: "/shop-left-sidebar", text: "Left sidebar" },
-      { href: "/shop-right-sidebar", text: "Right sidebar" },
-      { href: "/shop-fullwidth", text: "Fullwidth" },
-      { href: "/shop-collection-sub", text: "Sub collection" },
-      { href: "/shop-collection-list", text: "Collections list" },
+      // { href: "/shop-left-sidebar", text: "Left sidebar" },
+      // { href: "/shop-right-sidebar", text: "Right sidebar" },
+      // { href: "/shop-fullwidth", text: "Fullwidth" },
+      // { href: "/shop-collection-sub", text: "Sub collection" },
+      // { href: "/shop-collection-list", text: "Collections list" },
     ],
   },
   {
-    heading: "Features",
+    // heading: "Features",
     links: [
-      { href: "/shop-link", text: "Pagination links" },
-      { href: "/shop-loadmore", text: "Pagination loadmore" },
-      {
-        href: "/shop-infinite-scrolling",
-        text: "Pagination infinite scrolling",
-      },
-      { href: "/shop-filter-sidebar", text: "Filter sidebar" },
-      { href: "/shop-filter-hidden", text: "Filter hidden" },
+      // { href: "/shop-link", text: "Pagination links" },
+      // { href: "/shop-loadmore", text: "Pagination loadmore" },
+      // {
+      //   href: "/shop-infinite-scrolling",
+      //   text: "Pagination infinite scrolling",
+      // },
+      // { href: "/shop-filter-sidebar", text: "Filter sidebar" },
+      // { href: "/shop-filter-hidden", text: "Filter hidden" },
     ],
   },
   {
-    heading: "Product styles",
+    // heading: "Product styles",
     links: [
-      { href: "/product-style-list", text: "Product style list" },
-      { href: "/product-style-01", text: "Product style 01" },
-      { href: "/product-style-02", text: "Product style 02" },
-      { href: "/product-style-03", text: "Product style 03" },
-      { href: "/product-style-04", text: "Product style 04" },
-      { href: "/product-style-05", text: "Product style 05" },
-      { href: "/product-style-06", text: "Product style 06" },
-      { href: "/product-style-07", text: "Product style 07" },
+      // { href: "/product-style-list", text: "Product style list" },
+      // { href: "/product-style-01", text: "Product style 01" },
+      // { href: "/product-style-02", text: "Product style 02" },
+      // { href: "/product-style-03", text: "Product style 03" },
+      // { href: "/product-style-04", text: "Product style 04" },
+      // { href: "/product-style-05", text: "Product style 05" },
+      // { href: "/product-style-06", text: "Product style 06" },
+      // { href: "/product-style-07", text: "Product style 07" },
     ],
   },
 ];
@@ -435,161 +435,171 @@ export const productDetailPages = [
 ];
 
 export const pages = [
+
+  // // {
+  // //   href: "#",
+  // //   text: "Brands",
+  // //   className: "menu-link-text link text_black-2",
+  // //   links: [
+  // //     {
+  // //       href: "/brands",
+  // //       text: "Brands",
+  // //       className: "menu-link-text link text_black-2 position-relative",
+  // //       label: "New",
+  // //     },
+  // //     {
+  // //       href: "/brands-v2",
+  // //       text: "Brand V2",
+  // //       className: "menu-link-text link text_black-2",
+  // //     },
+  // //   ],
+  // // },
+
+  // {
+  //   href: "#",
+  //   text: "FAQ",
+  //   className: "menu-link-text link text_black-2",
+  //   links: [
+  //     {
+  //       href: "/faq-1",
+  //       text: "FAQ 01",
+  //       className: "menu-link-text link text_black-2",
+  //     },
+  //     {
+  //       href: "/faq-2",
+  //       text: "FAQ 02",
+  //       className: "menu-link-text link text_black-2",
+  //     },
+  //   ],
+  // },
+  // {
+  //   href: "#",
+  //   text: "Store",
+  //   className: "menu-link-text link text_black-2",
+  //   links: [
+  //     {
+  //       href: "/our-store",
+  //       text: "Our store",
+  //       className: "menu-link-text link text_black-2",
+  //     },
+  //     {
+  //       href: "/store-locations",
+  //       text: "Store locator",
+  //       className: "menu-link-text link text_black-2",
+  //     },
+  //   ],
+  // },
+  // {
+  //   href: "/timeline",
+  //   text: "Timeline",
+  //   className: "menu-link-text link text_black-2 position-relative",
+  //   label: "New",
+  // },
+  // {
+  //   href: "/view-cart",
+  //   text: "View cart",
+  //   className: "menu-link-text link text_black-2 position-relative",
+  // },
+  // {
+  //   href: "/checkout",
+  //   text: "Check out",
+  //   className: "menu-link-text link text_black-2 position-relative",
+  // },
+  // {
+  //   href: "#",
+  //   text: "Payment",
+  //   className: "menu-link-text link text_black-2",
+  //   links: [
+  //     {
+  //       href: "/payment-confirmation",
+  //       text: "Payment Confirmation",
+  //       className: "menu-link-text link text_black-2",
+  //     },
+  //     {
+  //       href: "/payment-failure",
+  //       text: "Payment Failure",
+  //       className: "menu-link-text link text_black-2",
+  //     },
+  //   ],
+  // },
+  // {
+  //   href: "#",
+  //   text: "My account",
+  //   className: "menu-link-text link text_black-2",
+  //   links: [
+  //     {
+  //       href: "/my-account",
+  //       text: "My account",
+  //       className: "menu-link-text link text_black-2",
+  //     },
+  //     {
+  //       href: "/my-account-orders",
+  //       text: "My order",
+  //       className: "menu-link-text link text_black-2",
+  //     },
+  //     {
+  //       href: "/my-account-orders-details",
+  //       text: "My order details",
+  //       className: "menu-link-text link text_black-2",
+  //     },
+  //     {
+  //       href: "/my-account-address",
+  //       text: "My address",
+  //       className: "menu-link-text link text_black-2",
+  //     },
+  //     {
+  //       href: "/my-account-edit",
+  //       text: "My account details",
+  //       className: "menu-link-text link text_black-2",
+  //     },
+  //     {
+  //       href: "/my-account-wishlist",
+  //       text: "My wishlist",
+  //       className: "menu-link-text link text_black-2",
+  //     },
+  //   ],
+  // },
+  // {
+  //   href: "/invoice",
+  //   text: "Invoice",
+  //   className: "menu-link-text link text_black-2 position-relative",
+  // },
+  // {
+  //   href: "/page-not-found",
+  //   text: "404",
+  //   className: "menu-link-text link text_black-2 position-relative",
+  // },
   {
     href: "/about-us",
     text: "About us",
     className: "menu-link-text link text_black-2",
     links: null,
   },
+
   {
-    href: "#",
-    text: "Brands",
+    href: "/about-us",
+    text: "Contact us",
     className: "menu-link-text link text_black-2",
-    links: [
-      {
-        href: "/brands",
-        text: "Brands",
-        className: "menu-link-text link text_black-2 position-relative",
-        label: "New",
-      },
-      {
-        href: "/brands-v2",
-        text: "Brand V2",
-        className: "menu-link-text link text_black-2",
-      },
-    ],
+    links: null,
   },
-  {
-    href: "#",
-    text: "Contact",
-    className: "menu-link-text link text_black-2",
-    links: [
-      {
-        href: "/contact-1",
-        text: "Contact 1",
-        className: "menu-link-text link text_black-2",
-      },
-      {
-        href: "/contact-2",
-        text: "Contact 2",
-        className: "menu-link-text link text_black-2",
-      },
-    ],
-  },
-  {
-    href: "#",
-    text: "FAQ",
-    className: "menu-link-text link text_black-2",
-    links: [
-      {
-        href: "/faq-1",
-        text: "FAQ 01",
-        className: "menu-link-text link text_black-2",
-      },
-      {
-        href: "/faq-2",
-        text: "FAQ 02",
-        className: "menu-link-text link text_black-2",
-      },
-    ],
-  },
-  {
-    href: "#",
-    text: "Store",
-    className: "menu-link-text link text_black-2",
-    links: [
-      {
-        href: "/our-store",
-        text: "Our store",
-        className: "menu-link-text link text_black-2",
-      },
-      {
-        href: "/store-locations",
-        text: "Store locator",
-        className: "menu-link-text link text_black-2",
-      },
-    ],
-  },
-  {
-    href: "/timeline",
-    text: "Timeline",
-    className: "menu-link-text link text_black-2 position-relative",
-    label: "New",
-  },
-  {
-    href: "/view-cart",
-    text: "View cart",
-    className: "menu-link-text link text_black-2 position-relative",
-  },
-  {
-    href: "/checkout",
-    text: "Check out",
-    className: "menu-link-text link text_black-2 position-relative",
-  },
-  {
-    href: "#",
-    text: "Payment",
-    className: "menu-link-text link text_black-2",
-    links: [
-      {
-        href: "/payment-confirmation",
-        text: "Payment Confirmation",
-        className: "menu-link-text link text_black-2",
-      },
-      {
-        href: "/payment-failure",
-        text: "Payment Failure",
-        className: "menu-link-text link text_black-2",
-      },
-    ],
-  },
-  {
-    href: "#",
-    text: "My account",
-    className: "menu-link-text link text_black-2",
-    links: [
-      {
-        href: "/my-account",
-        text: "My account",
-        className: "menu-link-text link text_black-2",
-      },
-      {
-        href: "/my-account-orders",
-        text: "My order",
-        className: "menu-link-text link text_black-2",
-      },
-      {
-        href: "/my-account-orders-details",
-        text: "My order details",
-        className: "menu-link-text link text_black-2",
-      },
-      {
-        href: "/my-account-address",
-        text: "My address",
-        className: "menu-link-text link text_black-2",
-      },
-      {
-        href: "/my-account-edit",
-        text: "My account details",
-        className: "menu-link-text link text_black-2",
-      },
-      {
-        href: "/my-account-wishlist",
-        text: "My wishlist",
-        className: "menu-link-text link text_black-2",
-      },
-    ],
-  },
-  {
-    href: "/invoice",
-    text: "Invoice",
-    className: "menu-link-text link text_black-2 position-relative",
-  },
-  {
-    href: "/page-not-found",
-    text: "404",
-    className: "menu-link-text link text_black-2 position-relative",
-  },
+  // {
+  //   href: "#",
+  //   text: "Contact",
+  //   className: "menu-link-text link text_black-2",
+  //   links: null,
+  //   links: [
+  //     {
+  //       href: "/contact-1",
+  //       text: "Contact 1",
+  //       className: "menu-link-text link text_black-2",
+  //     },
+  //     {
+  //       href: "/contact-2",
+  //       text: "Contact 2",
+  //       className: "menu-link-text link text_black-2",
+  //     },
+  //   ],
+  // },
 ];
 
 export const blogLinks = [
@@ -686,20 +696,20 @@ export const navItems = [
           { href: "/shop-filter-hidden", label: "Filter hidden" },
         ],
       },
-      {
-        id: "sub-shop-three",
-        label: "Product styles",
-        links: [
-          { href: "/product-style-list", label: "Product style list" },
-          { href: "/product-style-01", label: "Product style 01" },
-          { href: "/product-style-02", label: "Product style 02" },
-          { href: "/product-style-03", label: "Product style 03" },
-          { href: "/product-style-04", label: "Product style 04" },
-          { href: "/product-style-05", label: "Product style 05" },
-          { href: "/product-style-06", label: "Product style 06" },
-          { href: "/product-style-07", label: "Product style 07" },
-        ],
-      },
+      // {
+      //   id: "sub-shop-three",
+      //   label: "Product styles",
+      //   links: [
+      //     { href: "/product-style-list", label: "Product style list" },
+      //     { href: "/product-style-01", label: "Product style 01" },
+      //     { href: "/product-style-02", label: "Product style 02" },
+      //     { href: "/product-style-03", label: "Product style 03" },
+      //     { href: "/product-style-04", label: "Product style 04" },
+      //     { href: "/product-style-05", label: "Product style 05" },
+      //     { href: "/product-style-06", label: "Product style 06" },
+      //     { href: "/product-style-07", label: "Product style 07" },
+      //   ],
+      // },
     ],
   },
   {

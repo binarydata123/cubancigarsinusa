@@ -10,6 +10,7 @@ export default function ShopDefault() {
   const [gridItems, setGridItems] = useState(4);
   const [products, setProducts] = useState([]);
   const [finalSorted, setFinalSorted] = useState([]);
+
   return (
     <>
       <section className="flat-spacing-2">
@@ -50,7 +51,7 @@ export default function ShopDefault() {
           <div className="wrapper-control-shop">
             <div className="meta-filter-shop" />
             <ProductGrid allproducts={finalSorted} gridItems={gridItems} />
-            {/* pagination */}
+     
             {finalSorted.length ? (
               <ul className="tf-pagination-wrap tf-pagination-list tf-pagination-btn">
                 <Pagination />

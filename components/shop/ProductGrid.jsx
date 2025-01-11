@@ -19,7 +19,6 @@ export default function ProductGrid({
         {allproducts.length} product(s) found
       </div>
       <div className="grid-layout wrapper-shop" data-grid={`grid-${gridItems}`}>
-        {/* card product 1 */}
         {allproducts.map((elm, i) => (
           <ProductCard product={elm} key={i} />
         ))}
