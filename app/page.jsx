@@ -14,8 +14,8 @@ import Marquee from "@/components/homes/home-1/Marquee";
 import Products from "@/components/homes/home-1/Products";
 
 export const metadata = {
-  title: "Home 1 || Ecomus - Ultimate Nextjs Ecommerce Template",
-  description: "Ecomus - Ultimate Nextjs Ecommerce Template",
+  title: "Premium Cigars for Sale | Explore Luxury and Quality Cigars",
+  description: "Discover premium cigars at unbeatable prices. Shop luxury cigars, hand-rolled classics, and exclusive cigar brands for the ultimate smoking experience.",
 };
 export default function Home() {
   return (

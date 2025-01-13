@@ -42,61 +42,64 @@ export default function ShopDetailsTab() {
                 >
                   <div className="">
                     <p className="mb_30">
-                      Button-up shirt sleeves and a relaxed silhouette. It’s
-                      tailored with drapey, crinkle-texture fabric that’s made
-                      from LENZING™ ECOVERO™ Viscose — responsibly sourced
-                      wood-based fibres produced through a process that reduces
-                      impact on forests, biodiversity and water supply.
+                      Discover our premium cigars, crafted from the finest
+                      tobacco leaves to deliver a smooth and rich smoking
+                      experience. Each cigar is carefully aged and hand-rolled
+                      by skilled artisans, ensuring consistent quality and
+                      flavor. Whether you prefer a full-bodied Maduro or a
+                      smooth, mild Connecticut wrapper, our collection offers a
+                      range of styles to suit every taste. Enjoy a luxurious and
+                      timeless experience with every puff.
                     </p>
-                    <div className="tf-product-des-demo">
-                      <div className="right">
-                        <h3 className="fs-16 fw-5">Features</h3>
-                        <ul>
-                          <li>Front button placket</li>
-                          <li>Adjustable sleeve tabs</li>
-                          <li>Babaton embroidered crest at placket and hem</li>
-                        </ul>
-                        <h3 className="fs-16 fw-5">Materials Care</h3>
-                        <ul className="mb-0">
-                          <li>Content: 100% LENZING™ ECOVERO™ Viscose</li>
-                          <li>Care: Hand wash</li>
-                          <li>Imported</li>
-                        </ul>
-                      </div>
-                      <div className="left">
-                        <h3 className="fs-16 fw-5">Materials Care</h3>
-                        <div className="d-flex gap-10 mb_15 align-items-center">
-                          <div className="icon">
-                            <i className="icon-machine" />
-                          </div>
-                          <span>Machine wash max. 30ºC. Short spin.</span>
-                        </div>
-                        <div className="d-flex gap-10 mb_15 align-items-center">
-                          <div className="icon">
-                            <i className="icon-iron" />
-                          </div>
-                          <span>Iron maximum 110ºC.</span>
-                        </div>
-                        <div className="d-flex gap-10 mb_15 align-items-center">
-                          <div className="icon">
-                            <i className="icon-bleach" />
-                          </div>
-                          <span>Do not bleach/bleach.</span>
-                        </div>
-                        <div className="d-flex gap-10 mb_15 align-items-center">
-                          <div className="icon">
-                            <i className="icon-dry-clean" />
-                          </div>
-                          <span>Do not dry clean.</span>
-                        </div>
-                        <div className="d-flex gap-10 align-items-center">
-                          <div className="icon">
-                            <i className="icon-tumble-dry" />
-                          </div>
-                          <span>Tumble dry, medium hear.</span>
-                        </div>
-                      </div>
-                    </div>
+                    {/* <div className="tf-product-des-demo">
+                                  <div className="right">
+                                    <h3 className="fs-16 fw-5">Features</h3>
+                                    <ul>
+                                      <li>Front button placket</li>
+                                      <li>Adjustable sleeve tabs</li>
+                                      <li>Babaton embroidered crest at placket and hem</li>
+                                    </ul>
+                                    <h3 className="fs-16 fw-5">Materials Care</h3>
+                                    <ul className="mb-0">
+                                      <li>Content: 100% LENZING™ ECOVERO™ Viscose</li>
+                                      <li>Care: Hand wash</li>
+                                      <li>Imported</li>
+                                    </ul>
+                                  </div>
+                                  <div className="left">
+                                    <h3 className="fs-16 fw-5">Materials Care</h3>
+                                    <div className="d-flex gap-10 mb_15 align-items-center">
+                                      <div className="icon">
+                                        <i className="icon-machine" />
+                                      </div>
+                                      <span>Machine wash max. 30ºC. Short spin.</span>
+                                    </div>
+                                    <div className="d-flex gap-10 mb_15 align-items-center">
+                                      <div className="icon">
+                                        <i className="icon-iron" />
+                                      </div>
+                                      <span>Iron maximum 110ºC.</span>
+                                    </div>
+                                    <div className="d-flex gap-10 mb_15 align-items-center">
+                                      <div className="icon">
+                                        <i className="icon-bleach" />
+                                      </div>
+                                      <span>Do not bleach/bleach.</span>
+                                    </div>
+                                    <div className="d-flex gap-10 mb_15 align-items-center">
+                                      <div className="icon">
+                                        <i className="icon-dry-clean" />
+                                      </div>
+                                      <span>Do not dry clean.</span>
+                                    </div>
+                                    <div className="d-flex gap-10 align-items-center">
+                                      <div className="icon">
+                                        <i className="icon-tumble-dry" />
+                                      </div>
+                                      <span>Tumble dry, medium hear.</span>
+                                    </div>
+                                  </div>
+                                </div> */}
                   </div>
                 </div>
                 <div
@@ -106,16 +109,28 @@ export default function ShopDetailsTab() {
                 >
                   <table className="tf-pr-attrs">
                     <tbody>
-                      <tr className="tf-attr-pa-color">
-                        <th className="tf-attr-label">Color</th>
+                      <tr className="tf-attr-pa-wrapper">
+                        <th className="tf-attr-label">Wrapper Type</th>
                         <td className="tf-attr-value">
-                          <p>White, Pink, Black</p>
+                          <p>Maduro, Connecticut, Habano</p>
                         </td>
                       </tr>
-                      <tr className="tf-attr-pa-size">
-                        <th className="tf-attr-label">Size</th>
+                      <tr className="tf-attr-pa-length">
+                        <th className="tf-attr-label">Length</th>
                         <td className="tf-attr-value">
-                          <p>S, M, L, XL</p>
+                          <p>5", 6", 7"</p>
+                        </td>
+                      </tr>
+                      <tr className="tf-attr-pa-ring-gauge">
+                        <th className="tf-attr-label">Ring Gauge</th>
+                        <td className="tf-attr-value">
+                          <p>50, 52, 54</p>
+                        </td>
+                      </tr>
+                      <tr className="tf-attr-pa-strength">
+                        <th className="tf-attr-label">Strength</th>
+                        <td className="tf-attr-value">
+                          <p>Medium, Full-bodied</p>
                         </td>
                       </tr>
                     </tbody>

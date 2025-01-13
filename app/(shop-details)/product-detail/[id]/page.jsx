@@ -8,8 +8,9 @@ import React from "react";
 import Link from "next/link";
 import DetailsOuterZoom from "@/components/shopDetails/DetailsOuterZoom";
 export const metadata = {
-  title: "Shop Details || Ecomus - Ultimate Nextjs Ecommerce Template",
-  description: "Ecomus - Ultimate Nextjs Ecommerce Template",
+  title: "Cigar Shop Details | Premium Cigars Collection",
+  description:
+    "Explore the details of our premium cigars. Find out more about the flavors, sizes, and origins of your favorite cigars in our detailed product listings.",
 };
 import { allProducts } from "@/data/products";
 import ProductSinglePrevNext from "@/components/common/ProductSinglePrevNext";

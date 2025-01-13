@@ -4,8 +4,9 @@ import Header2 from "@/components/headers/Header2";
 import React from "react";
 import Link from "next/link";
 export const metadata = {
-  title: "Blog List || Ecomus - Ultimate Nextjs Ecommerce Template",
-  description: "Ecomus - Ultimate Nextjs Ecommerce Template",
+  title: "Blog | Discover Insights About Premium Cigars",
+  description:
+    "Explore our cigar blog for tips, trends, and guides about premium cigars. Stay updated on cigar culture, pairings, and exclusive offers.",
 };
 export default function page() {
   return (

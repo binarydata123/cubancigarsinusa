@@ -69,7 +69,7 @@ export default function DetailsOuterZoom({ product = allProducts[0] }) {
                       {product.title ? product.title : "Cotton jersey top"}
                     </h5>
                   </div>
-                  <div className="tf-product-info-badges">
+                  {/* <div className="tf-product-info-badges">
                     <div className="badges">Best seller</div>
                     <div className="product-status-content">
                       <i className="icon-lightning" />
@@ -77,25 +77,25 @@ export default function DetailsOuterZoom({ product = allProducts[0] }) {
                         Selling fast! 56 people have this in their carts.
                       </p>
                     </div>
-                  </div>
+                  </div> */}
                   <div className="tf-product-info-price">
                     <div className="price-on-sale">
                       ${product.price.toFixed(2)}
                     </div>
 
-                    <div className="compare-at-price">
+                    {/* <div className="compare-at-price">
                       ${currentColor.oldPrice.toFixed(2)}
                     </div>
 
                     <div className="badges-on-sale">
                       <span>20</span>% OFF
-                    </div>
+                    </div> */}
                   </div>
                   <div className="tf-product-info-liveview">
                     <div className="liveview-count">20</div>
                     <p className="fw-6">People are viewing this right now</p>
                   </div>
-                  <div className="tf-product-info-countdown">
+                  {/* <div className="tf-product-info-countdown">
                     <div className="countdown-wrap">
                       <div className="countdown-title">
                         <i className="icon-time tf-ani-tada" />
@@ -107,16 +107,16 @@ export default function DetailsOuterZoom({ product = allProducts[0] }) {
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
                   <div className="tf-product-info-variant-picker">
                     <div className="variant-picker-item">
-                      <div className="variant-picker-label">
+                      {/* <div className="variant-picker-label">
                         Color:
                         <span className="fw-6 variant-picker-label-value">
                           {currentColor.value}
                         </span>
-                      </div>
-                      <form className="variant-picker-values">
+                      </div> */}
+                      {/* <form className="variant-picker-values">
                         {colors.map((color) => (
                           <React.Fragment key={color.id}>
                             <input
@@ -139,9 +139,9 @@ export default function DetailsOuterZoom({ product = allProducts[0] }) {
                             </label>
                           </React.Fragment>
                         ))}
-                      </form>
+                      </form> */}
                     </div>
-                    <div className="variant-picker-item">
+                    {/* <div className="variant-picker-item">
                       <div className="d-flex justify-content-between align-items-center">
                         <div className="variant-picker-label">
                           Size:
@@ -178,7 +178,7 @@ export default function DetailsOuterZoom({ product = allProducts[0] }) {
                           </React.Fragment>
                         ))}
                       </form>
-                    </div>
+                    </div> */}
                   </div>
                   <div className="tf-product-info-quantity">
                     <div className="quantity-title fw-6">Quantity</div>
@@ -261,7 +261,7 @@ export default function DetailsOuterZoom({ product = allProducts[0] }) {
                       data-bs-toggle="modal"
                       className="tf-product-extra-icon"
                     >
-                      <div className="icon">
+                      {/* <div className="icon">
                         <Image
                           alt="image"
                           src="/images/item/compare.svg"
@@ -269,7 +269,7 @@ export default function DetailsOuterZoom({ product = allProducts[0] }) {
                           height={20}
                         />
                       </div>
-                      <div className="text fw-6">Compare color</div>
+                      <div className="text fw-6">Compare color</div> */}
                     </a>
                     <a
                       href="#ask_question"
