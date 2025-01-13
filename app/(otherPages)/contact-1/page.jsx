@@ -5,8 +5,9 @@ import Map from "@/components/othersPages/contact/Map";
 import React from "react";
 
 export const metadata = {
-  title: "Contact 1 || Ecomus - Ultimate Nextjs Ecommerce Template",
-  description: "Ecomus - Ultimate Nextjs Ecommerce Template",
+  title: "Contact Us | Premium Cigar Retailer",
+  description:
+    "Get in touch with us for any inquiries, support, or cigar-related questions. We're here to provide the best experience for cigar enthusiasts.",
 };
 export default function page() {
   return (

@@ -1,9 +1,7 @@
 "use client";
 import { useContextElement } from "@/context/Context";
-
 import Image from "next/image";
 import Link from "next/link";
-
 import { Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Quantity from "../shopDetails/Quantity";
@@ -110,7 +108,7 @@ export default function QuickView() {
                   <div className="product-status-content">
                     <i className="icon-lightning" />
                     <p className="fw-6">
-                      Selling fast! 48 people have this in their carts.
+                      {/* Selling fast! 48 people have this in their carts. */}
                     </p>
                   </div>
                 </div>
@@ -124,7 +122,7 @@ export default function QuickView() {
                     a.Interdum fermentum.
                   </p>
                 </div>
-                <div className="tf-product-info-variant-picker">
+                {/* <div className="tf-product-info-variant-picker">
                   <div className="variant-picker-item">
                     <div className="variant-picker-label">
                       Color:
@@ -194,7 +192,7 @@ export default function QuickView() {
                       ))}
                     </form>
                   </div>
-                </div>
+                </div> */}
                 <div className="tf-product-info-quantity">
                   <div className="quantity-title fw-6">Quantity</div>
                   <Quantity />

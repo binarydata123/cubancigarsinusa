@@ -9,8 +9,9 @@ import Testimonials from "@/components/othersPages/about/Testimonials";
 import React from "react";
 
 export const metadata = {
-  title: "About Us || Ecomus - Ultimate Nextjs Ecommerce Template",
-  description: "Ecomus - Ultimate Nextjs Ecommerce Template",
+  title: "About Us | Premium Cigar Retailer",
+  description:
+    "Learn more about our journey, commitment to quality, and passion for delivering the finest cigars. Explore why we are your trusted cigar retailer.",
 };
 export default function page() {
   return (

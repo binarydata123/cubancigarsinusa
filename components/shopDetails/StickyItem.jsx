@@ -10,7 +10,7 @@ export default function StickyItem({ soldOut = false }) {
   const { addProductToCart, isAddedToCartProducts } = useContextElement();
   return (
     <div className="tf-sticky-btn-atc">
-      <div className="container">
+      {/* <div className="container">
         <div className="tf-height-observer w-100 d-flex align-items-center">
           <div className="tf-sticky-atc-product d-flex align-items-center">
             <div className="tf-sticky-atc-img">
@@ -62,7 +62,7 @@ export default function StickyItem({ soldOut = false }) {
             </form>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }
