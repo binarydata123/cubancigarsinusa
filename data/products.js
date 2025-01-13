@@ -5,24 +5,24 @@ export const products1 = [
     imgHoverSrc: "/images/products/one.jpg",
     title: "Cohiba Behike BHK 52",
     price: 16.95,
-    colors: [
-      {
-        name: "Orange",
-        colorClass: "bg_orange-3",
-        imgSrc: "/images/products/orange-1.jpg",
-      },
-      {
-        name: "Black",
-        colorClass: "bg_dark",
-        imgSrc: "/images/products/black-1.jpg",
-      },
-      {
-        name: "White",
-        colorClass: "bg_white",
-        imgSrc: "/images/products/white-1.jpg",
-      },
-    ],
-    sizes: ["S", "M", "L", "XL"],
+    // colors: [
+    //   {
+    //     name: "Orange",
+    //     colorClass: "bg_orange-3",
+    //     imgSrc: "/images/products/orange-1.jpg",
+    //   },
+    //   {
+    //     name: "Black",
+    //     colorClass: "bg_dark",
+    //     imgSrc: "/images/products/black-1.jpg",
+    //   },
+    //   {
+    //     name: "White",
+    //     colorClass: "bg_white",
+    //     imgSrc: "/images/products/white-1.jpg",
+    //   },
+    // ],
+    // sizes: ["S", "M", "L", "XL"],
     filterCategories: ["Best seller", "On Sale"],
     brand: "COHIBA",
     isAvailable: true,
@@ -30,28 +30,28 @@ export const products1 = [
   {
     id: 2,
     imgSrc: "/images/products/two.jpg",
-    imgHoverSrc: "/images/products/purple.jpg",
+    imgHoverSrc: "/images/products/two.jpg",
     title: "Cohiba Esplendidos",
     price: 18.95,
-    colors: [
-      {
-        name: "Brown",
-        colorClass: "bg_brown",
-        imgSrc: "/images/products/brown.jpg",
-      },
-      {
-        name: "Light Purple",
-        colorClass: "bg_purple",
-        imgSrc: "/images/products/purple.jpg",
-      },
-      {
-        name: "Light Green",
-        colorClass: "bg_light-green",
-        imgSrc: "/images/products/green.jpg",
-      },
-    ],
-    sizes: ["M", "L", "XL"],
-    countdown: { time: 1007500, labels: "d :,h :,m :,s" },
+    // colors: [
+    //   {
+    //     name: "Brown",
+    //     colorClass: "bg_brown",
+    //     imgSrc: "/images/products/brown.jpg",
+    //   },
+    //   {
+    //     name: "Light Purple",
+    //     colorClass: "bg_purple",
+    //     imgSrc: "/images/products/purple.jpg",
+    //   },
+    //   {
+    //     name: "Light Green",
+    //     colorClass: "bg_light-green",
+    //     imgSrc: "/images/products/green.jpg",
+    //   },
+    // ],
+    // sizes: ["M", "L", "XL"],
+    // countdown: { time: 1007500, labels: "d :,h :,m :,s" },
     filterCategories: ["Best seller", "New arrivals"],
     brand: "COHIBA",
     isAvailable: false,
@@ -59,10 +59,10 @@ export const products1 = [
   {
     id: 3,
     imgSrc: "/images/products/three.jpg",
-    imgHoverSrc: "/images/products/white-4.jpg",
+    imgHoverSrc: "/images/products/three.jpg",
     title: "Cohiba Robustos",
     price: 10.0,
-    sizes: ["S", "M", "L", "XL"],
+    // sizes: ["S", "M", "L", "XL"],
     filterCategories: ["Best seller", "On Sale"],
     brand: "COHIBA",
     isAvailable: true,
@@ -70,27 +70,27 @@ export const products1 = [
   {
     id: 4,
     imgSrc: "/images/products/four.jpg",
-    imgHoverSrc: "/images/products/pink-1.jpg",
+    imgHoverSrc: "/images/products/four.jpg",
     title: "Cohiba Siglo VI",
     price: 16.95,
-    colors: [
-      {
-        name: "White",
-        colorClass: "bg_white",
-        imgSrc: "/images/products/white-2.jpg",
-      },
-      {
-        name: "Pink",
-        colorClass: "bg_purple",
-        imgSrc: "/images/products/pink-1.jpg",
-      },
-      {
-        name: "Black",
-        colorClass: "bg_dark",
-        imgSrc: "/images/products/black-2.jpg",
-      },
-    ],
-    sizes: ["S", "M", "L", "XL"],
+    // colors: [
+    //   {
+    //     name: "White",
+    //     colorClass: "bg_white",
+    //     imgSrc: "/images/products/white-2.jpg",
+    //   },
+    //   {
+    //     name: "Pink",
+    //     colorClass: "bg_purple",
+    //     imgSrc: "/images/products/pink-1.jpg",
+    //   },
+    //   {
+    //     name: "Black",
+    //     colorClass: "bg_dark",
+    //     imgSrc: "/images/products/black-2.jpg",
+    //   },
+    // ],
+    // sizes: ["S", "M", "L", "XL"],
     filterCategories: ["Best seller", "On Sale"],
     brand: "COHIBA",
     isAvailable: true,
@@ -98,113 +98,113 @@ export const products1 = [
   {
     id: 5,
     imgSrc: "/images/products/five.jpg",
-    imgHoverSrc: "/images/products/brown-3.jpg",
+    imgHoverSrc: "/images/products/five.jpg",
     title: "Cohiba Behike BHK 54",
     price: 14.95,
-    colors: [
-      {
-        name: "Brown",
-        colorClass: "bg_brown",
-        imgSrc: "/images/products/brown-2.jpg",
-      },
-      {
-        name: "White",
-        colorClass: "bg_white",
-        imgSrc: "/images/products/white-5.jpg",
-      },
-    ],
-    sizes: ["S", "M", "L", "XL"],
+    // colors: [
+    //   {
+    //     name: "Brown",
+    //     colorClass: "bg_brown",
+    //     imgSrc: "/images/products/brown-2.jpg",
+    //   },
+    //   {
+    //     name: "White",
+    //     colorClass: "bg_white",
+    //     imgSrc: "/images/products/white-5.jpg",
+    //   },
+    // ],
+    // sizes: ["S", "M", "L", "XL"],
     filterCategories: ["Best seller", "New arrivals"],
     brand: "Ecomus",
     isAvailable: true,
   },
   {
     id: 6,
-    imgSrc: "/images/products/six.jpg",
-    imgHoverSrc: "/images/products/light-green-2.jpg",
+    imgSrc: "/images/products/six1.jpg",
+    imgHoverSrc: "/images/products/six1.jpg",
     title: "Cohiba Maduro 5 Genios",
     price: 10.0,
-    colors: [
-      {
-        name: "Light Green",
-        colorClass: "bg_light-green",
-        imgSrc: "/images/products/light-green-1.jpg",
-      },
-      {
-        name: "Black",
-        colorClass: "bg_dark",
-        imgSrc: "/images/products/black-3.jpg",
-      },
-      {
-        name: "Blue",
-        colorClass: "bg_blue-2",
-        imgSrc: "/images/products/blue.jpg",
-      },
-      {
-        name: "Dark Blue",
-        colorClass: "bg_dark-blue",
-        imgSrc: "/images/products/dark-blue.jpg",
-      },
-      {
-        name: "White",
-        colorClass: "bg_white",
-        imgSrc: "/images/products/white-6.jpg",
-      },
-      {
-        name: "Light Grey",
-        colorClass: "bg_light-grey",
-        imgSrc: "/images/products/light-grey.jpg",
-      },
-    ],
+    // colors: [
+    //   {
+    //     name: "Light Green",
+    //     colorClass: "bg_light-green",
+    //     imgSrc: "/images/products/light-green-1.jpg",
+    //   },
+    //   {
+    //     name: "Black",
+    //     colorClass: "bg_dark",
+    //     imgSrc: "/images/products/black-3.jpg",
+    //   },
+    //   {
+    //     name: "Blue",
+    //     colorClass: "bg_blue-2",
+    //     imgSrc: "/images/products/blue.jpg",
+    //   },
+    //   {
+    //     name: "Dark Blue",
+    //     colorClass: "bg_dark-blue",
+    //     imgSrc: "/images/products/dark-blue.jpg",
+    //   },
+    //   {
+    //     name: "White",
+    //     colorClass: "bg_white",
+    //     imgSrc: "/images/products/white-6.jpg",
+    //   },
+    //   {
+    //     name: "Light Grey",
+    //     colorClass: "bg_light-grey",
+    //     imgSrc: "/images/products/light-grey.jpg",
+    //   },
+    // ],
     filterCategories: ["Best seller", "New arrivals"],
     brand: "COHIBA",
     isAvailable: true,
   },
   {
     id: 7,
-    imgSrc: "/images/products/seven.jpg",
-    imgHoverSrc: "/images/products/black-5.jpg",
+    imgSrc: "/images/products/seven2.jpg",
+    imgHoverSrc: "/images/products/seven2.jpg",
     title: "Cohiba Siglo IV",
     price: 10.0,
-    colors: [
-      {
-        name: "Black",
-        colorClass: "bg_dark",
-        imgSrc: "/images/products/black-4.jpg",
-      },
-      {
-        name: "Dark Blue",
-        colorClass: "bg_dark-blue",
-        imgSrc: "/images/products/dark-blue-2.jpg",
-      },
-      {
-        name: "Beige",
-        colorClass: "bg_beige",
-        imgSrc: "/images/products/beige.jpg",
-      },
-      {
-        name: "Light Blue",
-        colorClass: "bg_light-blue",
-        imgSrc: "/images/products/light-blue.jpg",
-      },
-      {
-        name: "White",
-        colorClass: "bg_white",
-        imgSrc: "/images/products/white-7.jpg",
-      },
-    ],
-    sizes: ["S", "M", "L"],
+    // colors: [
+    //   {
+    //     name: "Black",
+    //     colorClass: "bg_dark",
+    //     imgSrc: "/images/products/black-4.jpg",
+    //   },
+    //   {
+    //     name: "Dark Blue",
+    //     colorClass: "bg_dark-blue",
+    //     imgSrc: "/images/products/dark-blue-2.jpg",
+    //   },
+    //   {
+    //     name: "Beige",
+    //     colorClass: "bg_beige",
+    //     imgSrc: "/images/products/beige.jpg",
+    //   },
+    //   {
+    //     name: "Light Blue",
+    //     colorClass: "bg_light-blue",
+    //     imgSrc: "/images/products/light-blue.jpg",
+    //   },
+    //   {
+    //     name: "White",
+    //     colorClass: "bg_white",
+    //     imgSrc: "/images/products/white-7.jpg",
+    //   },
+    // ],
+    // sizes: ["S", "M", "L"],
     filterCategories: ["Best seller", "New arrivals", "On Sale"],
     brand: "COHIBA",
     isAvailable: false,
   },
   {
     id: 8,
-    imgSrc: "/images/products/eight.jpg",
-    imgHoverSrc: "/images/products/black-6.jpg",
+    imgSrc: "/images/products/eight2.jpg",
+    imgHoverSrc: "/images/products/eight2.jpg",
     title: "Cohiba Behike BHK 56",
     price: 12.0,
-    sizes: ["S", "M", "L", "XL"],
+    // sizes: ["S", "M", "L", "XL"],
     filterCategories: ["Best seller", "New arrivals", "On Sale"],
     brand: "COHIBA",
     isAvailable: false,
@@ -212,21 +212,21 @@ export const products1 = [
   {
     id: 9,
     price: 14.95,
-    sizes: ["M", "L", "XL"],
-    colors: [
-      {
-        name: "Brown",
-        colorClass: "bg_brown",
-        imgSrc: "/images/products/brown-4.jpg",
-      },
-      {
-        name: "Black",
-        colorClass: "bg_dark",
-        imgSrc: "/images/products/black-8.jpg",
-      },
-    ],
-    imgSrc: "/images/products/nine.jpg",
-    imgHoverSrc: "/images/products/black-8.jpg",
+    // sizes: ["M", "L", "XL"],
+    // colors: [
+    //   {
+    //     name: "Brown",
+    //     colorClass: "bg_brown",
+    //     imgSrc: "/images/products/brown-4.jpg",
+    //   },
+    //   {
+    //     name: "Black",
+    //     colorClass: "bg_dark",
+    //     imgSrc: "/images/products/black-8.jpg",
+    //   },
+    // ],
+    imgSrc: "/images/products/nine1.jpeg",
+    imgHoverSrc: "/images/products/nine1.jpeg",
     title: "Cohiba Panetelas",
     filterCategories: ["Best seller", "New arrivals", "On Sale"],
     brand: "COHIBA",
@@ -235,21 +235,21 @@ export const products1 = [
   {
     id: 10,
     price: 18.95,
-    sizes: ["S", "M", "L"],
-    colors: [
-      {
-        name: "Black",
-        colorClass: "bg_dark",
-        imgSrc: "/images/products/black-9.jpg",
-      },
-      {
-        name: "White",
-        colorClass: "bg_white",
-        imgSrc: "/images/products/white-9.jpg",
-      },
-    ],
+    // sizes: ["S", "M", "L"],
+    // colors: [
+    //   {
+    //     name: "Black",
+    //     colorClass: "bg_dark",
+    //     imgSrc: "/images/products/black-9.jpg",
+    //   },
+    //   {
+    //     name: "White",
+    //     colorClass: "bg_white",
+    //     imgSrc: "/images/products/white-9.jpg",
+    //   },
+    // ],
     imgSrc: "/images/products/ten.jpg",
-    imgHoverSrc: "/images/products/black-10.jpg",
+    imgHoverSrc: "/images/products/ten.jpg",
     title: "Cohiba Lanceros",
     filterCategories: ["Best seller", "New arrivals", "On Sale"],
     brand: "COHIBA",
@@ -258,26 +258,26 @@ export const products1 = [
   {
     id: 11,
     price: 18.95,
-    sizes: ["S", "M", "L"],
-    colors: [
-      {
-        name: "Grey",
-        colorClass: "bg_grey",
-        imgSrc: "/images/products/grey-2.jpg",
-      },
-      {
-        name: "Pink",
-        colorClass: "bg_pink",
-        imgSrc: "/images/products/pink-2.jpg",
-      },
-      {
-        name: "Light Pink",
-        colorClass: "bg_light-pink",
-        imgSrc: "/images/products/light-pink.jpg",
-      },
-    ],
+    // sizes: ["S", "M", "L"],
+    // colors: [
+    //   {
+    //     name: "Grey",
+    //     colorClass: "bg_grey",
+    //     imgSrc: "/images/products/grey-2.jpg",
+    //   },
+    //   {
+    //     name: "Pink",
+    //     colorClass: "bg_pink",
+    //     imgSrc: "/images/products/pink-2.jpg",
+    //   },
+    //   {
+    //     name: "Light Pink",
+    //     colorClass: "bg_light-pink",
+    //     imgSrc: "/images/products/light-pink.jpg",
+    //   },
+    // ],
     imgSrc: "/images/products/eleven.jpg",
-    imgHoverSrc: "/images/products/grey.jpg",
+    imgHoverSrc: "/images/products/eleven.jpg",
     title: "MONTECRISTO",
     filterCategories: ["Best seller", "New arrivals"],
     brand: "COHIBA",
@@ -286,21 +286,21 @@ export const products1 = [
   {
     id: 12,
     price: 10.0,
-    sizes: ["S", "M", "L"],
-    colors: [
-      {
-        name: "Dark Brown",
-        colorClass: "bg_dark-brown",
-        imgSrc: "/images/products/dark-brown-2.jpg",
-      },
-      {
-        name: "Dark Orange",
-        colorClass: "bg_dark-orange",
-        imgSrc: "/images/products/dark-orange.jpg",
-      },
-    ],
+    // sizes: ["S", "M", "L"],
+    // colors: [
+    //   {
+    //     name: "Dark Brown",
+    //     colorClass: "bg_dark-brown",
+    //     imgSrc: "/images/products/dark-brown-2.jpg",
+    //   },
+    //   {
+    //     name: "Dark Orange",
+    //     colorClass: "bg_dark-orange",
+    //     imgSrc: "/images/products/dark-orange.jpg",
+    //   },
+    // ],
     imgSrc: "/images/products/twele.jpg",
-    imgHoverSrc: "/images/products/dark-brown.jpg",
+    imgHoverSrc: "/images/products/twele.jpg",
     title: "Cohiba Mini Cigarillos",
     filterCategories: ["Best seller", "New arrivals", "On Sale"],
     brand: "COHIBA",
@@ -309,21 +309,21 @@ export const products1 = [
   {
     id: 13,
     price: 14.95,
-    sizes: ["S", "M", "L", "XL"],
-    colors: [
-      {
-        name: "Dark Green",
-        colorClass: "bg_dark-green",
-        imgSrc: "/images/products/dark-green.jpg",
-      },
-      {
-        name: "Light Blue",
-        colorClass: "bg_light-blue",
-        imgSrc: "/images/products/light-blue-2.jpg",
-      },
-    ],
+    // sizes: ["S", "M", "L", "XL"],
+    // colors: [
+    //   {
+    //     name: "Dark Green",
+    //     colorClass: "bg_dark-green",
+    //     imgSrc: "/images/products/dark-green.jpg",
+    //   },
+    //   {
+    //     name: "Light Blue",
+    //     colorClass: "bg_light-blue",
+    //     imgSrc: "/images/products/light-blue-2.jpg",
+    //   },
+    // ],
     imgSrc: "/images/products/thirteen.jpg",
-    imgHoverSrc: "/images/products/blue-2.jpg",
+    imgHoverSrc: "/images/products/thirteen.jpg",
     title: "Montecristo No. 4",
     filterCategories: ["Best seller", "New arrivals", "On Sale"],
     brand: "Montecristo",
@@ -332,21 +332,21 @@ export const products1 = [
   {
     id: 14,
     price: 16.95,
-    sizes: ["S", "M", "L", "XL"],
-    colors: [
-      {
-        name: "Brown",
-        colorClass: "bg_brown",
-        imgSrc: "/images/products/brown-5.jpg",
-      },
-      {
-        name: "Black",
-        colorClass: "bg_dark",
-        imgSrc: "/images/products/black-11.jpg",
-      },
-    ],
+    // sizes: ["S", "M", "L", "XL"],
+    // colors: [
+    //   {
+    //     name: "Brown",
+    //     colorClass: "bg_brown",
+    //     imgSrc: "/images/products/brown-5.jpg",
+    //   },
+    //   {
+    //     name: "Black",
+    //     colorClass: "bg_dark",
+    //     imgSrc: "/images/products/black-11.jpg",
+    //   },
+    // ],
     imgSrc: "/images/products/fourteen.jpg",
-    imgHoverSrc: "/images/products/brown-6.jpg",
+    imgHoverSrc: "/images/products/fourteen.jpg",
     title: "Romeo y Julieta Wide Churchill",
     filterCategories: ["Best seller", "On Sale"],
     brand: "COHIBA",
@@ -355,21 +355,21 @@ export const products1 = [
   {
     id: 15,
     price: 17.95,
-    sizes: ["M", "L", "XL"],
-    colors: [
-      {
-        name: "Dark Green",
-        colorClass: "bg_dark-green",
-        imgSrc: "/images/products/dark-green-2.jpg",
-      },
-      {
-        name: "Pink",
-        colorClass: "bg_pink",
-        imgSrc: "/images/products/pink-3.jpg",
-      },
-    ],
+    // sizes: ["M", "L", "XL"],
+    // colors: [
+    //   {
+    //     name: "Dark Green",
+    //     colorClass: "bg_dark-green",
+    //     imgSrc: "/images/products/dark-green-2.jpg",
+    //   },
+    //   {
+    //     name: "Pink",
+    //     colorClass: "bg_pink",
+    //     imgSrc: "/images/products/pink-3.jpg",
+    //   },
+    // ],
     imgSrc: "/images/products/fifteen.jpg",
-    imgHoverSrc: "/images/products/green-2.jpg",
+    imgHoverSrc: "/images/products/fifteen.jpg",
     title: "H. Upmann Magnum 56",
     filterCategories: ["Best seller", "New arrivals"],
     brand: "COHIBA",
@@ -378,21 +378,21 @@ export const products1 = [
   {
     id: 16,
     price: 18.95,
-    sizes: ["S", "M", "L"],
-    colors: [
-      {
-        name: "Light Green",
-        colorClass: "bg_light-green",
-        imgSrc: "/images/products/light-green-2.jpg",
-      },
-      {
-        name: "Orange",
-        colorClass: "bg_orange-2",
-        imgSrc: "/images/products/orange-2.jpg",
-      },
-    ],
+    // sizes: ["S", "M", "L"],
+    // colors: [
+    //   {
+    //     name: "Light Green",
+    //     colorClass: "bg_light-green",
+    //     imgSrc: "/images/products/light-green-2.jpg",
+    //   },
+    //   {
+    //     name: "Orange",
+    //     colorClass: "bg_orange-2",
+    //     imgSrc: "/images/products/orange-2.jpg",
+    //   },
+    // ],
     imgSrc: "/images/products/sixteen.jpg",
-    imgHoverSrc: "/images/products/orange-2.jpg",
+    imgHoverSrc: "/images/products/sixteen.jpg",
     title: "Partagas Serie D No. 4",
     filterCategories: ["Best seller", "On Sale"],
     brand: "COHIBA",
@@ -401,21 +401,21 @@ export const products1 = [
   {
     id: 17,
     price: 12.95,
-    sizes: ["S", "M", "L", "XL"],
-    colors: [
-      {
-        name: "Dark Blue",
-        colorClass: "bg_dark-blue",
-        imgSrc: "/images/products/dark-blue-3.jpg",
-      },
-      {
-        name: "Black",
-        colorClass: "bg_dark",
-        imgSrc: "/images/products/black-12.jpg",
-      },
-    ],
+    // sizes: ["S", "M", "L", "XL"],
+    // colors: [
+    //   {
+    //     name: "Dark Blue",
+    //     colorClass: "bg_dark-blue",
+    //     imgSrc: "/images/products/dark-blue-3.jpg",
+    //   },
+    //   {
+    //     name: "Black",
+    //     colorClass: "bg_dark",
+    //     imgSrc: "/images/products/black-12.jpg",
+    //   },
+    // ],
     imgSrc: "/images/products/sevnteen.jpg",
-    imgHoverSrc: "/images/products/dark-blue-4.jpg",
+    imgHoverSrc: "/images/products/sevnteen.jpg",
     title: "Cohiba Siglo III",
     filterCategories: ["Best seller", "New arrivals"],
     brand: "COHIBA",
@@ -424,21 +424,21 @@ export const products1 = [
   {
     id: 18,
     price: 13.95,
-    sizes: ["S", "M", "L"],
-    colors: [
-      {
-        name: "Red",
-        colorClass: "bg_red",
-        imgSrc: "/images/products/red.jpg",
-      },
-      {
-        name: "Light Grey",
-        colorClass: "bg_light-grey",
-        imgSrc: "/images/products/light-grey-2.jpg",
-      },
-    ],
+    // sizes: ["S", "M", "L"],
+    // colors: [
+    //   {
+    //     name: "Red",
+    //     colorClass: "bg_red",
+    //     imgSrc: "/images/products/red.jpg",
+    //   },
+    //   {
+    //     name: "Light Grey",
+    //     colorClass: "bg_light-grey",
+    //     imgSrc: "/images/products/light-grey-2.jpg",
+    //   },
+    // ],
     imgSrc: "/images/products/eighteen.jpg",
-    imgHoverSrc: "/images/products/grey.jpg",
+    imgHoverSrc: "/images/products/eighteen.jpg",
     title: "Cohiba Robustos",
     filterCategories: ["Best seller", "New arrivals", "On Sale"],
     brand: "COHIBA",
@@ -447,21 +447,21 @@ export const products1 = [
   {
     id: 19,
     price: 15.95,
-    sizes: ["M", "L", "XL"],
-    colors: [
-      {
-        name: "Pink",
-        colorClass: "bg_pink",
-        imgSrc: "/images/products/pink-4.jpg",
-      },
-      {
-        name: "Orange",
-        colorClass: "bg_orange",
-        imgSrc: "/images/products/orange-3.jpg",
-      },
-    ],
-    imgSrc: "/images/products/nineteen.jpg",
-    imgHoverSrc: "/images/products/orange-3.jpg",
+    // sizes: ["M", "L", "XL"],
+    // colors: [
+    //   {
+    //     name: "Pink",
+    //     colorClass: "bg_pink",
+    //     imgSrc: "/images/products/pink-4.jpg",
+    //   },
+    //   {
+    //     name: "Orange",
+    //     colorClass: "bg_orange",
+    //     imgSrc: "/images/products/orange-3.jpg",
+    //   },
+    // ],
+    imgSrc: "/images/products/191.jpg",
+    imgHoverSrc: "/images/products/191.jpg",
     title: "H. Upmann Magnum 46",
     filterCategories: ["Best seller", "On Sale"],
     brand: "ROMEO Y JULIETA:",
@@ -470,21 +470,21 @@ export const products1 = [
   {
     id: 20,
     price: 13.95,
-    sizes: ["M", "L", "XL"],
-    colors: [
-      {
-        name: "Dark Blue",
-        colorClass: "bg_dark-blue",
-        imgSrc: "/images/products/dark-blue-5.jpg",
-      },
-      {
-        name: "Black",
-        colorClass: "bg_dark",
-        imgSrc: "/images/products/black-13.jpg",
-      },
-    ],
-    imgSrc: "/images/products/twentry.jpg",
-    imgHoverSrc: "/images/products/dark-blue-6.jpg",
+    // sizes: ["M", "L", "XL"],
+    // colors: [
+    //   {
+    //     name: "Dark Blue",
+    //     colorClass: "bg_dark-blue",
+    //     imgSrc: "/images/products/dark-blue-5.jpg",
+    //   },
+    //   {
+    //     name: "Black",
+    //     colorClass: "bg_dark",
+    //     imgSrc: "/images/products/black-13.jpg",
+    //   },
+    // ],
+    imgSrc: "/images/products/20.jpg",
+    imgHoverSrc: "/images/products/20.jpg",
     title: "Montecristo Edmundo",
     filterCategories: ["Best seller", "New arrivals"],
     brand: "ROMEO Y JULIETA",
@@ -494,21 +494,21 @@ export const products1 = [
   {
     id: 21,
     price: 13.95,
-    sizes: ["M", "L", "XL"],
-    colors: [
-      {
-        name: "Dark Blue",
-        colorClass: "bg_dark-blue",
-        imgSrc: "/images/products/dark-blue-5.jpg",
-      },
-      {
-        name: "Black",
-        colorClass: "bg_dark",
-        imgSrc: "/images/products/black-13.jpg",
-      },
-    ],
-    imgSrc: "/images/products/21.jpg",
-    imgHoverSrc: "/images/products/dark-blue-6.jpg",
+    // sizes: ["M", "L", "XL"],
+    // colors: [
+    //   {
+    //     name: "Dark Blue",
+    //     colorClass: "bg_dark-blue",
+    //     imgSrc: "/images/products/dark-blue-5.jpg",
+    //   },
+    //   {
+    //     name: "Black",
+    //     colorClass: "bg_dark",
+    //     imgSrc: "/images/products/black-13.jpg",
+    //   },
+    // ],
+    imgSrc: "/images/products/121.jpeg",
+    imgHoverSrc: "/images/products/121.jpeg",
     title: " Romeo y Julieta Short Churchills",
     filterCategories: ["Best seller", "New arrivals"],
     brand: "ROMEO Y JULIETA",
@@ -518,21 +518,21 @@ export const products1 = [
   {
     id: 22,
     price: 13.95,
-    sizes: ["M", "L", "XL"],
-    colors: [
-      {
-        name: "Dark Blue",
-        colorClass: "bg_dark-blue",
-        imgSrc: "/images/products/dark-blue-5.jpg",
-      },
-      {
-        name: "Black",
-        colorClass: "bg_dark",
-        imgSrc: "/images/products/black-13.jpg",
-      },
-    ],
+    // sizes: ["M", "L", "XL"],
+    // colors: [
+    //   {
+    //     name: "Dark Blue",
+    //     colorClass: "bg_dark-blue",
+    //     imgSrc: "/images/products/dark-blue-5.jpg",
+    //   },
+    //   {
+    //     name: "Black",
+    //     colorClass: "bg_dark",
+    //     imgSrc: "/images/products/black-13.jpg",
+    //   },
+    // ],
     imgSrc: "/images/products/22.jpg",
-    imgHoverSrc: "/images/products/dark-blue-6.jpg",
+    imgHoverSrc: "/images/products/22.jpg",
     title: " Romeo y Julieta Petit Churchills",
     filterCategories: ["Best seller", "New arrivals"],
     brand: "ROMEO Y JULIETA",
@@ -541,21 +541,21 @@ export const products1 = [
   {
     id: 23,
     price: 13.95,
-    sizes: ["M", "L", "XL"],
-    colors: [
-      {
-        name: "Dark Blue",
-        colorClass: "bg_dark-blue",
-        imgSrc: "/images/products/dark-blue-5.jpg",
-      },
-      {
-        name: "Black",
-        colorClass: "bg_dark",
-        imgSrc: "/images/products/black-13.jpg",
-      },
-    ],
+    // sizes: ["M", "L", "XL"],
+    // colors: [
+    //   {
+    //     name: "Dark Blue",
+    //     colorClass: "bg_dark-blue",
+    //     imgSrc: "/images/products/dark-blue-5.jpg",
+    //   },
+    //   {
+    //     name: "Black",
+    //     colorClass: "bg_dark",
+    //     imgSrc: "/images/products/black-13.jpg",
+    //   },
+    // ],
     imgSrc: "/images/products/23.jpg",
-    imgHoverSrc: "/images/products/dark-blue-6.jpg",
+    imgHoverSrc: "/images/products/23.jpg",
     title: " Romeo y Julieta Mille Fleurs",
     filterCategories: ["Best seller", "New arrivals"],
     brand: "ROMEO Y JULIETA",
@@ -564,21 +564,21 @@ export const products1 = [
   {
     id: 24,
     price: 13.95,
-    sizes: ["M", "L", "XL"],
-    colors: [
-      {
-        name: "Dark Blue",
-        colorClass: "bg_dark-blue",
-        imgSrc: "/images/products/dark-blue-5.jpg",
-      },
-      {
-        name: "Black",
-        colorClass: "bg_dark",
-        imgSrc: "/images/products/black-13.jpg",
-      },
-    ],
+    // sizes: ["M", "L", "XL"],
+    // colors: [
+    //   {
+    //     name: "Dark Blue",
+    //     colorClass: "bg_dark-blue",
+    //     imgSrc: "/images/products/dark-blue-5.jpg",
+    //   },
+    //   {
+    //     name: "Black",
+    //     colorClass: "bg_dark",
+    //     imgSrc: "/images/products/black-13.jpg",
+    //   },
+    // ],
     imgSrc: "/images/products/24.jpg",
-    imgHoverSrc: "/images/products/dark-blue-6.jpg",
+    imgHoverSrc: "/images/products/24.jpg",
     title: " Partagás Serie D No. 4",
     filterCategories: ["Best seller", "New arrivals"],
     brand: "PARTAGÁS",
@@ -587,21 +587,21 @@ export const products1 = [
   {
     id: 25,
     price: 13.95,
-    sizes: ["M", "L", "XL"],
-    colors: [
-      {
-        name: "Dark Blue",
-        colorClass: "bg_dark-blue",
-        imgSrc: "/images/products/dark-blue-5.jpg",
-      },
-      {
-        name: "Black",
-        colorClass: "bg_dark",
-        imgSrc: "/images/products/black-13.jpg",
-      },
-    ],
-    imgSrc: "/images/products/25.jpg",
-    imgHoverSrc: "/images/products/dark-blue-6.jpg",
+    // sizes: ["M", "L", "XL"],
+    // colors: [
+    //   {
+    //     name: "Dark Blue",
+    //     colorClass: "bg_dark-blue",
+    //     imgSrc: "/images/products/dark-blue-5.jpg",
+    //   },
+    //   {
+    //     name: "Black",
+    //     colorClass: "bg_dark",
+    //     imgSrc: "/images/products/black-13.jpg",
+    //   },
+    // ],
+    imgSrc: "/images/products/251.jpg",
+    imgHoverSrc: "/images/products/251.jpg",
     title: " Partagás Serie P No. 2",
     filterCategories: ["Best seller", "New arrivals"],
     brand: "PARTAGÁS",
@@ -610,21 +610,21 @@ export const products1 = [
   {
     id: 26,
     price: 13.95,
-    sizes: ["M", "L", "XL"],
-    colors: [
-      {
-        name: "Dark Blue",
-        colorClass: "bg_dark-blue",
-        imgSrc: "/images/products/dark-blue-5.jpg",
-      },
-      {
-        name: "Black",
-        colorClass: "bg_dark",
-        imgSrc: "/images/products/black-13.jpg",
-      },
-    ],
+    // sizes: ["M", "L", "XL"],
+    // colors: [
+    //   {
+    //     name: "Dark Blue",
+    //     colorClass: "bg_dark-blue",
+    //     imgSrc: "/images/products/dark-blue-5.jpg",
+    //   },
+    //   {
+    //     name: "Black",
+    //     colorClass: "bg_dark",
+    //     imgSrc: "/images/products/black-13.jpg",
+    //   },
+    // ],
     imgSrc: "/images/products/26.jpg",
-    imgHoverSrc: "/images/products/dark-blue-6.jpg",
+    imgHoverSrc: "/images/products/26.jpg",
     title: " Partagás Lusitanias",
     filterCategories: ["Best seller", "New arrivals"],
     brand: "PARTAGÁS",
@@ -633,21 +633,21 @@ export const products1 = [
   {
     id: 27,
     price: 13.95,
-    sizes: ["M", "L", "XL"],
-    colors: [
-      {
-        name: "Dark Blue",
-        colorClass: "bg_dark-blue",
-        imgSrc: "/images/products/dark-blue-5.jpg",
-      },
-      {
-        name: "Black",
-        colorClass: "bg_dark",
-        imgSrc: "/images/products/black-13.jpg",
-      },
-    ],
+    // sizes: ["M", "L", "XL"],
+    // colors: [
+    //   {
+    //     name: "Dark Blue",
+    //     colorClass: "bg_dark-blue",
+    //     imgSrc: "/images/products/dark-blue-5.jpg",
+    //   },
+    //   {
+    //     name: "Black",
+    //     colorClass: "bg_dark",
+    //     imgSrc: "/images/products/black-13.jpg",
+    //   },
+    // ],
     imgSrc: "/images/products/27.jpg",
-    imgHoverSrc: "/images/products/dark-blue-6.jpg",
+    imgHoverSrc: "/images/products/27.jpg",
     title: " Partagás Serie E No. 2",
     filterCategories: ["Best seller", "New arrivals"],
     brand: "PARTAGÁS",
@@ -656,21 +656,21 @@ export const products1 = [
   {
     id: 28,
     price: 13.95,
-    sizes: ["M", "L", "XL"],
-    colors: [
-      {
-        name: "Dark Blue",
-        colorClass: "bg_dark-blue",
-        imgSrc: "/images/products/dark-blue-5.jpg",
-      },
-      {
-        name: "Black",
-        colorClass: "bg_dark",
-        imgSrc: "/images/products/black-13.jpg",
-      },
-    ],
+    // sizes: ["M", "L", "XL"],
+    // colors: [
+    //   {
+    //     name: "Dark Blue",
+    //     colorClass: "bg_dark-blue",
+    //     imgSrc: "/images/products/dark-blue-5.jpg",
+    //   },
+    //   {
+    //     name: "Black",
+    //     colorClass: "bg_dark",
+    //     imgSrc: "/images/products/black-13.jpg",
+    //   },
+    // ],
     imgSrc: "/images/products/28.jpg",
-    imgHoverSrc: "/images/products/dark-blue-6.jpg",
+    imgHoverSrc: "/images/products/28.jpg",
     title: "  Partagás Serie D No. 5",
     filterCategories: ["Best seller", "New arrivals"],
     brand: "PARTAGÁS",
@@ -679,21 +679,21 @@ export const products1 = [
   {
     id: 29,
     price: 13.95,
-    sizes: ["M", "L", "XL"],
-    colors: [
-      {
-        name: "Dark Blue",
-        colorClass: "bg_dark-blue",
-        imgSrc: "/images/products/dark-blue-5.jpg",
-      },
-      {
-        name: "Black",
-        colorClass: "bg_dark",
-        imgSrc: "/images/products/black-13.jpg",
-      },
-    ],
+    // sizes: ["M", "L", "XL"],
+    // colors: [
+    //   {
+    //     name: "Dark Blue",
+    //     colorClass: "bg_dark-blue",
+    //     imgSrc: "/images/products/dark-blue-5.jpg",
+    //   },
+    //   {
+    //     name: "Black",
+    //     colorClass: "bg_dark",
+    //     imgSrc: "/images/products/black-13.jpg",
+    //   },
+    // ],
     imgSrc: "/images/products/29.jpg",
-    imgHoverSrc: "/images/products/dark-blue-6.jpg",
+    imgHoverSrc: "/images/products/29.jpg",
     title: "  Hoyo de Monterrey Epicure No. 2",
     filterCategories: ["Best seller", "New arrivals"],
     brand: "HOYO DE MONTERREY",
@@ -702,21 +702,21 @@ export const products1 = [
   {
     id: 30,
     price: 13.95,
-    sizes: ["M", "L", "XL"],
-    colors: [
-      {
-        name: "Dark Blue",
-        colorClass: "bg_dark-blue",
-        imgSrc: "/images/products/dark-blue-5.jpg",
-      },
-      {
-        name: "Black",
-        colorClass: "bg_dark",
-        imgSrc: "/images/products/black-13.jpg",
-      },
-    ],
+    // sizes: ["M", "L", "XL"],
+    // colors: [
+    //   {
+    //     name: "Dark Blue",
+    //     colorClass: "bg_dark-blue",
+    //     imgSrc: "/images/products/dark-blue-5.jpg",
+    //   },
+    //   {
+    //     name: "Black",
+    //     colorClass: "bg_dark",
+    //     imgSrc: "/images/products/black-13.jpg",
+    //   },
+    // ],
     imgSrc: "/images/products/30.jpg",
-    imgHoverSrc: "/images/products/dark-blue-6.jpg",
+    imgHoverSrc: "/images/products/30.jpg",
     title: "  Hoyo de Monterrey Double Coronas",
     filterCategories: ["Best seller", "New arrivals"],
     brand: "HOYO DE MONTERREY",
@@ -725,21 +725,21 @@ export const products1 = [
   {
     id: 31,
     price: 13.95,
-    sizes: ["M", "L", "XL"],
-    colors: [
-      {
-        name: "Dark Blue",
-        colorClass: "bg_dark-blue",
-        imgSrc: "/images/products/dark-blue-5.jpg",
-      },
-      {
-        name: "Black",
-        colorClass: "bg_dark",
-        imgSrc: "/images/products/black-13.jpg",
-      },
-    ],
+    // sizes: ["M", "L", "XL"],
+    // colors: [
+    //   {
+    //     name: "Dark Blue",
+    //     colorClass: "bg_dark-blue",
+    //     imgSrc: "/images/products/dark-blue-5.jpg",
+    //   },
+    //   {
+    //     name: "Black",
+    //     colorClass: "bg_dark",
+    //     imgSrc: "/images/products/black-13.jpg",
+    //   },
+    // ],
     imgSrc: "/images/products/31.jpg",
-    imgHoverSrc: "/images/products/dark-blue-6.jpg",
+    imgHoverSrc: "/images/products/31.jpg",
     title: "Hoyo de Monterrey Epicure Especial",
     filterCategories: ["Best seller", "New arrivals"],
     brand: "HOYO DE MONTERREY",
@@ -748,21 +748,21 @@ export const products1 = [
   {
     id: 32,
     price: 13.95,
-    sizes: ["M", "L", "XL"],
-    colors: [
-      {
-        name: "Dark Blue",
-        colorClass: "bg_dark-blue",
-        imgSrc: "/images/products/dark-blue-5.jpg",
-      },
-      {
-        name: "Black",
-        colorClass: "bg_dark",
-        imgSrc: "/images/products/black-13.jpg",
-      },
-    ],
+    // sizes: ["M", "L", "XL"],
+    // colors: [
+    //   {
+    //     name: "Dark Blue",
+    //     colorClass: "bg_dark-blue",
+    //     imgSrc: "/images/products/dark-blue-5.jpg",
+    //   },
+    //   {
+    //     name: "Black",
+    //     colorClass: "bg_dark",
+    //     imgSrc: "/images/products/black-13.jpg",
+    //   },
+    // ],
     imgSrc: "/images/products/32.jpg",
-    imgHoverSrc: "/images/products/dark-blue-6.jpg",
+    imgHoverSrc: "/images/products/32.jpg",
     title: "Hoyo de Monterrey Petit Robusto",
     filterCategories: ["Best seller", "New arrivals"],
     brand: "HOYO DE MONTERREY",
@@ -771,21 +771,21 @@ export const products1 = [
   {
     id: 33,
     price: 13.95,
-    sizes: ["M", "L", "XL"],
-    colors: [
-      {
-        name: "Dark Blue",
-        colorClass: "bg_dark-blue",
-        imgSrc: "/images/products/dark-blue-5.jpg",
-      },
-      {
-        name: "Black",
-        colorClass: "bg_dark",
-        imgSrc: "/images/products/black-13.jpg",
-      },
-    ],
+    // sizes: ["M", "L", "XL"],
+    // colors: [
+    //   {
+    //     name: "Dark Blue",
+    //     colorClass: "bg_dark-blue",
+    //     imgSrc: "/images/products/dark-blue-5.jpg",
+    //   },
+    //   {
+    //     name: "Black",
+    //     colorClass: "bg_dark",
+    //     imgSrc: "/images/products/black-13.jpg",
+    //   },
+    // ],
     imgSrc: "/images/products/33.jpg",
-    imgHoverSrc: "/images/products/dark-blue-6.jpg",
+    imgHoverSrc: "/images/products/33.jpg",
     title: "H. Upmann Magnum 50",
     filterCategories: ["Best seller", "New arrivals"],
     brand: "H. UPMANN",
@@ -794,21 +794,21 @@ export const products1 = [
   {
     id: 34,
     price: 13.95,
-    sizes: ["M", "L", "XL"],
-    colors: [
-      {
-        name: "Dark Blue",
-        colorClass: "bg_dark-blue",
-        imgSrc: "/images/products/dark-blue-5.jpg",
-      },
-      {
-        name: "Black",
-        colorClass: "bg_dark",
-        imgSrc: "/images/products/black-13.jpg",
-      },
-    ],
+    // sizes: ["M", "L", "XL"],
+    // colors: [
+    //   {
+    //     name: "Dark Blue",
+    //     colorClass: "bg_dark-blue",
+    //     imgSrc: "/images/products/dark-blue-5.jpg",
+    //   },
+    //   {
+    //     name: "Black",
+    //     colorClass: "bg_dark",
+    //     imgSrc: "/images/products/black-13.jpg",
+    //   },
+    // ],
     imgSrc: "/images/products/34.jpg",
-    imgHoverSrc: "/images/products/dark-blue-6.jpg",
+    imgHoverSrc: "/images/products/34.jpg",
     title: " H. Upmann Magnum 46",
     filterCategories: ["Best seller", "New arrivals"],
     brand: "H. UPMANN",
@@ -817,21 +817,21 @@ export const products1 = [
   {
     id: 35,
     price: 13.95,
-    sizes: ["M", "L", "XL"],
-    colors: [
-      {
-        name: "Dark Blue",
-        colorClass: "bg_dark-blue",
-        imgSrc: "/images/products/dark-blue-5.jpg",
-      },
-      {
-        name: "Black",
-        colorClass: "bg_dark",
-        imgSrc: "/images/products/black-13.jpg",
-      },
-    ],
+    // sizes: ["M", "L", "XL"],
+    // colors: [
+    //   {
+    //     name: "Dark Blue",
+    //     colorClass: "bg_dark-blue",
+    //     imgSrc: "/images/products/dark-blue-5.jpg",
+    //   },
+    //   {
+    //     name: "Black",
+    //     colorClass: "bg_dark",
+    //     imgSrc: "/images/products/black-13.jpg",
+    //   },
+    // ],
     imgSrc: "/images/products/35.jpg",
-    imgHoverSrc: "/images/products/dark-blue-6.jpg",
+    imgHoverSrc: "/images/products/35.jpg",
     title: " H. Upmann Royal Robusto",
     filterCategories: ["Best seller", "New arrivals"],
     brand: "H. UPMANN",
@@ -840,21 +840,21 @@ export const products1 = [
   {
     id: 36,
     price: 13.95,
-    sizes: ["M", "L", "XL"],
-    colors: [
-      {
-        name: "Dark Blue",
-        colorClass: "bg_dark-blue",
-        imgSrc: "/images/products/dark-blue-5.jpg",
-      },
-      {
-        name: "Black",
-        colorClass: "bg_dark",
-        imgSrc: "/images/products/black-13.jpg",
-      },
-    ],
+    // sizes: ["M", "L", "XL"],
+    // colors: [
+    //   {
+    //     name: "Dark Blue",
+    //     colorClass: "bg_dark-blue",
+    //     imgSrc: "/images/products/dark-blue-5.jpg",
+    //   },
+    //   {
+    //     name: "Black",
+    //     colorClass: "bg_dark",
+    //     imgSrc: "/images/products/black-13.jpg",
+    //   },
+    // ],
     imgSrc: "/images/products/36.jpg",
-    imgHoverSrc: "/images/products/dark-blue-6.jpg",
+    imgHoverSrc: "/images/products/36.jpg",
     title: " H. Upmann Connossieur No. 1",
     filterCategories: ["Best seller", "New arrivals"],
     brand: "H. UPMANN",
@@ -863,21 +863,21 @@ export const products1 = [
   {
     id: 37,
     price: 13.95,
-    sizes: ["M", "L", "XL"],
-    colors: [
-      {
-        name: "Dark Blue",
-        colorClass: "bg_dark-blue",
-        imgSrc: "/images/products/dark-blue-5.jpg",
-      },
-      {
-        name: "Black",
-        colorClass: "bg_dark",
-        imgSrc: "/images/products/black-13.jpg",
-      },
-    ],
+    // sizes: ["M", "L", "XL"],
+    // colors: [
+    //   {
+    //     name: "Dark Blue",
+    //     colorClass: "bg_dark-blue",
+    //     imgSrc: "/images/products/dark-blue-5.jpg",
+    //   },
+    //   {
+    //     name: "Black",
+    //     colorClass: "bg_dark",
+    //     imgSrc: "/images/products/black-13.jpg",
+    //   },
+    // ],
     imgSrc: "/images/products/37.jpg",
-    imgHoverSrc: "/images/products/dark-blue-6.jpg",
+    imgHoverSrc: "/images/products/37.jpg",
     title: "  Bolívar Belicosos Finos",
     filterCategories: ["Best seller", "New arrivals"],
     brand: "BOLÍVAR",
@@ -886,21 +886,21 @@ export const products1 = [
   {
     id: 38,
     price: 13.95,
-    sizes: ["M", "L", "XL"],
-    colors: [
-      {
-        name: "Dark Blue",
-        colorClass: "bg_dark-blue",
-        imgSrc: "/images/products/dark-blue-5.jpg",
-      },
-      {
-        name: "Black",
-        colorClass: "bg_dark",
-        imgSrc: "/images/products/black-13.jpg",
-      },
-    ],
+    // sizes: ["M", "L", "XL"],
+    // colors: [
+    //   {
+    //     name: "Dark Blue",
+    //     colorClass: "bg_dark-blue",
+    //     imgSrc: "/images/products/dark-blue-5.jpg",
+    //   },
+    //   {
+    //     name: "Black",
+    //     colorClass: "bg_dark",
+    //     imgSrc: "/images/products/black-13.jpg",
+    //   },
+    // ],
     imgSrc: "/images/products/38.jpg",
-    imgHoverSrc: "/images/products/dark-blue-6.jpg",
+    imgHoverSrc: "/images/products/38.jpg",
     title: "Bolívar Royal Coronas",
     filterCategories: ["Best seller", "New arrivals"],
     brand: "BOLÍVAR",
@@ -909,21 +909,21 @@ export const products1 = [
   {
     id: 39,
     price: 13.95,
-    sizes: ["M", "L", "XL"],
-    colors: [
-      {
-        name: "Dark Blue",
-        colorClass: "bg_dark-blue",
-        imgSrc: "/images/products/dark-blue-5.jpg",
-      },
-      {
-        name: "Black",
-        colorClass: "bg_dark",
-        imgSrc: "/images/products/black-13.jpg",
-      },
-    ],
+    // sizes: ["M", "L", "XL"],
+    // colors: [
+    //   {
+    //     name: "Dark Blue",
+    //     colorClass: "bg_dark-blue",
+    //     imgSrc: "/images/products/dark-blue-5.jpg",
+    //   },
+    //   {
+    //     name: "Black",
+    //     colorClass: "bg_dark",
+    //     imgSrc: "/images/products/black-13.jpg",
+    //   },
+    // ],
     imgSrc: "/images/products/39.jpg",
-    imgHoverSrc: "/images/products/dark-blue-6.jpg",
+    imgHoverSrc: "/images/products/39.jpg",
     title: " Bolívar Petit Coronas",
     filterCategories: ["Best seller", "New arrivals"],
     brand: "BOLÍVAR",
@@ -932,21 +932,21 @@ export const products1 = [
   {
     id: 40,
     price: 13.95,
-    sizes: ["M", "L", "XL"],
-    colors: [
-      {
-        name: "Dark Blue",
-        colorClass: "bg_dark-blue",
-        imgSrc: "/images/products/dark-blue-5.jpg",
-      },
-      {
-        name: "Black",
-        colorClass: "bg_dark",
-        imgSrc: "/images/products/black-13.jpg",
-      },
-    ],
+    // sizes: ["M", "L", "XL"],
+    // colors: [
+    //   {
+    //     name: "Dark Blue",
+    //     colorClass: "bg_dark-blue",
+    //     imgSrc: "/images/products/dark-blue-5.jpg",
+    //   },
+    //   {
+    //     name: "Black",
+    //     colorClass: "bg_dark",
+    //     imgSrc: "/images/products/black-13.jpg",
+    //   },
+    // ],
     imgSrc: "/images/products/40.jpg",
-    imgHoverSrc: "/images/products/dark-blue-6.jpg",
+    imgHoverSrc: "/images/products/40.jpg",
     title: " Trinidad Fundadores",
     filterCategories: ["Best seller", "New arrivals"],
     brand: "TRINIDAD",
@@ -955,21 +955,21 @@ export const products1 = [
   {
     id: 41,
     price: 13.95,
-    sizes: ["M", "L", "XL"],
-    colors: [
-      {
-        name: "Dark Blue",
-        colorClass: "bg_dark-blue",
-        imgSrc: "/images/products/dark-blue-5.jpg",
-      },
-      {
-        name: "Black",
-        colorClass: "bg_dark",
-        imgSrc: "/images/products/black-13.jpg",
-      },
-    ],
+    // sizes: ["M", "L", "XL"],
+    // colors: [
+    //   {
+    //     name: "Dark Blue",
+    //     colorClass: "bg_dark-blue",
+    //     imgSrc: "/images/products/dark-blue-5.jpg",
+    //   },
+    //   {
+    //     name: "Black",
+    //     colorClass: "bg_dark",
+    //     imgSrc: "/images/products/black-13.jpg",
+    //   },
+    // ],
     imgSrc: "/images/products/41.jpg",
-    imgHoverSrc: "/images/products/dark-blue-6.jpg",
+    imgHoverSrc: "/images/products/41.jpg",
     title: " Trinidad Reyes",
     filterCategories: ["Best seller", "New arrivals"],
     brand: "TRINIDAD",
@@ -978,21 +978,21 @@ export const products1 = [
   {
     id: 42,
     price: 13.95,
-    sizes: ["M", "L", "XL"],
-    colors: [
-      {
-        name: "Dark Blue",
-        colorClass: "bg_dark-blue",
-        imgSrc: "/images/products/dark-blue-5.jpg",
-      },
-      {
-        name: "Black",
-        colorClass: "bg_dark",
-        imgSrc: "/images/products/black-13.jpg",
-      },
-    ],
+    // sizes: ["M", "L", "XL"],
+    // colors: [
+    //   {
+    //     name: "Dark Blue",
+    //     colorClass: "bg_dark-blue",
+    //     imgSrc: "/images/products/dark-blue-5.jpg",
+    //   },
+    //   {
+    //     name: "Black",
+    //     colorClass: "bg_dark",
+    //     imgSrc: "/images/products/black-13.jpg",
+    //   },
+    // ],
     imgSrc: "/images/products/42.jpg",
-    imgHoverSrc: "/images/products/dark-blue-6.jpg",
+    imgHoverSrc: "/images/products/42.jpg",
     title: " Trinidad Vigia",
     filterCategories: ["Best seller", "New arrivals"],
     brand: "TRINIDAD",
@@ -1001,21 +1001,21 @@ export const products1 = [
   {
     id: 43,
     price: 13.95,
-    sizes: ["M", "L", "XL"],
-    colors: [
-      {
-        name: "Dark Blue",
-        colorClass: "bg_dark-blue",
-        imgSrc: "/images/products/dark-blue-5.jpg",
-      },
-      {
-        name: "Black",
-        colorClass: "bg_dark",
-        imgSrc: "/images/products/black-13.jpg",
-      },
-    ],
+    // sizes: ["M", "L", "XL"],
+    // colors: [
+    //   {
+    //     name: "Dark Blue",
+    //     colorClass: "bg_dark-blue",
+    //     imgSrc: "/images/products/dark-blue-5.jpg",
+    //   },
+    //   {
+    //     name: "Black",
+    //     colorClass: "bg_dark",
+    //     imgSrc: "/images/products/black-13.jpg",
+    //   },
+    // ],
     imgSrc: "/images/products/43.jpg",
-    imgHoverSrc: "/images/products/dark-blue-6.jpg",
+    imgHoverSrc: "/images/products/43.jpg",
     title: " Punch Punch",
     filterCategories: ["Best seller", "New arrivals"],
     brand: "PUNCH",
@@ -1024,21 +1024,21 @@ export const products1 = [
   {
     id: 44,
     price: 13.95,
-    sizes: ["M", "L", "XL"],
-    colors: [
-      {
-        name: "Dark Blue",
-        colorClass: "bg_dark-blue",
-        imgSrc: "/images/products/dark-blue-5.jpg",
-      },
-      {
-        name: "Black",
-        colorClass: "bg_dark",
-        imgSrc: "/images/products/black-13.jpg",
-      },
-    ],
+    // sizes: ["M", "L", "XL"],
+    // colors: [
+    //   {
+    //     name: "Dark Blue",
+    //     colorClass: "bg_dark-blue",
+    //     imgSrc: "/images/products/dark-blue-5.jpg",
+    //   },
+    //   {
+    //     name: "Black",
+    //     colorClass: "bg_dark",
+    //     imgSrc: "/images/products/black-13.jpg",
+    //   },
+    // ],
     imgSrc: "/images/products/44.jpg",
-    imgHoverSrc: "/images/products/dark-blue-6.jpg",
+    imgHoverSrc: "/images/products/44.jpg",
     title: " Punch Double Coronas",
     filterCategories: ["Best seller", "New arrivals"],
     brand: "PUNCH",
@@ -1047,21 +1047,21 @@ export const products1 = [
   {
     id: 45,
     price: 13.95,
-    sizes: ["M", "L", "XL"],
-    colors: [
-      {
-        name: "Dark Blue",
-        colorClass: "bg_dark-blue",
-        imgSrc: "/images/products/dark-blue-5.jpg",
-      },
-      {
-        name: "Black",
-        colorClass: "bg_dark",
-        imgSrc: "/images/products/black-13.jpg",
-      },
-    ],
+    // sizes: ["M", "L", "XL"],
+    // colors: [
+    //   {
+    //     name: "Dark Blue",
+    //     colorClass: "bg_dark-blue",
+    //     imgSrc: "/images/products/dark-blue-5.jpg",
+    //   },
+    //   {
+    //     name: "Black",
+    //     colorClass: "bg_dark",
+    //     imgSrc: "/images/products/black-13.jpg",
+    //   },
+    // ],
     imgSrc: "/images/products/45.jpg",
-    imgHoverSrc: "/images/products/dark-blue-6.jpg",
+    imgHoverSrc: "/images/products/45.jpg",
     title: " Punch Double Coronas",
     filterCategories: ["Best seller", "New arrivals"],
     brand: "RAMÓN ALLONES",
@@ -1070,21 +1070,21 @@ export const products1 = [
   {
     id: 46,
     price: 13.95,
-    sizes: ["M", "L", "XL"],
-    colors: [
-      {
-        name: "Dark Blue",
-        colorClass: "bg_dark-blue",
-        imgSrc: "/images/products/dark-blue-5.jpg",
-      },
-      {
-        name: "Black",
-        colorClass: "bg_dark",
-        imgSrc: "/images/products/black-13.jpg",
-      },
-    ],
+    // sizes: ["M", "L", "XL"],
+    // colors: [
+    //   {
+    //     name: "Dark Blue",
+    //     colorClass: "bg_dark-blue",
+    //     imgSrc: "/images/products/dark-blue-5.jpg",
+    //   },
+    //   {
+    //     name: "Black",
+    //     colorClass: "bg_dark",
+    //     imgSrc: "/images/products/black-13.jpg",
+    //   },
+    // ],
     imgSrc: "/images/products/46.jpg",
-    imgHoverSrc: "/images/products/dark-blue-6.jpg",
+    imgHoverSrc: "/images/products/46.jpg",
     title: " Ramón Allones Specially Selected",
     filterCategories: ["Best seller", "New arrivals"],
     brand: "RAMÓN ALLONES",
@@ -1093,21 +1093,21 @@ export const products1 = [
   {
     id: 47,
     price: 13.95,
-    sizes: ["M", "L", "XL"],
-    colors: [
-      {
-        name: "Dark Blue",
-        colorClass: "bg_dark-blue",
-        imgSrc: "/images/products/dark-blue-5.jpg",
-      },
-      {
-        name: "Black",
-        colorClass: "bg_dark",
-        imgSrc: "/images/products/black-13.jpg",
-      },
-    ],
+    // sizes: ["M", "L", "XL"],
+    // colors: [
+    //   {
+    //     name: "Dark Blue",
+    //     colorClass: "bg_dark-blue",
+    //     imgSrc: "/images/products/dark-blue-5.jpg",
+    //   },
+    //   {
+    //     name: "Black",
+    //     colorClass: "bg_dark",
+    //     imgSrc: "/images/products/black-13.jpg",
+    //   },
+    // ],
     imgSrc: "/images/products/47.jpg",
-    imgHoverSrc: "/images/products/dark-blue-6.jpg",
+    imgHoverSrc: "/images/products/47.jpg",
     title: " uan López Selección No. 2",
     filterCategories: ["Best seller", "New arrivals"],
     brand: "JUAN LÓPEZ",
@@ -1116,21 +1116,21 @@ export const products1 = [
   {
     id: 48,
     price: 13.95,
-    sizes: ["M", "L", "XL"],
-    colors: [
-      {
-        name: "Dark Blue",
-        colorClass: "bg_dark-blue",
-        imgSrc: "/images/products/dark-blue-5.jpg",
-      },
-      {
-        name: "Black",
-        colorClass: "bg_dark",
-        imgSrc: "/images/products/black-13.jpg",
-      },
-    ],
+    // sizes: ["M", "L", "XL"],
+    // colors: [
+    //   {
+    //     name: "Dark Blue",
+    //     colorClass: "bg_dark-blue",
+    //     imgSrc: "/images/products/dark-blue-5.jpg",
+    //   },
+    //   {
+    //     name: "Black",
+    //     colorClass: "bg_dark",
+    //     imgSrc: "/images/products/black-13.jpg",
+    //   },
+    // ],
     imgSrc: "/images/products/48.jpg",
-    imgHoverSrc: "/images/products/dark-blue-6.jpg",
+    imgHoverSrc: "/images/products/48.jpg",
     title: "  San Cristóbal de La Habana Principes",
     filterCategories: ["Best seller", "New arrivals"],
     brand: "SAN CRISTÓBAL",
@@ -1139,21 +1139,21 @@ export const products1 = [
   {
     id: 49,
     price: 13.95,
-    sizes: ["M", "L", "XL"],
-    colors: [
-      {
-        name: "Dark Blue",
-        colorClass: "bg_dark-blue",
-        imgSrc: "/images/products/dark-blue-5.jpg",
-      },
-      {
-        name: "Black",
-        colorClass: "bg_dark",
-        imgSrc: "/images/products/black-13.jpg",
-      },
-    ],
+    // sizes: ["M", "L", "XL"],
+    // colors: [
+    //   {
+    //     name: "Dark Blue",
+    //     colorClass: "bg_dark-blue",
+    //     imgSrc: "/images/products/dark-blue-5.jpg",
+    //   },
+    //   {
+    //     name: "Black",
+    //     colorClass: "bg_dark",
+    //     imgSrc: "/images/products/black-13.jpg",
+    //   },
+    // ],
     imgSrc: "/images/products/49.jpg",
-    imgHoverSrc: "/images/products/dark-blue-6.jpg",
+    imgHoverSrc: "/images/products/49.jpg",
     title: "  Cuaba Distinguidos",
     filterCategories: ["Best seller", "New arrivals"],
     brand: "CUABA",
@@ -1162,22 +1162,22 @@ export const products1 = [
   {
     id: 50,
     price: 13.95,
-    sizes: ["M", "L", "XL"],
-    colors: [
-      {
-        name: "Dark Blue",
-        colorClass: "bg_dark-blue",
-        imgSrc: "/images/products/dark-blue-5.jpg",
-      },
-      {
-        name: "Black",
-        colorClass: "bg_dark",
-        imgSrc: "/images/products/black-13.jpg",
-      },
-    ],
+    // sizes: ["M", "L", "XL"],
+    // colors: [
+    //   {
+    //     name: "Dark Blue",
+    //     colorClass: "bg_dark-blue",
+    //     imgSrc: "/images/products/dark-blue-5.jpg",
+    //   },
+    //   {
+    //     name: "Black",
+    //     colorClass: "bg_dark",
+    //     imgSrc: "/images/products/black-13.jpg",
+    //   },
+    // ],
     imgSrc: "/images/products/50.jpg",
-    imgHoverSrc: "/images/products/dark-blue-6.jpg",
-    title: "  Diplomáticos No. 2",
+    imgHoverSrc: "/images/products/50.jpg",
+    title: "Diplomáticos No. 2",
     filterCategories: ["Best seller", "New arrivals"],
     brand: "DIPLOMÁTICOS",
     isAvailable: true,

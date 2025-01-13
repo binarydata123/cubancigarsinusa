@@ -18,15 +18,15 @@ export default function Products() {
   };
 
   return (
-    <section className="flat-spacing-5 pt_0 flat-seller">
+    <section className="flat-spacing-5 pt_0 flat-seller"> 
       <div className="container">
         <div className="flat-title">
           <span className="title wow fadeInUp" data-wow-delay="0s">
             Best Seller
           </span>
           <p className="sub-title wow fadeInUp" data-wow-delay="0s">
-            Shop the Latest Styles: Stay ahead of the curve with our newest
-            arrivals
+            Discover the Finest Cigars: Explore our latest premium collection
+            crafted for connoisseurs.
           </p>
         </div>
         <div

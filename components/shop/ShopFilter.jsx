@@ -324,7 +324,7 @@ export default function ShopFilter({ setProducts, products = products1 }) {
               </div>
             </div>
             
-            <div className="widget-facet">
+            {/* <div className="widget-facet">
               <div
                 className="facet-title"
                 data-bs-target="#color"
@@ -368,8 +368,8 @@ export default function ShopFilter({ setProducts, products = products1 }) {
                   ))}
                 </ul>
               </div>
-            </div>
-            <div className="widget-facet">
+            </div> */}
+            {/* <div className="widget-facet">
               <div
                 className="facet-title"
                 data-bs-target="#size"
@@ -409,7 +409,7 @@ export default function ShopFilter({ setProducts, products = products1 }) {
                   ))}
                 </ul>
               </div>
-            </div>
+            </div> */}
           </form>
           <div className="mt-5"></div>
           <a
