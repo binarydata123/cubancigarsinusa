@@ -17,9 +17,14 @@ export const ProductCard = ({ product }) => {
   useEffect(() => {
     setCurrentImage(product.imgSrc);
   }, [product]);
+  
 
   return (
-    <div className="card-product fl-item" key={product.id}>
+    <div className="card-product fl-item" key={product.id} id="image-card"   style={{
+      border: '1px solid #ccc', 
+      padding: '15px', 
+      boxSizing: 'border-box', 
+    }}>
       <div className="card-product-wrapper">
         <Link href={`/product-detail/${product.id}`} className="product-img">
           <Image

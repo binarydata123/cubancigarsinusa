@@ -4,7 +4,8 @@ import Link from "next/link";
 import { collectionCircles } from "@/data/categories";
 export default function Categories() {
   return (
-    <section className="flat-spacing-20">
+   <>
+    {/* <section className="flat-spacing-20">
       <div className="container">
         <div className="row">
           <div className="col-12">
@@ -66,6 +67,8 @@ export default function Categories() {
           </div>
         </div>
       </div>
-    </section>
+    </section> */}
+   
+   </>
   );
 }

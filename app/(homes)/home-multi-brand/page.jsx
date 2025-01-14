@@ -14,13 +14,13 @@ import Testimonials from "@/components/homes/multi-brand/Testimonials";
 import React from "react";
 
 export const metadata = {
-  title: "Home Multi Brand || Ecomus - Ultimate Nextjs Ecommerce Template",
-  description: "Ecomus - Ultimate Nextjs Ecommerce Template",
+  title: "Premium Cigars Online",
+  description: "Buy premium cigars. We offer a wide selection of cigars. Age verification required for all purchases.",
 };
 export default function page() {
   return (
     <>
-      <Announcment />
+      {/* <Announcment /> */}
       <Header7 />
       <Categories />
       <Hero />

@@ -53,7 +53,7 @@ export default function QuickAdd() {
                 </div>
               </div>
             </div>
-            <div className="tf-product-info-variant-picker mb_15">
+            {/* <div className="tf-product-info-variant-picker mb_15">
               <div className="variant-picker-item">
                 <div className="variant-picker-label">
                   Color:
@@ -110,7 +110,7 @@ export default function QuickAdd() {
                   ))}
                 </form>
               </div>
-            </div>
+            </div> */}
             <div className="tf-product-info-quantity mb_15">
               <div className="quantity-title fw-6">Quantity</div>
               <Quantity />
