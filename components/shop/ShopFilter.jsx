@@ -1,5 +1,4 @@
 "use client";
-
 import { useEffect, useState } from "react";
 const categories = [
   { id: 1, name: "Fashion", isActive: true, link: "/shop-default" },
@@ -36,6 +35,7 @@ const sizes = ["S", "M", "L", "XL"];
 import Slider from "rc-slider";
 import { products1 } from "@/data/products";
 import Link from "next/link";
+
 export default function ShopFilter({ setProducts, products = products1 }) {
   const [price, setPrice] = useState([10, 20]);
   const handlePrice = (value) => {
@@ -154,6 +154,9 @@ export default function ShopFilter({ setProducts, products = products1 }) {
     setSelectedSizes([]);
     setPrice([10, 20]);
   };
+
+
+  
   return (
     <div className="offcanvas offcanvas-start canvas-filter" id="filterShop">
       <div className="canvas-wrapper">
