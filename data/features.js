@@ -249,26 +249,27 @@ export const recentCollectionSlides = [
 export const iconBoxes4 = [
   {
     iconClass: "icon-materials",
-    title: "High-Quality Materials",
+    title: "Premium Tobacco Leaves",
     description:
-      "Crafted with precision and excellence, our activewear is meticulously engineered using premium materials to ensure unmatched comfort and durability.",
+      "Our cigars are crafted using only the finest tobacco leaves, handpicked for their quality and richness, ensuring a smooth, luxurious smoke every time.",
   },
   {
     iconClass: "icon-design",
-    title: "Laconic Design",
+    title: "Master Craftsmanship",
     description:
-      "Simplicity refined. Our activewear embodies the essence of minimalistic design, delivering effortless style that speaks volumes.",
+      "Each cigar is expertly rolled by skilled artisans, preserving the tradition of craftsmanship and delivering a smoking experience that is second to none.",
   },
   {
     iconClass: "icon-sizes",
-    title: "Various Sizes",
+    title: "Variety of Blends",
     description:
-      "Designed for every body and anyone, our activewear embraces diversity with a wide range of sizes and shapes, celebrating the beauty of individuality.",
+      "From mild to full-bodied, our selection offers a variety of cigar blends to suit every palate, ensuring a perfect match for each individual’s taste.",
   },
   {
     iconClass: "icon-design",
-    title: "Laconic Design",
+    title: "Elegant Packaging",
     description:
-      "Simplicity refined. Our activewear embodies the essence of minimalistic design, delivering effortless style that speaks volumes.",
+      "Our cigars are packaged with care and attention to detail, offering an elegant presentation that reflects the sophistication and luxury of the brand.",
   },
 ];
+

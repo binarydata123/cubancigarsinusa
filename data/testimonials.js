@@ -106,29 +106,30 @@ export const imagesData = [
 export const testimonials3 = [
   {
     imgSrc: "/images/slider/te4.jpg",
-    altText: "image-product",
+    altText: "testimonial-image",
     name: "Robert Smith",
-    purchaseItem: "Boxy T-shirt",
+    purchaseItem: "Premium Cigar Collection",
   },
   {
     imgSrc: "/images/slider/te6.jpg",
-    altText: "image-product",
+    altText: "testimonial-image",
     name: "Jenifer Unix",
-    purchaseItem: "Sweetheart-neckline Top",
+    purchaseItem: "Handcrafted Maduro Cigars",
   },
 ];
+
 
 export const slides = [
   {
     images: [
       {
-        src: "/images/slider/te4.jpg",
+        src: "/images/slider/test1.jpg",
         alt: "img-slider",
         width: 450,
         height: 513,
       },
       {
-        src: "/images/slider/te3.jpg",
+        src: "/images/slider/test2.jpg  ",
         alt: "img-slider",
         width: 750,
         height: 797,
@@ -983,13 +984,13 @@ export const testimonials16 = [
 
 export const thumbImages = [
   {
-    imgSrc: "/images/item/tets3.jpg",
+    imgSrc: "/images/item/customerOne.jpg",
     alt: "image-product",
     width: 750,
     height: 851,
   },
   {
-    imgSrc: "/images/item/tets4.jpg",
+    imgSrc: "/images/item/customerOne.jpg",
     alt: "image-product",
     width: 750,
     height: 851,

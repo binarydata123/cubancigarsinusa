@@ -82,9 +82,9 @@ export default function ContactForm() {
           <div className="tf-content-right">
             <h5 className="mb_20">Get in Touch</h5>
             <p className="mb_24">
-              If you’ve got great products your making or looking to work with
-              us then drop us a line.
+              If you're crafting premium cigars or looking to collaborate with us, feel free to get in touch.
             </p>
+
             <div>
               <form
                 ref={formRef}

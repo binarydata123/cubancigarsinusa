@@ -12,7 +12,11 @@ export default function BlogList() {
               <div className="list-blog">
                 {blogArticles7.map((article, index) => (
                   <div key={index} className="blog-article-item style-row">
-                    <div className="article-thumb">
+                    <div className="article-thumb"  style={{
+                          border: '1px solid rgb(204, 204, 204)',
+                          padding: '15px',
+                          boxSizing: 'border-box',
+                        }}>
                       <Link href={`/blog-detail/${article.id}`}>
                         <Image
                           className="lazyload"
@@ -79,12 +83,12 @@ export default function BlogList() {
                     <ul>
                       <li>
                         <a href="#">
-                          Accessories<span>(9)</span>
+                        COHIBA<span>(9)</span>
                         </a>
                       </li>
                       <li>
                         <a href="#">
-                          Bag<span>(9)</span>
+                        ROMEO Y JULIETA<span>(9)</span>
                         </a>
                       </li>
                       <li>
@@ -94,17 +98,17 @@ export default function BlogList() {
                       </li>
                       <li>
                         <a href="#">
-                          Decor<span>(9)</span>
+                        PARTAGÁS<span>(9)</span>
                         </a>
                       </li>
                       <li>
                         <a href="#">
-                          Decorate<span>(9)</span>
+                        HOYO DE MONTERREY<span>(9)</span>
                         </a>
                       </li>
                       <li>
                         <a href="#">
-                          Denim<span>(9)</span>
+                        H. UPMANN<span>(9)</span>
                         </a>
                       </li>
                     </ul>
@@ -152,16 +156,17 @@ export default function BlogList() {
                   <div className="sidebar-title">Blog tags</div>
                   <div className="sidebar-content">
                     <ul className="tags-lists">
-                      <li>
-                        <a href="#" className="tags-item">
-                          Bags
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#" className="tags-item">
-                          Fashion
-                        </a>
-                      </li>
+                    <li>
+                    <a href="#" className="tags-item">
+                      Cigars
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" className="tags-item">
+                      Accessories
+                    </a>
+                  </li>
+
                     </ul>
                   </div>
                 </div>
@@ -172,7 +177,7 @@ export default function BlogList() {
                       <li>
                         <Image
                           alt="image"
-                          src="/images/shop/file/img-1.jpg"
+                          src="/images/shop/file/instaOne.jpg"
                           width={566}
                           height={566}
                         />
@@ -180,7 +185,7 @@ export default function BlogList() {
                       <li>
                         <Image
                           alt="image"
-                          src="/images/shop/file/img-2.jpg"
+                          src="/images/shop/file/instaFive.jpg"
                           width={566}
                           height={566}
                         />
@@ -188,7 +193,7 @@ export default function BlogList() {
                       <li>
                         <Image
                           alt="image"
-                          src="/images/shop/file/img-3.jpg"
+                          src="/images/shop/file/instaThree.jpg"
                           width={564}
                           height={566}
                         />
@@ -196,7 +201,7 @@ export default function BlogList() {
                       <li>
                         <Image
                           alt="image"
-                          src="/images/shop/file/img-4.jpg"
+                          src="/images/shop/file/instaFour.jpg"
                           width={566}
                           height={566}
                         />
@@ -204,7 +209,7 @@ export default function BlogList() {
                       <li>
                         <Image
                           alt="image"
-                          src="/images/shop/file/img-5.jpg"
+                          src="/images/shop/file/instaTwo.jpg"
                           width={566}
                           height={566}
                         />
@@ -212,7 +217,7 @@ export default function BlogList() {
                       <li>
                         <Image
                           alt="image"
-                          src="/images/shop/file/img-6.png"
+                          src="/images/shop/file/instaSix.jpg"
                           width={960}
                           height={862}
                         />

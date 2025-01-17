@@ -9,11 +9,11 @@ export default function ShopGram() {
     <section className="flat-spacing-1">
       <div className="container">
         <div className="flat-title">
-          <span className="title">Shop Gram</span>
-          <p className="sub-title">
-            Inspire and let yourself be inspired, from one unique fashion to
-            another.
-          </p>
+        <span className="title">Shop Cigar Collection</span>
+        <p className="sub-title">
+          Discover the finest cigars and indulge in the rich aromas, from one premium blend to another.
+        </p>
+
         </div>
         <div className="wrap-shop-gram">
           <Swiper
@@ -33,7 +33,11 @@ export default function ShopGram() {
           >
             {galleryImages.map((image, index) => (
               <SwiperSlide key={index}>
-                <div className="gallery-item hover-img">
+                <div className="gallery-item hover-img"  style={{
+                            border: '1px solid rgb(204, 204, 204)',
+                            padding: '15px',
+                            boxSizing: 'border-box',
+                          }}>
                   <div className="img-style">
                     <Image
                       src={image.imgSrc}

@@ -58,10 +58,10 @@ export default function Testimonials() {
                       <i className="icon-start" />
                     </div>
                     <p className="text">
-                      "The shipping is always fast and the customer service team
-                      is friendly and helpful. I highly recommend this site to
-                      anyone looking for affordable clothing."
+                      "The shipping is always prompt, and the customer service team is knowledgeable and accommodating. I highly recommend this
+                      site to anyone seeking premium cigars and a refined shopping experience."
                     </p>
+
                     <div className="author box-author">
                       <div className="box-img d-md-none rounded-0">
                         <Image
@@ -112,9 +112,8 @@ export default function Testimonials() {
                   <div className="grid-img-group style-ter-1">
                     {slide.images.map((image, idx) => (
                       <div
-                        className={`box-img item-${
-                          idx + 1
-                        } hover-img testimonial-hover-skincare`}
+                        className={`box-img item-${idx + 1
+                          } hover-img testimonial-hover-skincare`}
                         key={idx}
                       >
                         <div className="img-style">

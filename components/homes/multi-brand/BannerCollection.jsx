@@ -22,7 +22,11 @@ export default function BannerCollection() {
         >
           {recentCollections.map((item, index) => (
             <SwiperSlide key={index}>
-              <div className="collection-item-v4 hover-img">
+              <div className="collection-item-v4 hover-img" style={{
+                border: '1px solid rgb(204, 204, 204)',
+                padding: '15px',
+                boxSizing: 'border-box',
+              }}>
                 <div className="collection-inner">
                   <Link
                     href={`/shop-collection-sub`} // Directly added href here

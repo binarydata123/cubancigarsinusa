@@ -14,7 +14,7 @@ export default function Nav({ isArrow = true, textColor = "", Linkfs = "" }) {
     <>
       <li className="menu-item">
         <Link
-          href="/home-multi-brand"
+          href="/"
           className={`item-link ${Linkfs} ${textColor} ${
             isMenuActive("/") ? "activeMenu" : ""
           }`}
