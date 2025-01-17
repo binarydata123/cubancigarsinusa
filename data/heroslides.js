@@ -149,23 +149,23 @@ export const slides4 = [
   {
     imgSrc: "/images/slider/Hello.jpg",
     imgAlt: "women-slideshow-01",
-    heading: "Elegance",
-    description: "From casual to formal, we've got you covered",
-    buttonText: "Shop collection",
+    heading: "Premium Cigars",
+    description: "Experience the richness of the finest cigars, handcrafted for the discerning smoker.",
+    buttonText: "Shop Premium Cigars",
   },
   {
     imgSrc: "/images/slider/Hello2.jpg",
     imgAlt: "women-slideshow-02",
-    heading: "Boutique",
-    description: "From casual to formal, we've got you covered",
-    buttonText: "Shop collection",
+    heading: "Luxury Selection",
+    description: "Indulge in luxury with our exclusive cigar collection, offering a taste of refinement.",
+    buttonText: "Explore Luxury Cigars",
   },
   {
     imgSrc: "/images/slider/Hello3.jpg",
     imgAlt: "women-slideshow-03",
-    heading: "Luxury",
-    description: "From casual to formal, we've got you covered",
-    buttonText: "Shop collection",
+    heading: "Cigar Masterpieces",
+    description: "Enjoy masterfully crafted cigars for those who appreciate the art of fine smoking.",
+    buttonText: "View Our Masterpieces",
   },
 ];
 
