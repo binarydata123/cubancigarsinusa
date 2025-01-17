@@ -32,7 +32,11 @@ export default function RelatedBlogs() {
             {blogArticles4.map((article, index) => (
               <SwiperSlide key={index}>
                 <div className="blog-article-item">
-                  <div className="article-thumb radius-10">
+                  <div className="article-thumb radius-10"   style={{
+                    border: '1px solid rgb(204, 204, 204)',
+                    padding: '15px',
+                    boxSizing: 'border-box',
+                  }}>
                     <Link href={`/blog-detail/${article.id}`}>
                       <Image
                         src={article.imgSrc}

@@ -12,14 +12,13 @@ export default function Features() {
           <div className="flat-title lg">
             <span className="title fw-5">Quality is our priority</span>
             <div>
-              <p className="sub-title text_black-2">
-                Our talented stylists have put together outfits that are perfect
-                for the season.
-              </p>
-              <p className="sub-title text_black-2">
-                They've variety of ways to inspire your next fashion-forward
-                look.
-              </p>
+                    <p className="sub-title text_black-2">
+          Our expert tobacconists have curated a collection of cigars that are perfect for every occasion.
+        </p>
+        <p className="sub-title text_black-2">
+          With a wide range of blends and strengths, they're sure to inspire your next luxurious smoke.
+        </p>
+
             </div>
           </div>
           <div className="flat-iconbox-v3 lg">

@@ -137,50 +137,51 @@ export const blogArticles3 = [
 export const blogArticles4 = [
   {
     id: 17,
-    imgSrc: "/images/blog/blog-10.jpg",
+    imgSrc: "/images/blog/arctileOne.jpg",
     alt: "img-blog",
-    title: "Hot Trends Alert: Stay Chic This Season",
-    btnText: "Men",
+    title: "The Art of Cigar Rolling: A Timeless Tradition",
+    btnText: "Cigars",
     btnClass: "tf-btn btn-sm btn-fill animate-hover-btn",
     delay: "0s",
   },
   {
     id: 18,
-    imgSrc: "/images/blog/blog-3.jpg",
+    imgSrc: "/images/blog/arctileTwo.jpg",
     alt: "img-blog",
-    title: "An Exclusive Clothing Collaboration",
-    btnText: "Men",
+    title: "Exploring Premium Cigar Brands",
+    btnText: "Cigars",
     btnClass: "tf-btn btn-sm btn-fill animate-hover-btn",
     delay: ".1s",
   },
   {
     id: 19,
-    imgSrc: "/images/blog/blog-11.jpg",
+    imgSrc: "/images/blog/arctileThree.jpg",
     alt: "img-blog",
-    title: "Unleashing Your Fashion Flair",
-    btnText: "Men",
+    title: "Cigar Pairing: A Beginner's Guide",
+    btnText: "Cigars",
     btnClass: "tf-btn btn-sm btn-fill animate-hover-btn",
     delay: ".2s",
   },
   {
     id: 20,
-    imgSrc: "/images/blog/blog-12.jpg",
+    imgSrc: "/images/blog/arctileFour.jpg",
     alt: "img-blog",
-    title: "Exploring Unique Fashion Vibes",
-    btnText: "Men",
+    title: "Top Cigar Accessories You Need to Know About",
+    btnText: "Cigars",
     btnClass: "tf-btn btn-sm btn-fill animate-hover-btn",
     delay: ".3s",
   },
   {
     id: 21,
-    imgSrc: "/images/blog/blog-4.jpg",
+    imgSrc: "/images/blog/arctileFive.jpg",
     alt: "img-blog",
-    title: "Hello Fashion by Colombian-American",
-    btnText: "Men",
+    title: "How to Store Cigars: The Perfect Humidor Setup",
+    btnText: "Cigars",
     btnClass: "tf-btn btn-sm btn-fill animate-hover-btn",
     delay: ".4s",
   },
 ];
+
 
 export const blogArticles5 = [
   {
@@ -334,37 +335,38 @@ export const blogArticles6 = [
 export const blogArticles7 = [
   {
     id: 42,
-    imgSrc: "/images/blog/blog-1.jpg",
+    imgSrc: "/images/blog/one.jpg",
     imgAlt: "img-blog",
-    title: "Pop-punk is back in fashion",
-    desc: "And while these alternatives are theoretically more animal-friendly, in that they don't actually require animal...",
-    label: "Tech",
+    title: "The Return of Classic Cigar Styles",
+    desc: "Discover how timeless cigar styles are making a strong comeback in the world of luxury.",
+    label: "Cigars",
   },
   {
     id: 43,
-    imgSrc: "/images/blog/blog-2.jpg",
+    imgSrc: "/images/blog/two.jpeg",
     imgAlt: "img-blog",
-    title: "The Limited Edition Club des Sports Courchevel",
-    desc: "And while these alternatives are theoretically more animal-friendly, in that they don't actually require animal...",
-    label: "Tech",
+    title: "Limited Edition Cigar Collection",
+    desc: "An exclusive look at the rarest cigars in the market, available for a limited time only.",
+    label: "Cigars",
   },
   {
     id: 44,
-    imgSrc: "/images/blog/blog-3.jpg",
+    imgSrc: "/images/blog/three.jpg",
     imgAlt: "img-blog",
-    title: "Christine Is A True Style Icon",
-    desc: "And while these alternatives are theoretically more animal-friendly, in that they don't actually require animal...",
-    label: "Tech",
+    title: "Cigars and Style: A Perfect Pairing",
+    desc: "Explore how luxury cigars complement the high-end fashion lifestyle.",
+    label: "Cigars",
   },
   {
     id: 45,
-    imgSrc: "/images/blog/blog-4.jpg",
+    imgSrc: "/images/blog/four.jpg",
     imgAlt: "img-blog",
-    title: "Hello Fashion by Colombian-American",
-    desc: "And while these alternatives are theoretically more animal-friendly, in that they don't actually require animal...",
-    label: "Tech",
+    title: "A Modern Twist on Classic Cigars",
+    desc: "Learn how today's cigar makers are adding modern innovations to traditional blends.",
+    label: "Cigars",
   },
 ];
+
 
 export const blogArticles8 = [
   {
@@ -410,23 +412,24 @@ export const blogPosts9 = [
 export const articles = [
   {
     id: 52,
-    imgSrc: "/images/shop/article/sidebar-1.jpg",
-    label: "Accessories",
-    title: "Effortlessly Blends The Carefree Style",
+    imgSrc: "/images/shop/article/recentPostOne.jpg",
+    label: "Cigars",
+    title: "Effortlessly Blending Classic Cigars with Modern Trends",
   },
   {
     id: 53,
-    imgSrc: "/images/shop/article/sidebar-2.jpg",
-    label: "Accessories",
-    title: "The Limited Edition Club des Sports Courchevel",
+    imgSrc: "/images/shop/article/recentPostTwo.jpg",
+    label: "Cigars",
+    title: "The Exclusive Limited Edition Cigar Collection",
   },
   {
     id: 54,
-    imgSrc: "/images/shop/article/sidebar-3.jpg",
-    label: "Fashion",
-    title: "Christine Is A True Style Icon",
+    imgSrc: "/images/shop/article/recentPostThree.jpg",
+    label: "Cigars",
+    title: "Mastering the Art of Cigar Pairing for Beginners",
   },
 ];
+
 
 export const allBlogs = [
   ...blogArticles,

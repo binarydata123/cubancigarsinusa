@@ -1,30 +1,32 @@
 export const collections = [
   {
-    imgSrc: "/images/collections/collection-17.jpg",
-    altText: "collection-img",
-    title: "Clothing",
+    imgSrc: "/images/collections/one.jpg",
+    altText: "premium-cigars",
+    title: "Premium Cigars",
   },
   {
-    imgSrc: "/images/collections/collection-14.jpg",
-    altText: "collection-img",
-    title: "Sunglasses",
+    imgSrc: "/images/collections/two.jpg",
+    altText: "cigar-humidors",
+    title: "Humidors",
   },
   {
-    imgSrc: "/images/collections/collection-18.jpg",
-    altText: "collection-demo-1",
-    title: "Bags",
+    imgSrc: "/images/collections/three.jpg",
+    altText: "cigar-cutters",
+    title: "Cutters",
   },
   {
-    imgSrc: "/images/collections/collection-15.jpg",
-    altText: "collection-demo-1",
-    title: "Fashion",
+    imgSrc: "/images/collections/three.jpg",
+    altText: "cigar-lighters",
+    title: "Lighters",
   },
   {
     imgSrc: "/images/collections/collection-20.jpg",
-    altText: "collection-demo-1",
+    altText: "cigar-accessories",
     title: "Accessories",
   },
 ];
+
+
 
 export const slidesData = [
   {
@@ -263,54 +265,56 @@ export const collectionData4 = [
 
 export const collections2 = [
   {
-    imgSrc: "/images/collections/collection-42.jpg",
+    imgSrc: "/images/collections/likeOne.jpg",
     imgAlt: "collection-img",
-    title: "Tops",
+    title: "Cigars",
   },
   {
-    imgSrc: "/images/collections/collection-43.jpg",
+    imgSrc: "/images/collections/likeTwo.jpg",
     imgAlt: "collection-img",
-    title: "Sweatshirts",
+    title: "Cigar Accessories",
   },
   {
-    imgSrc: "/images/collections/collection-44.jpg",
+    imgSrc: "/images/collections/likeThree.jpg",
     imgAlt: "collection-img",
-    title: "Swim",
+    title: "Humidors",
   },
   {
-    imgSrc: "/images/collections/collection-45.jpg",
+    imgSrc: "/images/collections/likeFour.jpg",
     imgAlt: "collection-img",
-    title: "Dresses",
+    title: "Lighters",
   },
   {
-    imgSrc: "/images/collections/collection-46.jpg",
+    imgSrc: "/images/collections/likeFive.jpg",
     imgAlt: "collection-img",
-    title: "Cardigans",
+    title: "Cigar Cutters",
   },
 ];
 
+
 export const recentCollections = [
   {
-    imgSrc: "/images/collections/collection-47.jpg",
+    imgSrc: "/images/collections/coll2.jpg",
     imgAlt: "collection-img",
-    heading: "The January Collection",
+    heading: "Exclusive Cigar Collection",
   },
   {
-    imgSrc: "/images/collections/collection-48.jpg",
+    imgSrc: "/images/collections/coll3.jpg",
     imgAlt: "collection-img",
-    heading: "Olympia's picks",
+    heading: "Premium Humidor Picks",
   },
   {
-    imgSrc: "/images/collections/collection-47.jpg",
+    imgSrc: "/images/collections/coll4.jpg",
     imgAlt: "collection-img",
-    heading: "The January Collection",
+    heading: "Limited Edition Cigars",
   },
   {
-    imgSrc: "/images/collections/collection-48.jpg",
+    imgSrc: "/images/collections/coll5.jpg",
     imgAlt: "collection-img",
-    heading: "Olympia's picks",
+    heading: "Luxury Lighter Selection",
   },
 ];
+
 
 export const collections3 = [
   {
@@ -1261,36 +1265,37 @@ export const collections8 = [
 
 export const collectionSlides2 = [
   {
-    imgSrc: "/images/collections/collection-14.jpg",
+    imgSrc: "/images/collections/accessOne.jpg",
     alt: "collection-img",
-    title: "Accessories",
+    title: "Cigar Accessories",
   },
   {
-    imgSrc: "/images/collections/collection-15.jpg",
+    imgSrc: "/images/collections/accessTwo.jpg",
     alt: "collection-img",
-    title: "Men",
+    title: "Cigars",
   },
   {
-    imgSrc: "/images/collections/collection-16.jpg",
+    imgSrc: "/images/collections/acessThree.jpg",
     alt: "collection-demo-1",
-    title: "Shoes",
+    title: "Humidors",
   },
   {
-    imgSrc: "/images/collections/collection-17.jpg",
+    imgSrc: "/images/collections/accessFour.jpg",
     alt: "collection-demo-1",
-    title: "New Arrival",
+    title: "New Arrivals",
   },
   {
-    imgSrc: "/images/collections/collection-18.jpg",
+    imgSrc: "/images/collections/accessFive.jpg",
     alt: "collection-demo-1",
-    title: "Handbag",
+    title: "Lighters",
   },
   {
-    imgSrc: "/images/collections/collection-19.jpg",
+    imgSrc: "/images/collections/accessSix.jpg",
     alt: "collection-demo-1",
-    title: "Women",
+    title: "Cigar Cutters",
   },
 ];
+
 
 export const collectionItems3 = [
   {
