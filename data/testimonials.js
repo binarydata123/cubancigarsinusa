@@ -108,13 +108,15 @@ export const testimonials3 = [
     imgSrc: "/images/slider/te4.jpg",
     altText: "testimonial-image",
     name: "Robert Smith",
-    purchaseItem: "Premium Cigar Collection",
+    purchaseItem: "Exclusive Cuban Cigars",
+    description: "I recently purchased the Exclusive Cuban Cigars and was blown away by their rich, smooth flavor. The quality is unmatched, and it has truly elevated my cigar experience."
   },
   {
     imgSrc: "/images/slider/te6.jpg",
     altText: "testimonial-image",
     name: "Jenifer Unix",
     purchaseItem: "Handcrafted Maduro Cigars",
+    description: "The Handcrafted Maduro Cigars are absolutely fantastic! They offer a bold, full-bodied smoke that's perfect for any occasion. I'll definitely be back for more."
   },
 ];
 
@@ -139,13 +141,13 @@ export const slides = [
   {
     images: [
       {
-        src: "/images/slider/te6.jpg",
+        src: "/images/slider/test2.jpg",
         alt: "img-slider",
         width: 450,
         height: 513,
       },
       {
-        src: "/images/slider/te5.jpg",
+        src: "/images/slider/test1.jpg",
         alt: "img-slider",
         width: 750,
         height: 797,

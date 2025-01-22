@@ -5,7 +5,6 @@ import { usePathname } from "next/navigation";
 
 export default function Nav({ isArrow = true, textColor = "", Linkfs = "" }) {
   const pathname = usePathname();
-
   const isMenuActive = (menuHref) => {
     return menuHref && menuHref.split("/")[1] === pathname.split("/")[1];
   };

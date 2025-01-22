@@ -1,7 +1,7 @@
 "use client";
-
 import { useEffect, useState } from "react";
-
+import { products1 } from "@/data/products";
+import { useParams } from "next/navigation";
 const tabs = [
   { title: "Description", active: true },
   { title: "Review", active: false },
@@ -11,6 +11,23 @@ const tabs = [
 
 export default function ShopDetailsTab() {
   const [currentTab, setCurrentTab] = useState(1);
+  const [description, setDescription] = useState([])
+  const params = useParams();
+  const productId = params?.id;
+
+  useEffect(() => {
+    if (!productId) return;
+
+    const product = products1.find((pro) => pro.id == productId);
+    if (product) {
+      setDescription(product.description || []);
+    }
+  }, [productId, products1]);
+
+  useEffect(() => {
+    setCurrentTab(1); 
+  }, [productId]);
+
 
   return (
     <section
@@ -42,14 +59,7 @@ export default function ShopDetailsTab() {
                 >
                   <div className="">
                     <p className="mb_30">
-                      Discover our premium cigars, crafted from the finest
-                      tobacco leaves to deliver a smooth and rich smoking
-                      experience. Each cigar is carefully aged and hand-rolled
-                      by skilled artisans, ensuring consistent quality and
-                      flavor. Whether you prefer a full-bodied Maduro or a
-                      smooth, mild Connecticut wrapper, our collection offers a
-                      range of styles to suit every taste. Enjoy a luxurious and
-                      timeless experience with every puff.
+                     {description}
                     </p>
                     {/* <div className="tf-product-des-demo">
                                   <div className="right">
