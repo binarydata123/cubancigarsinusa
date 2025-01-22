@@ -33,7 +33,7 @@ export default function Brands() {
             modules={[Pagination, Autoplay]}
             pagination={{ clickable: true, el: ".spd298" }}
           >
-            {/* {brandData.map((brand, index) => (
+            {brandData.map((brand, index) => (
               <SwiperSlide key={index}>
                 <div className="brand-item-v2">
                   <Image
@@ -46,7 +46,7 @@ export default function Brands() {
                   />
                 </div>
               </SwiperSlide>
-            ))} */}
+            ))}
           </Swiper>
           <div className="sw-dots style-2 sw-pagination-brand justify-content-center spd298" />
         </div>

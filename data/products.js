@@ -5,24 +5,8 @@ export const products1 = [
     imgHoverSrc: "/images/products/one.jpg",
     title: "Cohiba Behike BHK 52",
     price: 16.95,
-    // colors: [
-    //   {
-    //     name: "Orange",
-    //     colorClass: "bg_orange-3",
-    //     imgSrc: "/images/products/orange-1.jpg",
-    //   },
-    //   {
-    //     name: "Black",
-    //     colorClass: "bg_dark",
-    //     imgSrc: "/images/products/black-1.jpg",
-    //   },
-    //   {
-    //     name: "White",
-    //     colorClass: "bg_white",
-    //     imgSrc: "/images/products/white-1.jpg",
-    //   },
-    // ],
-    // sizes: ["S", "M", "L", "XL"],
+    description:
+      "The Cohiba Behike BHK 52 is a premium Cuban cigar measuring 4 3/4 x 52, featuring rare Medio Tiempo tobacco leaves which add exceptional flavor complexity. Released in 2010, it's packed in luxury boxes of 10 cigars and is considered one of the most prestigious and expensive regular production Cuban cigars available.",
     filterCategories: ["Best seller", "On Sale"],
     brand: "COHIBA",
     isAvailable: true,
@@ -33,25 +17,8 @@ export const products1 = [
     imgHoverSrc: "/images/products/two.jpg",
     title: "Cohiba Esplendidos",
     price: 18.95,
-    // colors: [
-    //   {
-    //     name: "Brown",
-    //     colorClass: "bg_brown",
-    //     imgSrc: "/images/products/brown.jpg",
-    //   },
-    //   {
-    //     name: "Light Purple",
-    //     colorClass: "bg_purple",
-    //     imgSrc: "/images/products/purple.jpg",
-    //   },
-    //   {
-    //     name: "Light Green",
-    //     colorClass: "bg_light-green",
-    //     imgSrc: "/images/products/green.jpg",
-    //   },
-    // ],
-    // sizes: ["M", "L", "XL"],
-    // countdown: { time: 1007500, labels: "d :,h :,m :,s" },
+    description:
+      "The Cohiba Esplendidos is a magnificent Churchill/Double Corona format Cuban cigar measuring 7 x 47. Introduced in 1989 as part of Cohiba's Linea Clasica, it's recognized for its dark colorado wrapper and is packaged in boxes of 15 or 25 cigars. This vitola represents one of Cohiba's most prestigious and classic offerings in their regular portfolio.",
     filterCategories: ["Best seller", "New arrivals"],
     brand: "COHIBA",
     isAvailable: false,
@@ -62,7 +29,8 @@ export const products1 = [
     imgHoverSrc: "/images/products/three.jpg",
     title: "Cohiba Robustos",
     price: 10.0,
-    // sizes: ["S", "M", "L", "XL"],
+    description:
+      "The Cohiba Robusto is a classic Cuban cigar measuring 4.9 x 50 (124mm). Part of Cohiba's Linea Clasica since 1989, this Robusto format is one of the brand's most popular and consistent offerings. It comes packaged in boxes of 25 or 15 cigars, and is known for representing the perfect balance of Cohiba's signature flavor profile. This vitola remains one of the most sought-after regular production Cohibas in the market.",
     filterCategories: ["Best seller", "On Sale"],
     brand: "COHIBA",
     isAvailable: true,
@@ -73,24 +41,8 @@ export const products1 = [
     imgHoverSrc: "/images/products/four.jpg",
     title: "Cohiba Siglo VI",
     price: 16.95,
-    // colors: [
-    //   {
-    //     name: "White",
-    //     colorClass: "bg_white",
-    //     imgSrc: "/images/products/white-2.jpg",
-    //   },
-    //   {
-    //     name: "Pink",
-    //     colorClass: "bg_purple",
-    //     imgSrc: "/images/products/pink-1.jpg",
-    //   },
-    //   {
-    //     name: "Black",
-    //     colorClass: "bg_dark",
-    //     imgSrc: "/images/products/black-2.jpg",
-    //   },
-    // ],
-    // sizes: ["S", "M", "L", "XL"],
+    description:
+      "The Cohiba Siglo VI is a premium Cuban cigar in the Cañonazo format, measuring 5.9  x 52 (150mm). Introduced in 2002 as part of Cohiba's Linea 1492 series, it's distinguished by its robust size and is often considered one of the finest vitolas in the Siglo line. The cigars come presented in boxes of 10, 15, or 25 pieces, and are highly regarded for their exceptional construction and complex flavor profile, making it one of the most prestigious offerings in Cohiba's regular portfolio.",
     filterCategories: ["Best seller", "On Sale"],
     brand: "COHIBA",
     isAvailable: true,
@@ -101,23 +53,13 @@ export const products1 = [
     imgHoverSrc: "/images/products/five.jpg",
     title: "Cohiba Behike BHK 54",
     price: 14.95,
-    // colors: [
-    //   {
-    //     name: "Brown",
-    //     colorClass: "bg_brown",
-    //     imgSrc: "/images/products/brown-2.jpg",
-    //   },
-    //   {
-    //     name: "White",
-    //     colorClass: "bg_white",
-    //     imgSrc: "/images/products/white-5.jpg",
-    //   },
-    // ],
-    // sizes: ["S", "M", "L", "XL"],
+    description:
+      "The Cohiba Behike BHK 54 is a luxurious Cuban cigar featuring a 54-ring gauge and crafted with rare medio tiempo leaves. It offers a rich, smooth flavor profile with notes of cream, cedar, and subtle pepper, delivering a premium smoking experience.",
     filterCategories: ["Best seller", "New arrivals"],
     brand: "Ecomus",
     isAvailable: true,
   },
+
   {
     id: 6,
     imgSrc: "/images/products/six1.jpg",
@@ -156,6 +98,7 @@ export const products1 = [
     //     imgSrc: "/images/products/light-grey.jpg",
     //   },
     // ],
+    description:'The Cohiba Maduro 5 Genios is a rich and bold Cuban cigar with a 52-ring gauge and 5.2-inch length. Made with aged Maduro wrappers, it offers a full-bodied flavor profile with notes of dark chocolate, espresso, and spices, creating a deep and satisfying smoke. Perfect for seasoned cigar aficionados seeking complexity and strength.',
     filterCategories: ["Best seller", "New arrivals"],
     brand: "COHIBA",
     isAvailable: true,
@@ -194,6 +137,8 @@ export const products1 = [
     //   },
     // ],
     // sizes: ["S", "M", "L"],
+    
+    description:'The Cohiba Siglo IV is a medium to full-bodied Cuban cigar with a 42-ring gauge and 5.6-inch length. Known for its smooth draw and complex flavor profile, it offers notes of cream, coffee, and subtle spice, with a rich, well-balanced finish. A perfect choice for cigar connoisseurs seeking refinement and elegance.',
     filterCategories: ["Best seller", "New arrivals", "On Sale"],
     brand: "COHIBA",
     isAvailable: false,
@@ -205,6 +150,8 @@ export const products1 = [
     title: "Cohiba Behike BHK 56",
     price: 12.0,
     // sizes: ["S", "M", "L", "XL"],
+    description:'The Cohiba Behike BHK 56 is a premium Cuban cigar with a 56-ring gauge and 5.9-inch length. Known for its rich, full-bodied flavor, it combines notes of cream, cedar, and a hint of spice, delivering a luxurious and complex smoking experience. Perfect for seasoned aficionados seeking an indulgent and memorable smoke.',
+
     filterCategories: ["Best seller", "New arrivals", "On Sale"],
     brand: "COHIBA",
     isAvailable: false,
@@ -228,6 +175,8 @@ export const products1 = [
     imgSrc: "/images/products/nine1.jpeg",
     imgHoverSrc: "/images/products/nine1.jpeg",
     title: "Cohiba Panetelas",
+    description:'The Cohiba Panetelas is a smooth, medium-bodied Cuban cigar with a 40-ring gauge and 5.0-inch length. Known for its elegant flavor profile, it offers notes of wood, nuts, and subtle spices, making it an enjoyable smoke for those seeking a refined, balanced experience. Perfect for a quick yet flavorful indulgence.',
+
     filterCategories: ["Best seller", "New arrivals", "On Sale"],
     brand: "COHIBA",
     isAvailable: true,
@@ -251,6 +200,8 @@ export const products1 = [
     imgSrc: "/images/products/ten.jpg",
     imgHoverSrc: "/images/products/ten.jpg",
     title: "Cohiba Lanceros",
+    description:'The Cohiba Lanceros is a classic Cuban cigar with a 38-ring gauge and 7.6-inch length. Known for its elegance and complexity, it offers a smooth, medium-bodied profile with notes of wood, earth, and a touch of spice. Ideal for aficionados who appreciate a refined and longer smoking experience.',
+
     filterCategories: ["Best seller", "New arrivals", "On Sale"],
     brand: "COHIBA",
     isAvailable: true,
@@ -279,6 +230,8 @@ export const products1 = [
     imgSrc: "/images/products/eleven.jpg",
     imgHoverSrc: "/images/products/eleven.jpg",
     title: "MONTECRISTO",
+    description:'Montecristo is one of the most renowned Cuban cigar brands, celebrated for its consistency, quality, and balanced flavor profiles. Known for its medium to full-bodied cigars, Montecristo offers a wide range of sizes and shapes, each with rich, earthy flavors complemented by notes of cedar, coffee, and subtle spices. Ideal for both seasoned cigar enthusiasts and those seeking a refined smoking experience, Montecristo cigars deliver an elegant blend of strength and smoothness, making them a favorite among connoisseurs.',
+
     filterCategories: ["Best seller", "New arrivals"],
     brand: "COHIBA",
     isAvailable: true,
@@ -304,6 +257,8 @@ export const products1 = [
     title: "Cohiba Mini Cigarillos",
     filterCategories: ["Best seller", "New arrivals", "On Sale"],
     brand: "COHIBA",
+    description:'Cohiba Mini Cigarillos are a compact and flavorful Cuban smoke, measuring 3.5 inches in length with a 20-ring gauge. These mini cigars deliver the signature smoothness and rich flavor of Cohiba cigars in a shorter, more convenient size. Offering notes of tobacco, wood, and subtle spices, they are perfect for a quick yet satisfying smoking experience. Ideal for those who enjoy the prestige of Cohiba in a more portable form.',
+
     isAvailable: false,
   },
   {
@@ -325,6 +280,8 @@ export const products1 = [
     imgSrc: "/images/products/thirteen.jpg",
     imgHoverSrc: "/images/products/thirteen.jpg",
     title: "Montecristo No. 4",
+    description:'The Montecristo No. 4 is a classic Cuban cigar, known for its smooth, medium-bodied profile. With a 42-ring gauge and 5.1-inch length, it offers a rich flavor blend of earthy, woody, and creamy notes, complemented by a touch of spice. Ideal for both seasoned smokers and those new to Cuban cigars, the Montecristo No. 4 delivers a refined, well-balanced smoking experience.',
+
     filterCategories: ["Best seller", "New arrivals", "On Sale"],
     brand: "Montecristo",
     isAvailable: true,
@@ -350,6 +307,8 @@ export const products1 = [
     title: "Romeo y Julieta Wide Churchill",
     filterCategories: ["Best seller", "On Sale"],
     brand: "COHIBA",
+    description:'The Romeo y Julieta Wide Churchill is a full-bodied Cuban cigar with a 55-ring gauge and 5.1-inch length. Known for its rich, complex flavor profile, it offers notes of earth, spice, and a subtle sweetness, balanced by a creamy texture. This cigar provides a smooth, luxurious smoking experience, ideal for aficionados seeking depth and refinement.',
+
     isAvailable: true,
   },
   {
@@ -373,6 +332,8 @@ export const products1 = [
     title: "H. Upmann Magnum 56",
     filterCategories: ["Best seller", "New arrivals"],
     brand: "COHIBA",
+    description:'The H. Upmann Magnum 56 is a robust Cuban cigar with a 56-ring gauge and 5.9-inch length. It delivers a rich, full-bodied flavor profile with notes of cedar, leather, and a touch of spice, offering a complex and satisfying smoke. Ideal for experienced smokers, the Magnum 56 provides a bold, luxurious experience from start to finish.',
+
     isAvailable: true,
   },
   {
@@ -396,6 +357,8 @@ export const products1 = [
     title: "Partagas Serie D No. 4",
     filterCategories: ["Best seller", "On Sale"],
     brand: "COHIBA",
+    description:'The Partagas Serie D No. 4 is a full-bodied Cuban cigar with a 50-ring gauge and 4.9-inch length. Known for its rich and bold flavor profile, it offers a blend of earthy, peppery, and smoky notes, with hints of leather and spice. This robust cigar is a favorite among seasoned aficionados seeking a powerful and complex smoking experience.',
+
     isAvailable: true,
   },
   {
@@ -419,6 +382,8 @@ export const products1 = [
     title: "Cohiba Siglo III",
     filterCategories: ["Best seller", "New arrivals"],
     brand: "COHIBA",
+    description:'The Cohiba Siglo III is a medium-bodied Cuban cigar with a 42-ring gauge and 6.1-inch length. Known for its smooth draw and refined flavor, it offers a blend of cream, wood, and subtle spice, creating a well-balanced and elegant smoking experience. Ideal for those seeking sophistication and complexity in their cigar.',
+
     isAvailable: true,
   },
   {
@@ -442,6 +407,8 @@ export const products1 = [
     title: "Cohiba Robustos",
     filterCategories: ["Best seller", "New arrivals", "On Sale"],
     brand: "COHIBA",
+    description:'The Cohiba Robustos is a rich, medium to full-bodied Cuban cigar with a 50-ring gauge and 4.9-inch length. Known for its smooth draw and complex flavor profile, it offers notes of leather, spice, and earth, with a creamy finish. This iconic cigar is a favorite among aficionados for its balance of strength and smoothness, delivering a luxurious smoking experience.',
+
     isAvailable: true,
   },
   {
@@ -465,6 +432,8 @@ export const products1 = [
     title: "H. Upmann Magnum 46",
     filterCategories: ["Best seller", "On Sale"],
     brand: "ROMEO Y JULIETA:",
+    description:'The H. Upmann Magnum 46 is a medium to full-bodied Cuban cigar with a 46-ring gauge and 5.5-inch length. It offers a rich and balanced flavor profile with notes of earth, leather, and a hint of spice. Known for its smooth draw and excellent construction, the Magnum 46 delivers a refined and enjoyable smoking experience. Perfect for those seeking a luxurious and complex smoke.',
+
     isAvailable: true,
   },
   {
@@ -488,6 +457,8 @@ export const products1 = [
     title: "Montecristo Edmundo",
     filterCategories: ["Best seller", "New arrivals"],
     brand: "ROMEO Y JULIETA",
+    description:'The Montecristo Edmundo is a medium to full-bodied Cuban cigar with a 52-ring gauge and 5.3-inch length. Known for its rich, well-balanced flavor profile, it offers notes of wood, cream, and subtle spices, with a smooth, creamy finish. Ideal for experienced smokers, the Edmundo provides a sophisticated and enjoyable smoking experience.',
+
     isAvailable: true,
   },
 
@@ -512,6 +483,7 @@ export const products1 = [
     title: " Romeo y Julieta Short Churchills",
     filterCategories: ["Best seller", "New arrivals"],
     brand: "ROMEO Y JULIETA",
+    description:'The Romeo y Julieta Short Churchills is a medium to full-bodied Cuban cigar with a 50-ring gauge and 4.9-inch length. Known for its rich and smooth flavor, it offers notes of earth, spice, and a touch of sweetness, providing a balanced and satisfying smoke. Perfect for those seeking a shorter yet luxurious experience with the signature quality of Romeo y Julieta.',
     isAvailable: true,
   },
 
@@ -534,6 +506,8 @@ export const products1 = [
     imgSrc: "/images/products/22.jpg",
     imgHoverSrc: "/images/products/22.jpg",
     title: " Romeo y Julieta Petit Churchills",
+    description:'The Romeo y Julieta Petit Churchills is a medium-bodied Cuban cigar with a 50-ring gauge and 4.3-inch length. Offering a rich and smooth flavor profile, it combines earthy, spicy, and woody notes with a hint of cream. This cigar provides a refined smoking experience in a shorter format, ideal for those seeking the quality of Romeo y Julieta in less time.',
+
     filterCategories: ["Best seller", "New arrivals"],
     brand: "ROMEO Y JULIETA",
     isAvailable: true,
@@ -557,6 +531,8 @@ export const products1 = [
     imgSrc: "/images/products/23.jpg",
     imgHoverSrc: "/images/products/23.jpg",
     title: " Romeo y Julieta Mille Fleurs",
+    description:'The Romeo y Julieta Mille Fleurs is a medium-bodied Cuban cigar with a 42-ring gauge and 5.0-inch length. Known for its smooth, well-rounded flavor profile, it offers notes of wood, earth, and a subtle hint of spice, with a creamy finish. A favorite among cigar enthusiasts, the Mille Fleurs delivers a balanced, enjoyable smoking experience, perfect for those seeking elegance and refinement.',
+
     filterCategories: ["Best seller", "New arrivals"],
     brand: "ROMEO Y JULIETA",
     isAvailable: true,
@@ -580,6 +556,8 @@ export const products1 = [
     imgSrc: "/images/products/24.jpg",
     imgHoverSrc: "/images/products/24.jpg",
     title: " Partagás Serie D No. 4",
+    description:'The Partagás Serie D No. 4 is a full-bodied Cuban cigar with a 50-ring gauge and 4.9-inch length. Renowned for its bold flavor, it delivers a rich blend of earthy, peppery, and smoky notes, with hints of leather and spice. This iconic cigar offers a robust and complex smoking experience, making it a favorite among experienced aficionados.',
+
     filterCategories: ["Best seller", "New arrivals"],
     brand: "PARTAGÁS",
     isAvailable: true,
@@ -603,6 +581,8 @@ export const products1 = [
     imgSrc: "/images/products/251.jpg",
     imgHoverSrc: "/images/products/251.jpg",
     title: " Partagás Serie P No. 2",
+    description:'The Partagás Serie P No. 2 is a full-bodied Cuban cigar with a 52-ring gauge and 5.6-inch length. Known for its bold and intense flavor profile, it offers a rich combination of earthy, leathery, and peppery notes, with a touch of spice and sweetness. This cigar provides a powerful and complex smoking experience, making it a popular choice for seasoned cigar enthusiasts.',
+
     filterCategories: ["Best seller", "New arrivals"],
     brand: "PARTAGÁS",
     isAvailable: true,
@@ -626,6 +606,8 @@ export const products1 = [
     imgSrc: "/images/products/26.jpg",
     imgHoverSrc: "/images/products/26.jpg",
     title: " Partagás Lusitanias",
+    description:'The Partagás Lusitanias is a full-bodied Cuban cigar with a 49-ring gauge and 7.6-inch length. Known for its bold and complex flavor, it delivers a rich blend of earth, leather, and pepper, complemented by hints of spice and sweetness. This cigar provides a long, satisfying smoking experience, making it ideal for aficionados who enjoy a robust and intense smoke.',
+
     filterCategories: ["Best seller", "New arrivals"],
     brand: "PARTAGÁS",
     isAvailable: true,
@@ -649,6 +631,8 @@ export const products1 = [
     imgSrc: "/images/products/27.jpg",
     imgHoverSrc: "/images/products/27.jpg",
     title: " Partagás Serie E No. 2",
+    description:'The Partagás Serie E No. 2 is a medium to full-bodied Cuban cigar with a 54-ring gauge and 5.3-inch length. Known for its rich and robust flavor profile, it offers notes of earth, leather, and spice, with a hint of sweetness. The cigar provides a complex and smooth smoking experience, making it a great choice for seasoned aficionados seeking depth and richness.',
+
     filterCategories: ["Best seller", "New arrivals"],
     brand: "PARTAGÁS",
     isAvailable: true,
@@ -672,6 +656,8 @@ export const products1 = [
     imgSrc: "/images/products/28.jpg",
     imgHoverSrc: "/images/products/28.jpg",
     title: "  Partagás Serie D No. 5",
+    description:'The Partagás Serie D No. 5 is a medium to full-bodied Cuban cigar with a 50-ring gauge and 4.3-inch length. Offering a bold and rich flavor profile, it combines earthy, peppery, and leathery notes with a touch of spice. This cigar delivers a satisfying, intense smoking experience, perfect for those seeking a compact yet powerful smoke.',
+
     filterCategories: ["Best seller", "New arrivals"],
     brand: "PARTAGÁS",
     isAvailable: true,
@@ -697,6 +683,8 @@ export const products1 = [
     title: "  Hoyo de Monterrey Epicure No. 2",
     filterCategories: ["Best seller", "New arrivals"],
     brand: "HOYO DE MONTERREY",
+    description:'The Hoyo de Monterrey Epicure No. 2 is a medium-bodied Cuban cigar with a 50-ring gauge and 5.1-inch length. Known for its smooth, creamy flavor, it offers notes of wood, leather, and subtle spices, with a delicate sweetness. This cigar provides a refined and balanced smoking experience, making it a favorite among cigar aficionados seeking elegance and complexity.',
+
     isAvailable: true,
   },
   {
@@ -720,6 +708,8 @@ export const products1 = [
     title: "  Hoyo de Monterrey Double Coronas",
     filterCategories: ["Best seller", "New arrivals"],
     brand: "HOYO DE MONTERREY",
+    description:'The Hoyo de Monterrey Double Coronas is a medium to full-bodied Cuban cigar with a 49-ring gauge and 6.9-inch length. Known for its rich and smooth flavor profile, it delivers notes of cedar, earth, and leather, with a hint of spice and sweetness. This cigar offers a well-balanced and complex smoking experience, perfect for those who enjoy a longer, more leisurely smoke.',
+
     isAvailable: true,
   },
   {
@@ -743,6 +733,8 @@ export const products1 = [
     title: "Hoyo de Monterrey Epicure Especial",
     filterCategories: ["Best seller", "New arrivals"],
     brand: "HOYO DE MONTERREY",
+    description:'The Hoyo de Monterrey Epicure Especial is a medium-bodied Cuban cigar with a 50-ring gauge and 5.5-inch length. Known for its smooth, creamy texture, it offers a rich flavor profile with notes of wood, leather, and subtle spices, complemented by a slight sweetness. This cigar delivers a refined and balanced smoking experience, making it a popular choice for aficionados seeking sophistication and elegance.',
+
     isAvailable: true,
   },
   {
@@ -766,6 +758,8 @@ export const products1 = [
     title: "Hoyo de Monterrey Petit Robusto",
     filterCategories: ["Best seller", "New arrivals"],
     brand: "HOYO DE MONTERREY",
+    description:'The Hoyo de Monterrey Petit Robusto is a medium-bodied Cuban cigar with a 50-ring gauge and 4.3-inch length. Offering a smooth and rich flavor, it combines notes of cedar, earth, and leather, with a hint of spice and sweetness. Despite its smaller size, it provides a well-balanced and enjoyable smoking experience, ideal for those seeking a quick yet flavorful smoke.',
+
     isAvailable: true,
   },
   {
@@ -789,6 +783,8 @@ export const products1 = [
     title: "H. Upmann Magnum 50",
     filterCategories: ["Best seller", "New arrivals"],
     brand: "H. UPMANN",
+    description:'The H. Upmann Magnum 50 is a medium to full-bodied Cuban cigar with a 50-ring gauge and 5.0-inch length. Known for its smooth draw and balanced flavor profile, it offers notes of leather, earth, and a touch of spice. This cigar delivers a rich, satisfying smoking experience, making it ideal for aficionados who appreciate complexity and refinement in a slightly shorter format.',
+
     isAvailable: true,
   },
   {
@@ -812,6 +808,8 @@ export const products1 = [
     title: " H. Upmann Magnum 46",
     filterCategories: ["Best seller", "New arrivals"],
     brand: "H. UPMANN",
+    description:'The H. Upmann Magnum 46 is a medium to full-bodied Cuban cigar with a 46-ring gauge and 5.5-inch length. Known for its smooth draw and refined flavor, it offers notes of leather, wood, and a touch of spice. This cigar provides a balanced and rich smoking experience, ideal for those who enjoy a medium-bodied smoke with complexity and elegance.',
+
     isAvailable: true,
   },
   {
@@ -835,6 +833,8 @@ export const products1 = [
     title: " H. Upmann Royal Robusto",
     filterCategories: ["Best seller", "New arrivals"],
     brand: "H. UPMANN",
+    description:'The H. Upmann Royal Robusto is a medium to full-bodied Cuban cigar with a 50-ring gauge and 5.0-inch length. Known for its rich, well-balanced flavor, it offers notes of leather, wood, and a hint of spice, creating a smooth and satisfying smoke. Ideal for aficionados who appreciate a refined and enjoyable experience with complexity and depth.',
+
     isAvailable: true,
   },
   {
@@ -858,6 +858,8 @@ export const products1 = [
     title: " H. Upmann Connossieur No. 1",
     filterCategories: ["Best seller", "New arrivals"],
     brand: "H. UPMANN",
+    description:'The H. Upmann Connoisseur No. 1 is a medium-bodied Cuban cigar with a 42-ring gauge and 5.1-inch length. Known for its smooth, refined flavor profile, it offers notes of earth, cedar, and a touch of leather, balanced with subtle spices. This cigar provides a sophisticated and enjoyable smoking experience, perfect for aficionados seeking a classic and elegant smoke.',
+
     isAvailable: true,
   },
   {
@@ -881,6 +883,8 @@ export const products1 = [
     title: "  Bolívar Belicosos Finos",
     filterCategories: ["Best seller", "New arrivals"],
     brand: "BOLÍVAR",
+    description:'The Bolívar Belicosos Finos is a full-bodied Cuban cigar with a 52-ring gauge and 5.1-inch length. Known for its bold, robust flavor profile, it offers a rich blend of earth, leather, spice, and hints of dark chocolate. This cigar delivers a complex and powerful smoking experience, making it ideal for seasoned aficionados who enjoy strong, intense flavors.',
+
     isAvailable: true,
   },
   {
@@ -904,6 +908,8 @@ export const products1 = [
     title: "Bolívar Royal Coronas",
     filterCategories: ["Best seller", "New arrivals"],
     brand: "BOLÍVAR",
+    description:'The Bolívar Royal Coronas is a full-bodied Cuban cigar with a 50-ring gauge and 5.0-inch length. Known for its bold and robust flavor, it offers a rich combination of earth, leather, spice, and a hint of sweetness. This cigar provides a complex and satisfying smoking experience, making it perfect for aficionados who enjoy a strong, full-flavored smoke.',
+
     isAvailable: true,
   },
   {
@@ -927,6 +933,8 @@ export const products1 = [
     title: " Bolívar Petit Coronas",
     filterCategories: ["Best seller", "New arrivals"],
     brand: "BOLÍVAR",
+    description:'The Bolívar Petit Coronas is a full-bodied Cuban cigar with a 42-ring gauge and 4.3-inch length. Known for its rich, intense flavor, it offers a blend of earthy, leathery, and spicy notes, with a touch of sweetness. Despite its smaller size, this cigar provides a bold and satisfying smoking experience, making it ideal for those seeking a powerful and complex smoke in a compact format.',
+
     isAvailable: true,
   },
   {
@@ -950,6 +958,8 @@ export const products1 = [
     title: " Trinidad Fundadores",
     filterCategories: ["Best seller", "New arrivals"],
     brand: "TRINIDAD",
+    description:'The Trinidad Fundadores is a medium to full-bodied Cuban cigar with a 40-ring gauge and 6.6-inch length. Known for its smooth, refined flavor profile, it offers a blend of wood, earth, and subtle spices, with hints of cream and nuts. This cigar provides a rich, balanced smoking experience, ideal for aficionados seeking elegance and complexity in a longer smoke.',
+
     isAvailable: true,
   },
   {
@@ -973,6 +983,8 @@ export const products1 = [
     title: " Trinidad Reyes",
     filterCategories: ["Best seller", "New arrivals"],
     brand: "TRINIDAD",
+    description:'The Trinidad Reyes is a medium-bodied Cuban cigar with a 40-ring gauge and 4.3-inch length. Known for its smooth and flavorful profile, it offers notes of wood, earth, and subtle spices, with a creamy finish. This cigar provides a refined and balanced smoking experience, making it an excellent choice for those seeking a shorter but elegant smoke with complexity.',
+
     isAvailable: true,
   },
   {
@@ -996,6 +1008,8 @@ export const products1 = [
     title: " Trinidad Vigia",
     filterCategories: ["Best seller", "New arrivals"],
     brand: "TRINIDAD",
+    description:'The Trinidad Vigia is a full-bodied Cuban cigar with a 54-ring gauge and 4.9-inch length. Known for its rich and intense flavor, it offers a blend of earth, wood, leather, and pepper, with subtle hints of spice and sweetness. Despite its relatively compact size, this cigar delivers a powerful and complex smoking experience, making it ideal for seasoned aficionados seeking a bold, flavorful smoke.',
+
     isAvailable: true,
   },
   {
@@ -1019,6 +1033,8 @@ export const products1 = [
     title: " Punch Punch",
     filterCategories: ["Best seller", "New arrivals"],
     brand: "PUNCH",
+    description:'The Punch Punch is a medium to full-bodied Cuban cigar with a 50-ring gauge and 5.6-inch length. Known for its rich, bold flavor profile, it offers notes of earth, spice, and leather, with a touch of sweetness and pepper. This cigar provides a satisfying and complex smoking experience, making it ideal for aficionados who appreciate strong, balanced flavors.',
+
     isAvailable: true,
   },
   {
@@ -1042,6 +1058,8 @@ export const products1 = [
     title: " Punch Double Coronas",
     filterCategories: ["Best seller", "New arrivals"],
     brand: "PUNCH",
+    description:'The Punch Double Coronas is a medium to full-bodied Cuban cigar with a 49-ring gauge and 7.6-inch length. Known for its rich and robust flavor, it offers a blend of earthy, woody, and leathery notes, complemented by hints of spice and a slight sweetness. This cigar provides a long, satisfying smoking experience, making it perfect for those who enjoy a bold, complex smoke.',
+
     isAvailable: true,
   },
   {
@@ -1065,6 +1083,8 @@ export const products1 = [
     title: " Punch Double Coronas",
     filterCategories: ["Best seller", "New arrivals"],
     brand: "RAMÓN ALLONES",
+    description:'The Punch Double Coronas is a medium to full-bodied Cuban cigar with a 49-ring gauge and 7.6-inch length. Known for its rich and complex flavor profile, it delivers notes of earth, wood, and leather, with a subtle spice and peppery finish. This cigar provides a long and satisfying smoking experience, ideal for aficionados who appreciate bold, full-flavored cigars with depth and intensity.',
+
     isAvailable: true,
   },
   {
@@ -1088,6 +1108,8 @@ export const products1 = [
     title: " Ramón Allones Specially Selected",
     filterCategories: ["Best seller", "New arrivals"],
     brand: "RAMÓN ALLONES",
+    description:'The Ramón Allones Specially Selected is a medium to full-bodied Cuban cigar with a 50-ring gauge and 4.9-inch length. Known for its rich and complex flavor profile, it offers notes of leather, spice, earth, and a hint of cocoa, with a balanced, slightly sweet finish. This cigar delivers a satisfying and bold smoking experience, making it ideal for those who enjoy a full-flavored, well-rounded smoke.',
+
     isAvailable: true,
   },
   {
@@ -1111,6 +1133,8 @@ export const products1 = [
     title: " uan López Selección No. 2",
     filterCategories: ["Best seller", "New arrivals"],
     brand: "JUAN LÓPEZ",
+    description:'The Juan López Selección No. 2 is a medium to full-bodied Cuban cigar with a 52-ring gauge and 5.6-inch length. Known for its rich and balanced flavor profile, it offers notes of earth, leather, and spice, with subtle hints of cocoa and sweetness. This cigar provides a complex and satisfying smoking experience, making it a great choice for aficionados seeking a flavorful and refined smoke.',
+
     isAvailable: true,
   },
   {
@@ -1134,6 +1158,8 @@ export const products1 = [
     title: "  San Cristóbal de La Habana Principes",
     filterCategories: ["Best seller", "New arrivals"],
     brand: "SAN CRISTÓBAL",
+    description:'The San Cristóbal de La Habana Príncipes is a medium-bodied Cuban cigar with a 42-ring gauge and 5.0-inch length. Known for its smooth and well-balanced flavor, it offers notes of wood, leather, and earth, with a touch of spice and creaminess. This cigar provides a refined and enjoyable smoking experience, making it ideal for those seeking a flavorful yet subtle smoke.',
+
     isAvailable: true,
   },
   {
@@ -1157,6 +1183,8 @@ export const products1 = [
     title: "  Cuaba Distinguidos",
     filterCategories: ["Best seller", "New arrivals"],
     brand: "CUABA",
+    description:'The Cuaba Distinguidos is a full-bodied Cuban cigar with a 54-ring gauge and 5.9-inch length. Known for its distinctive "pigtail" cap and rich, complex flavor, it offers notes of wood, leather, spice, and a hint of sweetness. This cigar provides a bold and satisfying smoking experience, ideal for aficionados who enjoy a well-rounded, intense smoke with depth and character.',
+
     isAvailable: true,
   },
   {
@@ -1180,6 +1208,8 @@ export const products1 = [
     title: "Diplomáticos No. 2",
     filterCategories: ["Best seller", "New arrivals"],
     brand: "DIPLOMÁTICOS",
+    description:'The Diplomáticos No. 2 is a medium-bodied Cuban cigar with a 50-ring gauge and 5.0-inch length. Known for its smooth, creamy flavor profile, it offers notes of cedar, earth, and subtle spices, with a touch of sweetness. This cigar delivers a balanced and enjoyable smoking experience, making it a great choice for aficionados seeking a refined and flavorful smoke.',
+
     isAvailable: true,
   },
 ]

@@ -4,11 +4,10 @@ import { slides, testimonials3 } from "@/data/testimonials";
 import { useState } from "react";
 import { Navigation, Pagination, Thumbs } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
-import Link from "next/link";
 import Image from "next/image";
+
 export default function Testimonials() {
   const [thumbsSwiper, setThumbsSwiper] = useState(null);
-
   return (
     <section
       className="flat-testimonial-v2 py-0 wow fadeInUp"
@@ -23,7 +22,7 @@ export default function Testimonials() {
               spaceBetween={30}
               className="tf-sw-tes-2"
               breakpoints={{
-                992: { spaceBetween: 40 },
+                992: { spaceBetween: 40 }, 
                 768: { spaceBetween: 30 },
               }}
               thumbs={{ swiper: thumbsSwiper }}
@@ -57,10 +56,7 @@ export default function Testimonials() {
                       <i className="icon-start" />
                       <i className="icon-start" />
                     </div>
-                    <p className="text">
-                      "The shipping is always prompt, and the customer service team is knowledgeable and accommodating. I highly recommend this
-                      site to anyone seeking premium cigars and a refined shopping experience."
-                    </p>
+                  
 
                     <div className="author box-author">
                       <div className="box-img d-md-none rounded-0">
@@ -79,7 +75,10 @@ export default function Testimonials() {
                           href={`#`} // Directly added href here
                           className="metas link"
                         >
+                          {testimonial.description}
+                          
                           Purchase item :{" "}
+                          
                           <span>{testimonial.purchaseItem}</span>
                         </a>
                       </div>

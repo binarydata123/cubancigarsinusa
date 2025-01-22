@@ -6,7 +6,7 @@ import Header1 from "@/components/headers/Header1";
 import Topbar1 from "@/components/headers/Topbar1";
 import Brands from "@/components/homes/home-1/Brands";
 
-import Categories from "@/components/homes/home-1/Categories";
+// import Categories from "@/components/homes/home-1/Categories";
 
 // import Hero from "@/components/homes/home-1/Hero";
 import Lookbook from "@/components/homes/home-1/Lookbook";
@@ -17,6 +17,7 @@ import Hero  from "@/components/homes/multi-brand/Hero";
 import Categories2 from "@/components/homes/multi-brand/Categories2";
 import Testimonials from "@/components/homes/multi-brand/Testimonials";
 import Collection from "@/components/homes/multi-brand/Collection"
+import Categories  from "@/components/homes/multi-brand/Categories"
 
 export const metadata = {
   title: "Premium Cigars for Sale | Explore Luxury and Quality Cigars",
@@ -28,8 +29,9 @@ export default function Home() {
     <>
       <Topbar1 />
       <Header1 />
+      <Categories/>
       <Hero />
-      {/* <Marquee /> */}
+      <Marquee />
       {/* // <Categories /> */}
       <Categories2 />
       <Products />
@@ -39,9 +41,10 @@ export default function Home() {
 
       {/* <Lookbook /> */}
       {/* <Testimonials /> */}
-      {/* <Brands /> */}
       {/* <ShopGram /> */}
       <Features />
+      <Brands />
+
       <Footer1 />
     </>
   );
