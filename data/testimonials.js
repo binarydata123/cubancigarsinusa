@@ -1,7 +1,7 @@
 export const testimonials = [
   {
-    heading: "Best Online Fashion Site",
-    text: "“ I always find something stylish and affordable on this web fashion site ”",
+    heading: "Best Online Cigars Site",
+    text: "“ I always find something stylish and affordable on this web Cigars site ”",
     name: "Robert Smith",
     metas: "Customer from USA",
     imageSrc: "/images/shop/products/img-p2.png",
@@ -11,7 +11,7 @@ export const testimonials = [
   },
   {
     heading: "Great Selection and Quality",
-    text: "I love the variety of styles and the high-quality clothing on this web fashion site.",
+    text: "I love the variety of styles and the high-quality clothing on this web Cigars site.",
     name: "Allen Lyn",
     metas: "Customer from France",
     imageSrc: "/images/shop/products/img-p3.png",
@@ -21,7 +21,7 @@ export const testimonials = [
   },
   {
     heading: "Best Customer Service",
-    text: "I finally found a web fashion site with stylish and flattering options in my size.",
+    text: "I finally found a web Cigars site with stylish and flattering options in my size.",
     name: "Peter Rope",
     metas: "Customer from USA",
     imageSrc: "/images/shop/products/img-p4.png",
@@ -31,7 +31,7 @@ export const testimonials = [
   },
   {
     heading: "Great Selection and Quality",
-    text: "I love the variety of styles and the high-quality clothing on this web fashion site.",
+    text: "I love the variety of styles and the high-quality clothing on this web Cigars site.",
     name: "Hellen Ase",
     metas: "Customer from Japan",
     imageSrc: "/images/shop/products/img-p5.png",
@@ -55,7 +55,7 @@ export const thumbnails = [
 export const testimonials2 = [
   {
     quote:
-      "I have been shopping with this web fashion site for over a year now and I can confidently say it is the best online fashion site out there.",
+      "I have been shopping with this web Cigars site for over a year now and I can confidently say it is the best online Cigars site out there.",
     name: "Jenifer Unix",
     purchaseItem: "Oversized Printed T-shirt",
     imgSrc: "/images/item/tets1.jpg",
@@ -63,7 +63,7 @@ export const testimonials2 = [
   },
   {
     quote:
-      "Fashion website is impressive! The user-friendly interface and excellent customer service make shopping a breeze.",
+      "Cigars website is impressive! The user-friendly interface and excellent customer service make shopping a breeze.",
     name: "Robert Smith",
     purchaseItem: "The Scot Collar Mint",
     imgSrc: "/images/item/tets2.jpg",
@@ -77,14 +77,14 @@ export const testimonialsData = [
     alt: "image-product",
     name: "Robert Smith",
     item: "Patterned scarf",
-    quote: `"I have been shopping with this web fashion site for over a year now and I can confidently say it is the best online fashion site out there. The shipping is always fast and the customer service team is friendly and helpful. I highly recommend this site to anyone looking for affordable clothing."`,
+    quote: `"I have been shopping with this web Cigars site for over a year now and I can confidently say it is the best online Cigars site out there. The shipping is always fast and the customer service team is friendly and helpful. I highly recommend this site to anyone looking for affordable clothing."`,
   },
   {
     imgSrc: "/images/item/tets4.jpg",
     alt: "image-product",
     name: "Jenifer Unix",
     item: "Sweetheart-neckline Top",
-    quote: `"I have been shopping with this web fashion site for over a year now and I can confidently say it is the best online fashion site out there. The shipping is always fast and the customer service team is friendly and helpful. I highly recommend this site to anyone looking for affordable clothing."`,
+    quote: `"I have been shopping with this web Cigars site for over a year now and I can confidently say it is the best online Cigars site out there. The shipping is always fast and the customer service team is friendly and helpful. I highly recommend this site to anyone looking for affordable clothing."`,
   },
 ];
 
@@ -106,29 +106,32 @@ export const imagesData = [
 export const testimonials3 = [
   {
     imgSrc: "/images/slider/te4.jpg",
-    altText: "image-product",
+    altText: "testimonial-image",
     name: "Robert Smith",
-    purchaseItem: "Boxy T-shirt",
+    purchaseItem: "Exclusive Cuban Cigars",
+    description: "I recently purchased the Exclusive Cuban Cigars and was blown away by their rich, smooth flavor. The quality is unmatched, and it has truly elevated my cigar experience."
   },
   {
     imgSrc: "/images/slider/te6.jpg",
-    altText: "image-product",
+    altText: "testimonial-image",
     name: "Jenifer Unix",
-    purchaseItem: "Sweetheart-neckline Top",
+    purchaseItem: "Handcrafted Maduro Cigars",
+    description: "The Handcrafted Maduro Cigars are absolutely fantastic! They offer a bold, full-bodied smoke that's perfect for any occasion. I'll definitely be back for more."
   },
 ];
+
 
 export const slides = [
   {
     images: [
       {
-        src: "/images/slider/te4.jpg",
+        src: "/images/slider/test1.jpg",
         alt: "img-slider",
         width: 450,
         height: 513,
       },
       {
-        src: "/images/slider/te3.jpg",
+        src: "/images/slider/test2.jpg  ",
         alt: "img-slider",
         width: 750,
         height: 797,
@@ -138,13 +141,13 @@ export const slides = [
   {
     images: [
       {
-        src: "/images/slider/te6.jpg",
+        src: "/images/slider/test2.jpg",
         alt: "img-slider",
         width: 450,
         height: 513,
       },
       {
-        src: "/images/slider/te5.jpg",
+        src: "/images/slider/test1.jpg",
         alt: "img-slider",
         width: 750,
         height: 797,
@@ -229,7 +232,7 @@ export const thumbnailSlides = [
 export const testimonialSlides = [
   {
     quote:
-      "I have been shopping with this web fashion site for over a year now and I can confidently say it is the best online fashion site out there.",
+      "I have been shopping with this web Cigars site for over a year now and I can confidently say it is the best online Cigars site out there.",
     rating: 5,
     author: "Jenifer Unix",
     imageSrc: "/images/item/tets1.jpg",
@@ -237,7 +240,7 @@ export const testimonialSlides = [
   },
   {
     quote:
-      "Fashion website is impressive! The user-friendly interface and excellent customer service make shopping a breeze.",
+      "Cigars website is impressive! The user-friendly interface and excellent customer service make shopping a breeze.",
     rating: 5,
     author: "Robert Smith",
     imageSrc: "/images/item/tets2.jpg",
@@ -291,7 +294,7 @@ export const testimonials6 = [
     name: "Alex Graham",
     purchaseItem: "Bonbon Shade",
     review:
-      "I have been shopping with this web fashion site for over a year now and I can confidently say it is the best online.",
+      "I have been shopping with this web Cigars site for over a year now and I can confidently say it is the best online.",
   },
 ];
 
@@ -359,8 +362,8 @@ export const thumbnailSlides2 = [
 export const testimonialData = [
   {
     rating: 5,
-    heading: "Best Online Fashion Site",
-    text: "“ I always find something stylish and affordable on this web fashion site ”",
+    heading: "Best Online Cigars Site",
+    text: "“ I always find something stylish and affordable on this web Cigars site ”",
     authorName: "Robert Smith",
     authorMeta: "Customer from USA",
     productImgSrc: "/images/products/decor-17.jpg",
@@ -370,7 +373,7 @@ export const testimonialData = [
   {
     rating: 5,
     heading: "Great Selection and Quality",
-    text: "I love the variety of styles and the high-quality clothing on this web fashion site.",
+    text: "I love the variety of styles and the high-quality clothing on this web Cigars site.",
     authorName: "Allen Lyn",
     authorMeta: "Customer from France",
     productImgSrc: "/images/products/decor-12.jpg",
@@ -380,7 +383,7 @@ export const testimonialData = [
   {
     rating: 5,
     heading: "Best Customer Service",
-    text: "I finally found a web fashion site with stylish and flattering options in my size.",
+    text: "I finally found a web Cigars site with stylish and flattering options in my size.",
     authorName: "Peter Rope",
     authorMeta: "Customer from USA",
     productImgSrc: "/images/products/decor-1.jpg",
@@ -390,7 +393,7 @@ export const testimonialData = [
   {
     rating: 5,
     heading: "Great Selection and Quality",
-    text: "I love the variety of styles and the high-quality clothing on this web fashion site.",
+    text: "I love the variety of styles and the high-quality clothing on this web Cigars site.",
     authorName: "Hellen Ase",
     authorMeta: "Customer from Japan",
     productImgSrc: "/images/products/decor-4.jpg",
@@ -402,8 +405,8 @@ export const testimonialData = [
 export const testimonials7 = [
   {
     rating: 5,
-    heading: "Best Online Fashion Site",
-    text: "I always find something stylish and affordable on this web fashion site",
+    heading: "Best Online Cigars Site",
+    text: "I always find something stylish and affordable on this web Cigars site",
     authorName: "Robert Smith",
     authorMeta: "Customer from USA",
     productImage: "/images/collections/electronic-16.jpg",
@@ -413,7 +416,7 @@ export const testimonials7 = [
   {
     rating: 5,
     heading: "Great Selection and Quality",
-    text: "I love the variety of styles and the high-quality clothing on this web fashion site.",
+    text: "I love the variety of styles and the high-quality clothing on this web Cigars site.",
     authorName: "Allen Lyn",
     authorMeta: "Customer from France",
     productImage: "/images/collections/electronic-12.png",
@@ -423,7 +426,7 @@ export const testimonials7 = [
   {
     rating: 5,
     heading: "Best Customer Service",
-    text: "I finally found a web fashion site with stylish and flattering options in my size.",
+    text: "I finally found a web Cigars site with stylish and flattering options in my size.",
     authorName: "Peter Rope",
     authorMeta: "Customer from USA",
     productImage: "/images/collections/electronic-8.png",
@@ -433,7 +436,7 @@ export const testimonials7 = [
   {
     rating: 5,
     heading: "Great Selection and Quality",
-    text: "I love the variety of styles and the high-quality clothing on this web fashion site.",
+    text: "I love the variety of styles and the high-quality clothing on this web Cigars site.",
     authorName: "Hellen Ase",
     authorMeta: "Customer from Japan",
     productImage: "/images/collections/electronic-10.png",
@@ -445,8 +448,8 @@ export const testimonials7 = [
 export const testimonials8 = [
   {
     rating: 5,
-    heading: "Best Online Fashion Site",
-    text: "“ I always find something stylish and affordable on this web fashion site ”",
+    heading: "Best Online Cigars Site",
+    text: "“ I always find something stylish and affordable on this web Cigars site ”",
     author: {
       name: "Robert Smith",
       meta: "Customer from USA",
@@ -462,7 +465,7 @@ export const testimonials8 = [
   {
     rating: 5,
     heading: "Great Selection and Quality",
-    text: "“ I love the variety of styles and the high-quality clothing on this web fashion site.”",
+    text: "“ I love the variety of styles and the high-quality clothing on this web Cigars site.”",
     author: {
       name: "Allen Lyn",
       meta: "Customer from France",
@@ -478,7 +481,7 @@ export const testimonials8 = [
   {
     rating: 5,
     heading: "Best Customer Service",
-    text: "“ I finally found a web fashion site with stylish and flattering options in my size.”",
+    text: "“ I finally found a web Cigars site with stylish and flattering options in my size.”",
     author: {
       name: "Peter Rope",
       meta: "Customer from USA",
@@ -494,7 +497,7 @@ export const testimonials8 = [
   {
     rating: 5,
     heading: "Great Selection and Quality",
-    text: "“ I love the variety of styles and the high-quality clothing on this web fashion site.”",
+    text: "“ I love the variety of styles and the high-quality clothing on this web Cigars site.”",
     author: {
       name: "Hellen Ase",
       meta: "Customer from Japan",
@@ -512,8 +515,8 @@ export const testimonials8 = [
 export const slides2 = [
   {
     rating: 5,
-    heading: "Best Online Fashion Site",
-    text: "“ I always find something stylish and affordable on this web fashion site ”",
+    heading: "Best Online Cigars Site",
+    text: "“ I always find something stylish and affordable on this web Cigars site ”",
     author: { name: "Robert Smith", metas: "Customer from USA" },
     product: {
       imgSrc: "/images/item/lookbook-item-1.jpg",
@@ -528,7 +531,7 @@ export const slides2 = [
   {
     rating: 5,
     heading: "Great Selection and Quality",
-    text: "I love the variety of styles and the high-quality clothing on this web fashion site.",
+    text: "I love the variety of styles and the high-quality clothing on this web Cigars site.",
     author: { name: "Allen Lyn", metas: "Customer from France" },
     product: {
       imgSrc: "/images/item/lookbook-item-2.jpg",
@@ -543,7 +546,7 @@ export const slides2 = [
   {
     rating: 5,
     heading: "Best Customer Service",
-    text: "I finally found a web fashion site with stylish and flattering options in my size.",
+    text: "I finally found a web Cigars site with stylish and flattering options in my size.",
     author: { name: "Peter Rope", metas: "Customer from USA" },
     product: {
       imgSrc: "/images/item/lookbook-item-3.jpg",
@@ -558,7 +561,7 @@ export const slides2 = [
   {
     rating: 5,
     heading: "Great Selection and Quality",
-    text: "I love the variety of styles and the high-quality clothing on this web fashion site.",
+    text: "I love the variety of styles and the high-quality clothing on this web Cigars site.",
     author: { name: "Hellen Ase", metas: "Customer from Japan" },
     product: {
       imgSrc: "/images/item/lookbook-item-4.jpg",
@@ -576,7 +579,7 @@ export const testimonials9 = [
   {
     quoteSrc: "/images/item/quote.svg",
     heading: "OUR CUSTOMERS' RAVE REVIEWS",
-    text: `"I have been shopping with this web fashion site for over a year now and I can confidently say it is the best online fashion site out there. The shipping is always fast and the customer service team is friendly and helpful. I highly recommend this site to anyone looking for affordable clothing."`,
+    text: `"I have been shopping with this web Cigars site for over a year now and I can confidently say it is the best online Cigars site out there. The shipping is always fast and the customer service team is friendly and helpful. I highly recommend this site to anyone looking for affordable clothing."`,
     imgSrc: "/images/slider/te4.jpg",
     author: "Robert smith",
     product: "3-in-1 Wireless Charger with Official MagSafe Charging 15W",
@@ -584,8 +587,8 @@ export const testimonials9 = [
   ,
   {
     quoteSrc: "/images/item/quote.svg",
-    heading: "BEST ONLINE FASHION SITE",
-    text: `"I have been shopping with this web fashion site for over a year now and I can confidently say it is the best online fashion site out there. The shipping is always fast and the customer service team is friendly and helpful. I highly recommend this site to anyone looking for affordable clothing."`,
+    heading: "BEST ONLINE Cigars SITE",
+    text: `"I have been shopping with this web Cigars site for over a year now and I can confidently say it is the best online Cigars site out there. The shipping is always fast and the customer service team is friendly and helpful. I highly recommend this site to anyone looking for affordable clothing."`,
     imgSrc: "/images/slider/te4.jpg",
     author: "Robert smith",
     product: "3-in-1 Wireless Charger with Official MagSafe Charging 15W",
@@ -593,7 +596,7 @@ export const testimonials9 = [
   {
     quoteSrc: "/images/item/quote.svg",
     heading: "GREAT SELECTION AND QUALITY",
-    text: `"I have been shopping with this web fashion site for over a year now and I can confidently say it is the best online fashion site out there. The shipping is always fast and the customer service team is friendly and helpful. I highly recommend this site to anyone looking for affordable clothing."`,
+    text: `"I have been shopping with this web Cigars site for over a year now and I can confidently say it is the best online Cigars site out there. The shipping is always fast and the customer service team is friendly and helpful. I highly recommend this site to anyone looking for affordable clothing."`,
     imgSrc: "/images/slider/te4.jpg",
     author: "Robert smith",
     product: "3-in-1 Wireless Charger with Official MagSafe Charging 15W",
@@ -648,8 +651,8 @@ export const imageGroups2 = [
 export const testimonialData2 = [
   {
     rating: 5,
-    heading: "Best Online Fashion Site",
-    text: "“ I always find something stylish and affordable on this web fashion site ”",
+    heading: "Best Online Cigars Site",
+    text: "“ I always find something stylish and affordable on this web Cigars site ”",
     authorName: "Robert Smith",
     authorMeta: "Customer from USA",
     imgSrc: "/images/products/paddle-boards-1.jpg",
@@ -658,8 +661,8 @@ export const testimonialData2 = [
   },
   {
     rating: 5,
-    heading: "Best Online Fashion Site",
-    text: "“ I always find something stylish and affordable on this web fashion site ”",
+    heading: "Best Online Cigars Site",
+    text: "“ I always find something stylish and affordable on this web Cigars site ”",
     authorName: "Allen Lyn",
     authorMeta: "Customer from USA",
     imgSrc: "/images/products/paddle-boards-9.jpg",
@@ -668,8 +671,8 @@ export const testimonialData2 = [
   },
   {
     rating: 5,
-    heading: "Best Online Fashion Site",
-    text: "“ I always find something stylish and affordable on this web fashion site ”",
+    heading: "Best Online Cigars Site",
+    text: "“ I always find something stylish and affordable on this web Cigars site ”",
     authorName: "Allen Lyn",
     authorMeta: "Customer from USA",
     imgSrc: "/images/products/paddle-boards-11.jpg",
@@ -678,8 +681,8 @@ export const testimonialData2 = [
   },
   {
     rating: 5,
-    heading: "Best Online Fashion Site",
-    text: "“ I always find something stylish and affordable on this web fashion site ”",
+    heading: "Best Online Cigars Site",
+    text: "“ I always find something stylish and affordable on this web Cigars site ”",
     authorName: "Allen Lyn",
     authorMeta: "Customer from USA",
     imgSrc: "/images/products/paddle-boards-8.jpg",
@@ -692,8 +695,8 @@ export const testimonials10 = [
   {
     id: 1,
     delay: "0s",
-    heading: "Best Online Fashion Site",
-    text: "“ I always find something stylish and affordable on this web fashion site ”",
+    heading: "Best Online Cigars Site",
+    text: "“ I always find something stylish and affordable on this web Cigars site ”",
     author: {
       name: "Robert smith",
       metas: "Customer from USA",
@@ -708,7 +711,7 @@ export const testimonials10 = [
     id: 2,
     delay: ".1s",
     heading: "Great Selection and Quality",
-    text: "“ I love the variety of styles and the high-quality clothing on this web fashion site.”",
+    text: "“ I love the variety of styles and the high-quality clothing on this web Cigars site.”",
     author: {
       name: "Allen Lyn",
       metas: "Customer from France",
@@ -723,7 +726,7 @@ export const testimonials10 = [
     id: 3,
     delay: ".2s",
     heading: "Best Customer Service",
-    text: "“ I finally found a web fashion site with stylish and flattering options in my size.”",
+    text: "“ I finally found a web Cigars site with stylish and flattering options in my size.”",
     author: {
       name: "Peter Rope",
       metas: "Customer from USA",
@@ -738,7 +741,7 @@ export const testimonials10 = [
     id: 4,
     delay: ".3s",
     heading: "Great Selection and Quality",
-    text: "“ I love the variety of styles and the high-quality clothing on this web fashion site.”",
+    text: "“ I love the variety of styles and the high-quality clothing on this web Cigars site.”",
     author: {
       name: "Hellen Ase",
       metas: "Customer from Japan",
@@ -756,7 +759,7 @@ export const testimonials11 = [
     id: 1,
     imgSrc: "/images/item/tes-wear1.jpg",
     rating: 5,
-    text: "I am so happy to find a web fashion site that offers a great selection of stylish and affordable plus size clothing.",
+    text: "I am so happy to find a web Cigars site that offers a great selection of stylish and affordable plus size clothing.",
     authorName: "Anna Lan",
     authorMeta: "Customer from Japan",
     product: {
@@ -819,12 +822,12 @@ export const testimonials12 = [
   {
     heading: "AS SEE IN",
     content:
-      "I love the variety of styles and the high-quality clothing on this web fashion site.",
+      "I love the variety of styles and the high-quality clothing on this web Cigars site.",
   },
   {
     heading: "AS SEE IN",
     content:
-      "I finally found a web fashion site with stylish and flattering options in my size.",
+      "I finally found a web Cigars site with stylish and flattering options in my size.",
   },
 ];
 
@@ -866,8 +869,8 @@ export const testimonials13 = [
     author: "Taylor A",
   },
   {
-    heading: "Best Online Fashion Site",
-    text: "I am so happy to find a web fashion site that offers a great selection of stylish and affordable plus size clothing.",
+    heading: "Best Online Cigars Site",
+    text: "I am so happy to find a web Cigars site that offers a great selection of stylish and affordable plus size clothing.",
     author: "Jenifer S",
   },
 ];
@@ -879,7 +882,7 @@ export const testimonials14 = [
     imgWidth: 488,
     imgHeight: 620,
     rating: 5,
-    text: "“I always find something stylish and affordable on this web fashion site”",
+    text: "“I always find something stylish and affordable on this web Cigars site”",
     author: "Robert Smith",
     meta: "Customer from USA",
     productImgSrc: "/images/item/dot-test-sock.jpg",
@@ -896,7 +899,7 @@ export const testimonials14 = [
     imgWidth: 488,
     imgHeight: 620,
     rating: 5,
-    text: "“I always find something stylish and affordable on this web fashion site”",
+    text: "“I always find something stylish and affordable on this web Cigars site”",
     author: "Robert Smith",
     meta: "Customer from USA",
     productImgSrc: "/images/products/sock15.jpg",
@@ -913,7 +916,7 @@ export const testimonials14 = [
     imgWidth: 488,
     imgHeight: 620,
     rating: 5,
-    text: "“I always find something stylish and affordable on this web fashion site”",
+    text: "“I always find something stylish and affordable on this web Cigars site”",
     author: "Robert Smith",
     meta: "Customer from USA",
     productImgSrc: "/images/products/sock14.jpg",
@@ -968,14 +971,14 @@ export const testimonials16 = [
   {
     quoteSrc: "/images/item/quote.svg",
     rating: 5,
-    text: `I have been shopping with this web fashion site for over a year now and I can confidently say it is the best online fashion site out there. The shipping is always fast and the customer service team is friendly and helpful. I highly recommend this site to anyone looking for affordable clothing.`,
+    text: `I have been shopping with this web Cigars site for over a year now and I can confidently say it is the best online Cigars site out there. The shipping is always fast and the customer service team is friendly and helpful. I highly recommend this site to anyone looking for affordable clothing.`,
     authorImg: "/images/item/tets3.jpg",
     authorName: "Robert Smith",
   },
   {
     quoteSrc: "/images/item/quote.svg",
     rating: 5,
-    text: `I have been shopping with this web fashion site for over a year now and I can confidently say it is the best online fashion site out there. The shipping is always fast and the customer service team is friendly and helpful. I highly recommend this site to anyone looking for affordable clothing.`,
+    text: `I have been shopping with this web Cigars site for over a year now and I can confidently say it is the best online Cigars site out there. The shipping is always fast and the customer service team is friendly and helpful. I highly recommend this site to anyone looking for affordable clothing.`,
     authorImg: "/images/item/tets4.jpg",
     authorName: "Jenifer Unix",
   },
@@ -983,13 +986,13 @@ export const testimonials16 = [
 
 export const thumbImages = [
   {
-    imgSrc: "/images/item/tets3.jpg",
+    imgSrc: "/images/item/customerOne.jpg",
     alt: "image-product",
     width: 750,
     height: 851,
   },
   {
-    imgSrc: "/images/item/tets4.jpg",
+    imgSrc: "/images/item/customerOne.jpg",
     alt: "image-product",
     width: 750,
     height: 851,

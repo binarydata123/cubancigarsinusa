@@ -1,21 +1,21 @@
 export const slides = [
   {
-    imgSrc: "/images/slider/fashion-slideshow-01.jpg",
-    title: "Glamorous\nGlam",
-    text: "From casual to formal, we've got you covered",
-    btnText: "Shop collection",
+    imgSrc: "/images/slider/two.jpg",
+    title: "Luxurious\nAroma",
+    text: "From formal to casual, indulge in the finest cigars",
+    btnText: "Explore collection",
   },
   {
     imgSrc: "/images/slider/fashion-slideshow-02.jpg",
-    title: "Simple\nStyle",
-    text: "From casual to formal, we've got you covered",
-    btnText: "Shop collection",
+    title: "Timeless\nElegance",
+    text: "From formal to casual, indulge in the finest cigars",
+    btnText: "Discover now",
   },
   {
     imgSrc: "/images/slider/fashion-slideshow-03.jpg",
-    title: "Glamorous\nGlam",
-    text: "From casual to formal, we've got you covered",
-    btnText: "Shop collection",
+    title: "Exquisite\nCraftsmanship",
+    text: "From formal to casual, indulge in the finest cigars",
+    btnText: "Shop cigars",
   },
 ];
 
@@ -147,25 +147,25 @@ export const sliderData = [
 
 export const slides4 = [
   {
-    imgSrc: "/images/slider/women-slideshow-1.jpg",
+    imgSrc: "/images/slider/Hello.jpg",
     imgAlt: "women-slideshow-01",
-    heading: "Elegance",
-    description: "From casual to formal, we've got you covered",
-    buttonText: "Shop collection",
+    heading: "Premium Cigars",
+    description: "Experience the richness of the finest cigars, handcrafted for the discerning smoker.",
+    buttonText: "Shop Premium Cigars",
   },
   {
-    imgSrc: "/images/slider/women-slideshow-2.jpg",
+    imgSrc: "/images/slider/Hello2.jpg",
     imgAlt: "women-slideshow-02",
-    heading: "Boutique",
-    description: "From casual to formal, we've got you covered",
-    buttonText: "Shop collection",
+    heading: "Luxury Selection",
+    description: "Indulge in luxury with our exclusive cigar collection, offering a taste of refinement.",
+    buttonText: "Explore Luxury Cigars",
   },
   {
-    imgSrc: "/images/slider/women-slideshow-3.jpg",
+    imgSrc: "/images/slider/Hello3.jpg",
     imgAlt: "women-slideshow-03",
-    heading: "Luxury",
-    description: "From casual to formal, we've got you covered",
-    buttonText: "Shop collection",
+    heading: "Cigar Masterpieces",
+    description: "Enjoy masterfully crafted cigars for those who appreciate the art of fine smoking.",
+    buttonText: "View Our Masterpieces",
   },
 ];
 

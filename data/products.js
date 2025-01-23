@@ -5,24 +5,8 @@ export const products1 = [
     imgHoverSrc: "/images/products/one.jpg",
     title: "Cohiba Behike BHK 52",
     price: 16.95,
-    // colors: [
-    //   {
-    //     name: "Orange",
-    //     colorClass: "bg_orange-3",
-    //     imgSrc: "/images/products/orange-1.jpg",
-    //   },
-    //   {
-    //     name: "Black",
-    //     colorClass: "bg_dark",
-    //     imgSrc: "/images/products/black-1.jpg",
-    //   },
-    //   {
-    //     name: "White",
-    //     colorClass: "bg_white",
-    //     imgSrc: "/images/products/white-1.jpg",
-    //   },
-    // ],
-    // sizes: ["S", "M", "L", "XL"],
+    description:
+      "The Cohiba Behike BHK 52, a 4 3/4 x 52 Cuban cigar, features rare Medio Tiempo leaves, exceptional flavor complexity, and luxurious 10-cigar boxes.",
     filterCategories: ["Best seller", "On Sale"],
     brand: "COHIBA",
     isAvailable: true,
@@ -33,25 +17,8 @@ export const products1 = [
     imgHoverSrc: "/images/products/two.jpg",
     title: "Cohiba Esplendidos",
     price: 18.95,
-    // colors: [
-    //   {
-    //     name: "Brown",
-    //     colorClass: "bg_brown",
-    //     imgSrc: "/images/products/brown.jpg",
-    //   },
-    //   {
-    //     name: "Light Purple",
-    //     colorClass: "bg_purple",
-    //     imgSrc: "/images/products/purple.jpg",
-    //   },
-    //   {
-    //     name: "Light Green",
-    //     colorClass: "bg_light-green",
-    //     imgSrc: "/images/products/green.jpg",
-    //   },
-    // ],
-    // sizes: ["M", "L", "XL"],
-    // countdown: { time: 1007500, labels: "d :,h :,m :,s" },
+    description:
+      "The Cohiba Esplendidos, a 7x47 Churchill cigar, features a dark colorado wrapper, debuted in 1989, and is among Cohiba’s most prestigious classics.",
     filterCategories: ["Best seller", "New arrivals"],
     brand: "COHIBA",
     isAvailable: false,
@@ -62,7 +29,8 @@ export const products1 = [
     imgHoverSrc: "/images/products/three.jpg",
     title: "Cohiba Robustos",
     price: 10.0,
-    // sizes: ["S", "M", "L", "XL"],
+    description:
+      "The Cohiba Robusto, a 4.9 x 50 Cuban cigar, offers classic flavor, consistent quality, and popularity, packaged in boxes of 25 or 15.",
     filterCategories: ["Best seller", "On Sale"],
     brand: "COHIBA",
     isAvailable: true,
@@ -73,24 +41,8 @@ export const products1 = [
     imgHoverSrc: "/images/products/four.jpg",
     title: "Cohiba Siglo VI",
     price: 16.95,
-    // colors: [
-    //   {
-    //     name: "White",
-    //     colorClass: "bg_white",
-    //     imgSrc: "/images/products/white-2.jpg",
-    //   },
-    //   {
-    //     name: "Pink",
-    //     colorClass: "bg_purple",
-    //     imgSrc: "/images/products/pink-1.jpg",
-    //   },
-    //   {
-    //     name: "Black",
-    //     colorClass: "bg_dark",
-    //     imgSrc: "/images/products/black-2.jpg",
-    //   },
-    // ],
-    // sizes: ["S", "M", "L", "XL"],
+    description:
+      "The Cohiba Siglo VI, a premium Cuban cigar (5.9 x 52), offers exceptional construction, complex flavors, and prestige, introduced in 2002's Linea 1492 series.",
     filterCategories: ["Best seller", "On Sale"],
     brand: "COHIBA",
     isAvailable: true,
@@ -101,23 +53,13 @@ export const products1 = [
     imgHoverSrc: "/images/products/five.jpg",
     title: "Cohiba Behike BHK 54",
     price: 14.95,
-    // colors: [
-    //   {
-    //     name: "Brown",
-    //     colorClass: "bg_brown",
-    //     imgSrc: "/images/products/brown-2.jpg",
-    //   },
-    //   {
-    //     name: "White",
-    //     colorClass: "bg_white",
-    //     imgSrc: "/images/products/white-5.jpg",
-    //   },
-    // ],
-    // sizes: ["S", "M", "L", "XL"],
+    description:
+      "The Cohiba Behike BHK 54 is a luxurious Cuban cigar with a 54-ring gauge, featuring rare medio tiempo leaves and offering a rich, smooth flavor profile.",
     filterCategories: ["Best seller", "New arrivals"],
     brand: "Ecomus",
     isAvailable: true,
   },
+
   {
     id: 6,
     imgSrc: "/images/products/six1.jpg",
@@ -156,6 +98,7 @@ export const products1 = [
     //     imgSrc: "/images/products/light-grey.jpg",
     //   },
     // ],
+    description:'The Cohiba Maduro 5 Genios is a full-bodied Cuban cigar with aged Maduro wrappers, offering rich flavors of dark chocolate, espresso, and spices for seasoned aficionados.',
     filterCategories: ["Best seller", "New arrivals"],
     brand: "COHIBA",
     isAvailable: true,
@@ -194,6 +137,8 @@ export const products1 = [
     //   },
     // ],
     // sizes: ["S", "M", "L"],
+    
+    description:'The Cohiba Siglo IV is a medium to full-bodied Cuban cigar, offering smooth draw, cream, coffee, and spice notes, with a balanced, refined finish.',
     filterCategories: ["Best seller", "New arrivals", "On Sale"],
     brand: "COHIBA",
     isAvailable: false,
@@ -205,6 +150,8 @@ export const products1 = [
     title: "Cohiba Behike BHK 56",
     price: 12.0,
     // sizes: ["S", "M", "L", "XL"],
+    description:'The Cohiba Behike BHK 56 is a premium Cuban cigar with rich, full-bodied flavors of cream, cedar, and spice, offering a luxurious smoking experience for aficionados.',
+
     filterCategories: ["Best seller", "New arrivals", "On Sale"],
     brand: "COHIBA",
     isAvailable: false,
@@ -228,6 +175,8 @@ export const products1 = [
     imgSrc: "/images/products/nine1.jpeg",
     imgHoverSrc: "/images/products/nine1.jpeg",
     title: "Cohiba Panetelas",
+    description:'The Cohiba Panetelas is a smooth, medium-bodied Cuban cigar with wood, nut, and spice notes. Its refined flavor offers a balanced, quick, and enjoyable smoking experience.',
+
     filterCategories: ["Best seller", "New arrivals", "On Sale"],
     brand: "COHIBA",
     isAvailable: true,
@@ -251,6 +200,8 @@ export const products1 = [
     imgSrc: "/images/products/ten.jpg",
     imgHoverSrc: "/images/products/ten.jpg",
     title: "Cohiba Lanceros",
+    description:'The Cohiba Lanceros is a classic Cuban cigar with a 38-ring gauge and 7.6-inch length, offering a smooth, medium-bodied profile with wood, earth, and spice notes.',
+
     filterCategories: ["Best seller", "New arrivals", "On Sale"],
     brand: "COHIBA",
     isAvailable: true,
@@ -279,6 +230,8 @@ export const products1 = [
     imgSrc: "/images/products/eleven.jpg",
     imgHoverSrc: "/images/products/eleven.jpg",
     title: "MONTECRISTO",
+    description:'Montecristo is a renowned Cuban cigar brand, known for its consistency, quality, and balanced medium-to-full-bodied flavors, with rich, earthy notes of cedar, coffee, and spices.',
+
     filterCategories: ["Best seller", "New arrivals"],
     brand: "COHIBA",
     isAvailable: true,
@@ -304,6 +257,8 @@ export const products1 = [
     title: "Cohiba Mini Cigarillos",
     filterCategories: ["Best seller", "New arrivals", "On Sale"],
     brand: "COHIBA",
+    description:'Cohiba Mini Cigarillos offer a compact, flavorful Cuban smoke with smoothness and rich flavor. Measuring 3.5 inches, they deliver tobacco, wood, and spice notes. Perfectly portable.',
+
     isAvailable: false,
   },
   {
@@ -325,6 +280,8 @@ export const products1 = [
     imgSrc: "/images/products/thirteen.jpg",
     imgHoverSrc: "/images/products/thirteen.jpg",
     title: "Montecristo No. 4",
+    description:'The Montecristo No. 4 is a medium-bodied Cuban cigar with earthy, woody, and creamy flavors, offering a refined, balanced experience perfect for seasoned and new smokers alike.',
+
     filterCategories: ["Best seller", "New arrivals", "On Sale"],
     brand: "Montecristo",
     isAvailable: true,
@@ -350,6 +307,8 @@ export const products1 = [
     title: "Romeo y Julieta Wide Churchill",
     filterCategories: ["Best seller", "On Sale"],
     brand: "COHIBA",
+    description:'The Romeo y Julieta Wide Churchill is a full-bodied Cuban cigar with rich, complex flavors of earth, spice, sweetness, and a creamy texture for a luxurious experience.',
+
     isAvailable: true,
   },
   {
@@ -373,6 +332,8 @@ export const products1 = [
     title: "H. Upmann Magnum 56",
     filterCategories: ["Best seller", "New arrivals"],
     brand: "COHIBA",
+    description:'The H. Upmann Magnum 56 is a robust Cuban cigar with rich, full-bodied flavors of cedar, leather, and spice, offering a luxurious, complex smoking experience.',
+
     isAvailable: true,
   },
   {
@@ -396,6 +357,8 @@ export const products1 = [
     title: "Partagas Serie D No. 4",
     filterCategories: ["Best seller", "On Sale"],
     brand: "COHIBA",
+    description:'The Partagas Serie D No. 4 is a full-bodied 50-ring gauge Cuban cigar, offering earthy, peppery, smoky, leather, and spicy notes for experienced aficionados.',
+
     isAvailable: true,
   },
   {
@@ -419,6 +382,8 @@ export const products1 = [
     title: "Cohiba Siglo III",
     filterCategories: ["Best seller", "New arrivals"],
     brand: "COHIBA",
+    description:'The Cohiba Siglo III is a medium-bodied Cuban cigar with a smooth draw, offering a blend of cream, wood, and subtle spice for a sophisticated experience.',
+
     isAvailable: true,
   },
   {
@@ -442,6 +407,8 @@ export const products1 = [
     title: "Cohiba Robustos",
     filterCategories: ["Best seller", "New arrivals", "On Sale"],
     brand: "COHIBA",
+    description:'The Cohiba Robustos is a medium to full-bodied Cuban cigar with a smooth draw, offering notes of leather, spice, and earth, and a creamy finish.',
+
     isAvailable: true,
   },
   {
@@ -465,6 +432,8 @@ export const products1 = [
     title: "H. Upmann Magnum 46",
     filterCategories: ["Best seller", "On Sale"],
     brand: "ROMEO Y JULIETA:",
+    description:'The H. Upmann Magnum 46 is a medium to full-bodied Cuban cigar with rich earth, leather, and spice notes, offering a smooth draw and luxurious smoking experience.',
+
     isAvailable: true,
   },
   {
@@ -488,6 +457,8 @@ export const products1 = [
     title: "Montecristo Edmundo",
     filterCategories: ["Best seller", "New arrivals"],
     brand: "ROMEO Y JULIETA",
+    description:'The Montecristo Edmundo is a medium to full-bodied Cuban cigar, featuring rich wood, cream, and subtle spice notes with a smooth, creamy finish. Ideal for experienced smokers.',
+
     isAvailable: true,
   },
 
@@ -512,6 +483,7 @@ export const products1 = [
     title: " Romeo y Julieta Short Churchills",
     filterCategories: ["Best seller", "New arrivals"],
     brand: "ROMEO Y JULIETA",
+    description:'The Romeo y Julieta Short Churchills is a medium to full-bodied Cuban cigar with rich, smooth flavors of earth, spice, and sweetness. A luxurious, balanced smoke.',
     isAvailable: true,
   },
 
@@ -534,6 +506,8 @@ export const products1 = [
     imgSrc: "/images/products/22.jpg",
     imgHoverSrc: "/images/products/22.jpg",
     title: " Romeo y Julieta Petit Churchills",
+    description:'The Romeo y Julieta Petit Churchills is a medium-bodied Cuban cigar with earthy, spicy, and woody flavors, offering a refined smoking experience in a shorter format.',
+
     filterCategories: ["Best seller", "New arrivals"],
     brand: "ROMEO Y JULIETA",
     isAvailable: true,
@@ -557,6 +531,8 @@ export const products1 = [
     imgSrc: "/images/products/23.jpg",
     imgHoverSrc: "/images/products/23.jpg",
     title: " Romeo y Julieta Mille Fleurs",
+    description:'The Romeo y Julieta Mille Fleurs is a medium-bodied Cuban cigar with a smooth, well-rounded flavor profile, featuring wood, earth, subtle spice, and a creamy finish.',
+
     filterCategories: ["Best seller", "New arrivals"],
     brand: "ROMEO Y JULIETA",
     isAvailable: true,
@@ -580,6 +556,8 @@ export const products1 = [
     imgSrc: "/images/products/24.jpg",
     imgHoverSrc: "/images/products/24.jpg",
     title: " Partagás Serie D No. 4",
+    description:'The Partagás Serie D No. 4 is a full-bodied 4.9-inch Cuban cigar with bold, earthy, peppery, smoky, leather, and spicy flavors, perfect for experienced aficionados.',
+
     filterCategories: ["Best seller", "New arrivals"],
     brand: "PARTAGÁS",
     isAvailable: true,
@@ -603,6 +581,8 @@ export const products1 = [
     imgSrc: "/images/products/251.jpg",
     imgHoverSrc: "/images/products/251.jpg",
     title: " Partagás Serie P No. 2",
+    description:'The Partagás Serie P No. 2 is a full-bodied Cuban cigar with bold earthy, leathery, and peppery flavors, offering a rich, spicy, and complex smoking experience.',
+
     filterCategories: ["Best seller", "New arrivals"],
     brand: "PARTAGÁS",
     isAvailable: true,
@@ -626,6 +606,8 @@ export const products1 = [
     imgSrc: "/images/products/26.jpg",
     imgHoverSrc: "/images/products/26.jpg",
     title: " Partagás Lusitanias",
+    description:'The Partagás Lusitanias is a full-bodied Cuban cigar, 49-ring gauge and 7.6 inches long, offering bold flavors of earth, leather, pepper, spice, and sweetness.',
+
     filterCategories: ["Best seller", "New arrivals"],
     brand: "PARTAGÁS",
     isAvailable: true,
@@ -649,6 +631,8 @@ export const products1 = [
     imgSrc: "/images/products/27.jpg",
     imgHoverSrc: "/images/products/27.jpg",
     title: " Partagás Serie E No. 2",
+    description:'The Partagás Serie E No. 2 is a medium to full-bodied Cuban cigar with rich earth, leather, spice, and sweetness notes, offering a complex, smooth experience.',
+
     filterCategories: ["Best seller", "New arrivals"],
     brand: "PARTAGÁS",
     isAvailable: true,
@@ -672,6 +656,8 @@ export const products1 = [
     imgSrc: "/images/products/28.jpg",
     imgHoverSrc: "/images/products/28.jpg",
     title: "  Partagás Serie D No. 5",
+    description:'The Partagás Serie D No. 5 is a bold, medium-to-full-bodied Cuban cigar with earthy, peppery, leathery notes and a touch of spice for a powerful smoke.',
+
     filterCategories: ["Best seller", "New arrivals"],
     brand: "PARTAGÁS",
     isAvailable: true,
@@ -697,6 +683,8 @@ export const products1 = [
     title: "  Hoyo de Monterrey Epicure No. 2",
     filterCategories: ["Best seller", "New arrivals"],
     brand: "HOYO DE MONTERREY",
+    description:'The Hoyo de Monterrey Epicure No. 2 is a medium-bodied Cuban cigar, offering smooth, creamy flavors with wood, leather, subtle spices, and delicate sweetness for an elegant experience.',
+
     isAvailable: true,
   },
   {
@@ -720,6 +708,8 @@ export const products1 = [
     title: "  Hoyo de Monterrey Double Coronas",
     filterCategories: ["Best seller", "New arrivals"],
     brand: "HOYO DE MONTERREY",
+    description:'The Hoyo de Monterrey Double Coronas is a medium to full-bodied Cuban cigar with cedar, earth, leather, and subtle spice, offering a balanced, complex smoking experience.',
+
     isAvailable: true,
   },
   {
@@ -743,6 +733,8 @@ export const products1 = [
     title: "Hoyo de Monterrey Epicure Especial",
     filterCategories: ["Best seller", "New arrivals"],
     brand: "HOYO DE MONTERREY",
+    description:'The Hoyo de Monterrey Epicure Especial is a medium-bodied Cuban cigar with creamy texture, rich wood, leather, and spice flavors, offering a refined, balanced smoking experience.',
+
     isAvailable: true,
   },
   {
@@ -766,6 +758,8 @@ export const products1 = [
     title: "Hoyo de Monterrey Petit Robusto",
     filterCategories: ["Best seller", "New arrivals"],
     brand: "HOYO DE MONTERREY",
+    description:'The Hoyo de Monterrey Petit Robusto is a medium-bodied Cuban cigar with cedar, earth, leather, spice, and sweetness, offering a quick, rich, and balanced smoke.',
+
     isAvailable: true,
   },
   {
@@ -789,6 +783,8 @@ export const products1 = [
     title: "H. Upmann Magnum 50",
     filterCategories: ["Best seller", "New arrivals"],
     brand: "H. UPMANN",
+    description:'The H. Upmann Magnum 50 is a medium to full-bodied Cuban cigar with balanced flavors of leather, earth, and spice, offering a rich, satisfying smoking experience.',
+
     isAvailable: true,
   },
   {
@@ -812,6 +808,8 @@ export const products1 = [
     title: " H. Upmann Magnum 46",
     filterCategories: ["Best seller", "New arrivals"],
     brand: "H. UPMANN",
+    description:'The H. Upmann Magnum 46 is a medium to full-bodied Cuban cigar, offering smooth draw, leather, wood, spice, and a balanced, rich smoking experience with elegance.',
+
     isAvailable: true,
   },
   {
@@ -835,6 +833,8 @@ export const products1 = [
     title: " H. Upmann Royal Robusto",
     filterCategories: ["Best seller", "New arrivals"],
     brand: "H. UPMANN",
+    description:'The H. Upmann Royal Robusto is a medium to full-bodied Cuban cigar with rich, balanced flavors of leather, wood, and spice, offering a smooth, satisfying smoke.',
+
     isAvailable: true,
   },
   {
@@ -858,6 +858,8 @@ export const products1 = [
     title: " H. Upmann Connossieur No. 1",
     filterCategories: ["Best seller", "New arrivals"],
     brand: "H. UPMANN",
+    description:'The H. Upmann Connoisseur No. 1 is a medium-bodied Cuban cigar with earth, cedar, leather, and spice notes, offering a refined, sophisticated smoking experience.',
+
     isAvailable: true,
   },
   {
@@ -881,6 +883,8 @@ export const products1 = [
     title: "  Bolívar Belicosos Finos",
     filterCategories: ["Best seller", "New arrivals"],
     brand: "BOLÍVAR",
+    description:'The Bolívar Belicosos Finos is a full-bodied Cuban cigar, offering bold flavors of earth, leather, spice, and dark chocolate. Perfect for seasoned aficionados seeking intensity.',
+
     isAvailable: true,
   },
   {
@@ -904,6 +908,8 @@ export const products1 = [
     title: "Bolívar Royal Coronas",
     filterCategories: ["Best seller", "New arrivals"],
     brand: "BOLÍVAR",
+    description:'The Bolívar Royal Coronas is a full-bodied Cuban cigar with bold flavors of earth, leather, spice, and sweetness, offering a complex, satisfying smoking experience.',
+
     isAvailable: true,
   },
   {
@@ -927,6 +933,8 @@ export const products1 = [
     title: " Bolívar Petit Coronas",
     filterCategories: ["Best seller", "New arrivals"],
     brand: "BOLÍVAR",
+    description:'The Bolívar Petit Coronas is a full-bodied Cuban cigar with earthy, leathery, spicy, and sweet flavors, offering a bold, satisfying, and compact smoking experience.',
+
     isAvailable: true,
   },
   {
@@ -950,6 +958,8 @@ export const products1 = [
     title: " Trinidad Fundadores",
     filterCategories: ["Best seller", "New arrivals"],
     brand: "TRINIDAD",
+    description:'The Trinidad Fundadores is a medium to full-bodied Cuban cigar with wood, earth, subtle spices, cream, and nutty flavors, offering a refined, balanced smoking experience.',
+
     isAvailable: true,
   },
   {
@@ -973,6 +983,8 @@ export const products1 = [
     title: " Trinidad Reyes",
     filterCategories: ["Best seller", "New arrivals"],
     brand: "TRINIDAD",
+    description:'The Trinidad Reyes is a medium-bodied Cuban cigar with a 40-ring gauge, offering smooth flavors of wood, earth, spices, and a creamy, balanced finish.',
+
     isAvailable: true,
   },
   {
@@ -996,6 +1008,8 @@ export const products1 = [
     title: " Trinidad Vigia",
     filterCategories: ["Best seller", "New arrivals"],
     brand: "TRINIDAD",
+    description:'The Trinidad Vigia is a full-bodied Cuban cigar with a 54-ring gauge, offering rich flavors of earth, wood, leather, pepper, spice, and sweetness for aficionados.',
+
     isAvailable: true,
   },
   {
@@ -1019,6 +1033,8 @@ export const products1 = [
     title: " Punch Punch",
     filterCategories: ["Best seller", "New arrivals"],
     brand: "PUNCH",
+    description:'The Punch Punch is a medium to full-bodied Cuban cigar with rich flavors of earth, spice, leather, sweetness, and pepper, offering a satisfying, complex smoking experience.',
+
     isAvailable: true,
   },
   {
@@ -1042,6 +1058,8 @@ export const products1 = [
     title: " Punch Double Coronas",
     filterCategories: ["Best seller", "New arrivals"],
     brand: "PUNCH",
+    description:'The Punch Double Coronas is a medium to full-bodied Cuban cigar with rich earthy, woody, leathery, and spicy notes, offering a long, bold, and satisfying smoke.',
+
     isAvailable: true,
   },
   {
@@ -1065,6 +1083,8 @@ export const products1 = [
     title: " Punch Double Coronas",
     filterCategories: ["Best seller", "New arrivals"],
     brand: "RAMÓN ALLONES",
+    description:'The Punch Double Coronas is a medium to full-bodied Cuban cigar with rich, complex flavors of earth, wood, leather, and a peppery finish. Ideal for aficionados.',
+
     isAvailable: true,
   },
   {
@@ -1088,6 +1108,8 @@ export const products1 = [
     title: " Ramón Allones Specially Selected",
     filterCategories: ["Best seller", "New arrivals"],
     brand: "RAMÓN ALLONES",
+    description:'The Ramón Allones Specially Selected is a medium to full-bodied Cuban cigar with rich flavors of leather, spice, earth, and cocoa, offering a satisfying, bold finish.',
+
     isAvailable: true,
   },
   {
@@ -1111,6 +1133,8 @@ export const products1 = [
     title: " uan López Selección No. 2",
     filterCategories: ["Best seller", "New arrivals"],
     brand: "JUAN LÓPEZ",
+    description:'The Juan López Selección No. 2 is a medium to full-bodied Cuban cigar with a rich flavor of earth, leather, spice, cocoa, and sweetness, offering a refined experience.',
+
     isAvailable: true,
   },
   {
@@ -1134,6 +1158,8 @@ export const products1 = [
     title: "  San Cristóbal de La Habana Principes",
     filterCategories: ["Best seller", "New arrivals"],
     brand: "SAN CRISTÓBAL",
+    description:'The San Cristóbal de La Habana Príncipes is a medium-bodied Cuban cigar, offering smooth wood, leather, earth, spice, and cream flavors for a refined, subtle experience.',
+
     isAvailable: true,
   },
   {
@@ -1157,6 +1183,8 @@ export const products1 = [
     title: "  Cuaba Distinguidos",
     filterCategories: ["Best seller", "New arrivals"],
     brand: "CUABA",
+    description:'The Cuaba Distinguidos is a full-bodied Cuban cigar with a 54-ring gauge, 5.9-inch length, pigtail cap, and rich flavors of wood, leather, spice, and sweetness.',
+
     isAvailable: true,
   },
   {
@@ -1180,6 +1208,8 @@ export const products1 = [
     title: "Diplomáticos No. 2",
     filterCategories: ["Best seller", "New arrivals"],
     brand: "DIPLOMÁTICOS",
+    description:'The Diplomáticos No. 2 is a medium-bodied Cuban cigar with creamy flavors, notes of cedar, earth, spices, and sweetness, offering a balanced, refined smoking experience.',
+
     isAvailable: true,
   },
 ]
@@ -2364,21 +2394,21 @@ export const products10 = [
   {
     id: 84,
     imgSrc: "/images/slider/skateboard-slider-01.jpg",
-    alt: "fashion-slideshow",
+    alt: "Cigars-slideshow",
     title: "Yow Surfskates Christenson Hole Shot Surfskate",
     price: 279.99,
   },
   {
     id: 85,
     imgSrc: "/images/slider/skateboard-slider-02.jpg",
-    alt: "fashion-slideshow",
+    alt: "Cigars-slideshow",
     title: "Element Skateboards Section Complete Skateboard",
     price: 71.99,
   },
   {
     id: 86,
     imgSrc: "/images/slider/skateboard-slider-03.jpg",
-    alt: "fashion-slideshow",
+    alt: "Cigars-slideshow",
     title: "Foundation Skateboards Star & Moon White Complete Skateboard",
     price: 89.99,
   },
@@ -3484,8 +3514,8 @@ export const products23 = [
     id: 150,
     imgSrc: "/images/products/glasses-4.jpg",
     imgHoverSrc: "/images/products/glasses-5.jpg",
-    alt: "FASHION GLASSES",
-    title: "FASHION GLASSES",
+    alt: "Cigars GLASSES",
+    title: "Cigars GLASSES",
     price: 30,
     colors: [
       {
@@ -3505,8 +3535,8 @@ export const products23 = [
     id: 151,
     imgSrc: "/images/products/glasses-7.jpg",
     imgHoverSrc: "/images/products/glasses-8.jpg",
-    alt: "PERSONALIZED FASHION GLASSES",
-    title: "PERSONALIZED FASHION GLASSES",
+    alt: "PERSONALIZED Cigars GLASSES",
+    title: "PERSONALIZED Cigars GLASSES",
     price: 30,
     colors: [
       {
@@ -3526,8 +3556,8 @@ export const products23 = [
     id: 152,
     imgSrc: "/images/products/glasses-10.jpg",
     imgHoverSrc: "/images/products/glasses-11.jpg",
-    alt: "FASHION EYE GLASSES",
-    title: "FASHION EYE GLASSES",
+    alt: "Cigars EYE GLASSES",
+    title: "Cigars EYE GLASSES",
     price: 30,
     colors: [
       {
@@ -3547,8 +3577,8 @@ export const products23 = [
     id: 153,
     imgSrc: "/images/products/glasses-13.jpg",
     imgHoverSrc: "/images/products/glasses-14.jpg",
-    alt: "FASHION EYE GLASSES V2",
-    title: "FASHION EYE GLASSES V2",
+    alt: "Cigars EYE GLASSES V2",
+    title: "Cigars EYE GLASSES V2",
     price: 30,
     colors: [
       {
@@ -3568,8 +3598,8 @@ export const products23 = [
     id: 154,
     imgSrc: "/images/products/glasses-16.jpg",
     imgHoverSrc: "/images/products/glasses-17.jpg",
-    alt: "FASHION EYE GLASSES V3",
-    title: "FASHION EYE GLASSES V3",
+    alt: "Cigars EYE GLASSES V3",
+    title: "Cigars EYE GLASSES V3",
     price: 30,
     colors: [
       {

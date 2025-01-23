@@ -31,8 +31,12 @@ export default function Subcollections() {
           >
             {collectionSlides2.map((slide, index) => (
               <SwiperSlide key={index}>
-                <div className="collection-item style-2 hover-img">
-                  <div className="collection-inner">
+                <div className="collection-item style-2 hover-img" style={{
+                  border: '1px solid rgb(204, 204, 204)',
+                  padding: '15px',
+                  boxSizing: 'border-box',
+                }}>
+                  <div className="collection-inner" >
                     <Link
                       href={`/shop-default`}
                       className="collection-image img-style"

@@ -4,11 +4,10 @@ import { slides, testimonials3 } from "@/data/testimonials";
 import { useState } from "react";
 import { Navigation, Pagination, Thumbs } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
-import Link from "next/link";
 import Image from "next/image";
+
 export default function Testimonials() {
   const [thumbsSwiper, setThumbsSwiper] = useState(null);
-
   return (
     <section
       className="flat-testimonial-v2 py-0 wow fadeInUp"
@@ -23,7 +22,7 @@ export default function Testimonials() {
               spaceBetween={30}
               className="tf-sw-tes-2"
               breakpoints={{
-                992: { spaceBetween: 40 },
+                992: { spaceBetween: 40 }, 
                 768: { spaceBetween: 30 },
               }}
               thumbs={{ swiper: thumbsSwiper }}
@@ -57,11 +56,8 @@ export default function Testimonials() {
                       <i className="icon-start" />
                       <i className="icon-start" />
                     </div>
-                    <p className="text">
-                      "The shipping is always fast and the customer service team
-                      is friendly and helpful. I highly recommend this site to
-                      anyone looking for affordable clothing."
-                    </p>
+                  
+
                     <div className="author box-author">
                       <div className="box-img d-md-none rounded-0">
                         <Image
@@ -79,7 +75,10 @@ export default function Testimonials() {
                           href={`#`} // Directly added href here
                           className="metas link"
                         >
+                          {testimonial.description}
+                          
                           Purchase item :{" "}
+                          
                           <span>{testimonial.purchaseItem}</span>
                         </a>
                       </div>
@@ -112,9 +111,8 @@ export default function Testimonials() {
                   <div className="grid-img-group style-ter-1">
                     {slide.images.map((image, idx) => (
                       <div
-                        className={`box-img item-${
-                          idx + 1
-                        } hover-img testimonial-hover-skincare`}
+                        className={`box-img item-${idx + 1
+                          } hover-img testimonial-hover-skincare`}
                         key={idx}
                       >
                         <div className="img-style">

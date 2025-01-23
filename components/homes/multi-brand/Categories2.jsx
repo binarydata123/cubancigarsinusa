@@ -38,7 +38,11 @@ export default function Categories2() {
             {collections2.map((collection, index) => (
               <SwiperSlide key={index}>
                 <div className="collection-item style-2 hover-img">
-                  <div className="collection-inner">
+                  <div className="collection-inner" style={{
+                    border: '1px solid rgb(204, 204, 204)',
+                    padding: '15px',
+                    boxSizing: 'border-box',
+                  }}>
                     <Link
                       href={`/shop-collection-sub`} // Directly added href here
                       className="collection-image img-style"

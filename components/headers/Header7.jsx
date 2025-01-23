@@ -11,7 +11,7 @@ export default function Header7() {
         <div className="container-full px_15 lg-px_40">
           <div className="row wrapper-header align-items-center">
             <div className="col-xl-5 tf-md-hidden">
-              <ul className="header-list-categories">
+              {/* <ul className="header-list-categories">
                 <li className="categories-item active">
                   <Link href={`/home-multi-brand`} className="text-uppercase">
                     Women
@@ -32,7 +32,54 @@ export default function Header7() {
                     Find a Store
                   </Link>
                 </li>
-              </ul>
+              </ul> */}
+              <div className="header-bottom line">
+                <div className="container-full px_15 lg-px_40">
+                  <div className="wrapper-header d-flex justify-content-center align-items-center">
+                    <nav className="box-navigation text-center">
+                      <ul className="box-nav-ul d-flex align-items-center justify-content-center gap-30">
+                        <Nav />
+                        {/* <li className="menu-item">
+                          <a
+                            href="https://themeforest.net/item/ecomus-ultimate-html5-template/53417990?s_rank=3"
+                            className="item-link"
+                          >
+                            Buy now
+                          </a>
+                        </li> */}
+                      </ul>
+                    </nav>
+                    <ul className="header-list-categories tf-lg-hidden">
+                      <li className="categories-item active">
+                        <Link
+                          href={`/home-multi-brand`}
+                          className="text-uppercase"
+                        >
+                          Women
+                        </Link>
+                      </li>
+                      <li className="categories-item">
+                        <Link href={`/home-men`} className="text-uppercase">
+                          Men
+                        </Link>
+                      </li>
+                      <li className="categories-item">
+                        <Link href={`/home-kids`} className="text-uppercase">
+                          Kids
+                        </Link>
+                      </li>
+                      <li className="categories-item">
+                        <Link
+                          href={`/store-locations`}
+                          className="text-uppercase"
+                        >
+                          Find a Store
+                        </Link>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
             </div>
             <div className="col-md-4 col-3 tf-lg-hidden">
               <a
@@ -108,47 +155,6 @@ export default function Header7() {
                 </li>
               </ul>
             </div>
-          </div>
-        </div>
-      </div>
-      <div className="header-bottom line">
-        <div className="container-full px_15 lg-px_40">
-          <div className="wrapper-header d-flex justify-content-center align-items-center">
-            <nav className="box-navigation text-center">
-              <ul className="box-nav-ul d-flex align-items-center justify-content-center gap-30">
-                <Nav />
-                <li className="menu-item">
-                  <a
-                    href="https://themeforest.net/item/ecomus-ultimate-html5-template/53417990?s_rank=3"
-                    className="item-link"
-                  >
-                    Buy now
-                  </a>
-                </li>
-              </ul>
-            </nav>
-            <ul className="header-list-categories tf-lg-hidden">
-              <li className="categories-item active">
-                <Link href={`/home-multi-brand`} className="text-uppercase">
-                  Women
-                </Link>
-              </li>
-              <li className="categories-item">
-                <Link href={`/home-men`} className="text-uppercase">
-                  Men
-                </Link>
-              </li>
-              <li className="categories-item">
-                <Link href={`/home-kids`} className="text-uppercase">
-                  Kids
-                </Link>
-              </li>
-              <li className="categories-item">
-                <Link href={`/store-locations`} className="text-uppercase">
-                  Find a Store
-                </Link>
-              </li>
-            </ul>
           </div>
         </div>
       </div>

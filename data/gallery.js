@@ -1,36 +1,36 @@
 export const galleryImages = [
   {
-    imgSrc: "/images/shop/gallery/gallery-7.jpg",
+    imgSrc: "/images/shop/gallery/galleryOne.jpg",
     alt: "image-gallery",
     width: 400,
     height: 400,
   },
   {
-    imgSrc: "/images/shop/gallery/gallery-3.jpg",
+    imgSrc: "/images/shop/gallery/galleryTwo.jpg",
     alt: "image-gallery",
     width: 400,
     height: 400,
   },
   {
-    imgSrc: "/images/shop/gallery/gallery-5.jpg",
+    imgSrc: "/images/shop/gallery/galleryThree.jpg",
     alt: "image-gallery",
     width: 400,
     height: 401,
   },
   {
-    imgSrc: "/images/shop/gallery/gallery-8.jpg",
+    imgSrc: "/images/shop/gallery/galleryFour.jpg",
     alt: "image-gallery",
     width: 400,
     height: 400,
   },
   {
-    imgSrc: "/images/shop/gallery/gallery-6.jpg",
+    imgSrc: "/images/shop/gallery/gallerySix.jpg",
     alt: "image-gallery",
     width: 400,
     height: 400,
   },
   {
-    imgSrc: "/images/shop/gallery/gallery-5.jpg",
+    imgSrc: "/images/shop/gallery/galleryFive.jpg",
     alt: "image-gallery",
     width: 400,
     height: 401,
