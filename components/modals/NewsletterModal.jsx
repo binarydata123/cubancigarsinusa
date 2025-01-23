@@ -67,18 +67,18 @@ export default function NewsletterModal() {
           <div className="modal-top">
             <Image
               className="lazyload"
-              data-src="/images/item/banner-newleter.jpg"
+              data-src="/images/slider/cigar-aroma-the-smoke-rising-off-the-cig.jpeg"
               alt="home-01"
               width={938}
-              height={538}
-              src="/images/item/banner-newleter.jpg"
+              height={300}
+              src="/images/slider/cigar-aroma-the-smoke-rising-off-the-cig.jpeg"
             />
             <span
               className="icon icon-close btn-hide-popup"
               data-bs-dismiss="modal"
             />
           </div>
-          <div className="modal-bottom">
+          <div className="modal-bottom" style={{padding: '-300px'}}>
             <h4 className="text-center">Don’t miss out</h4>
             <h6 className="text-center">
               Be the first one to get the new product at early bird prices.

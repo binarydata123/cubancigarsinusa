@@ -1164,7 +1164,7 @@ export const recentCollections5 = [
   {
     imgSrc: "/images/collections/banner-collection-handbag2.jpg",
     alt: "collection-img",
-    subheading: "NEW FASHION",
+    subheading: "NEW Cigars",
     heading: "Handbag Collection",
     wowDelay: "0s",
   },
@@ -1178,7 +1178,7 @@ export const recentCollections5 = [
   {
     imgSrc: "/images/collections/banner-collection-handbag2.jpg",
     alt: "collection-img",
-    subheading: "NEW FASHION",
+    subheading: "NEW Cigars",
     heading: "Handbag Collection",
     wowDelay: "0s",
   },
@@ -1934,7 +1934,7 @@ export const collectionCircles = [
     alt: "collection-img",
     width: 160,
     height: 160,
-    title: "New Arrivals",
+    title: "Cohiba",
   },
   {
     id: "circle-2",
@@ -1943,7 +1943,7 @@ export const collectionCircles = [
     alt: "collection-img",
     width: 160,
     height: 160,
-    title: "Best Selling Cigars",
+    title: "Montecristo",
   },
   {
     id: "circle-3",
@@ -1952,7 +1952,7 @@ export const collectionCircles = [
     alt: "collection-img",
     width: 160,
     height: 162,
-    title: "Top Rated Cigars",
+    title: "Romeo y Julieta",
   },
   {
     id: "circle-4",
@@ -1961,7 +1961,7 @@ export const collectionCircles = [
     alt: "collection-img",
     width: 160,
     height: 162,
-    title: "Premium Brands",
+    title: "Partagas",
   },
   {
     id: "circle-5",
@@ -1970,7 +1970,7 @@ export const collectionCircles = [
     alt: "collection-img",
     width: 160,
     height: 160,
-    title: "Trending Cigars",
+    title: "H. Upmann",
   },
   {
     id: "circle-6",
@@ -1979,15 +1979,15 @@ export const collectionCircles = [
     alt: "collection-img",
     width: 160,
     height: 160,
-    title: "Exclusive Cigars",
-    hasSale: true,
-    saleText: "30% off",
+    title: "Arturo Fuente",
+    // hasSale: true,
+    // saleText: "30% off",
   },
 ];
 
 
 export const categories = [
-  { name: "Fashion", count: 31, className: "current" },
+  { name: "Cigars", count: 31, className: "current" },
   { name: "Men", count: 9, className: "" },
   { name: "Women", count: 23, className: "" },
   { name: "Denim", count: 20, className: "" },
