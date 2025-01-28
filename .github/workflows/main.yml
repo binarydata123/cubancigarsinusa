@@ -18,7 +18,7 @@ jobs:
           mkdir -p ~/.ssh
           echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
           chmod 600 ~/.ssh/id_rsa
-          # Verify key is added correctly
+          # Verify key is added correctly (optional for debugging)
           cat ~/.ssh/id_rsa
 
       - name: SSH to VPS and deploy
