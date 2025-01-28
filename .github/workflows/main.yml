@@ -18,16 +18,17 @@ jobs:
         with:
           host: ${{ secrets.SSH_HOST }}
           username: ${{ secrets.SSH_USER }}
-          password: ${{ secrets.SSH_PASSWORD }}  # Here use SSH_PASSWORD instead of SSH_PRIVATE_KEY
+          password: ${{ secrets.SSH_PASSWORD }}
           script: |
+            # Set Git user details to avoid author identity issues
+            
 
-             # Install Node.js and npm
+            # Install Node.js and npm
             sudo apt update
             sudo apt install -y nodejs npm
-            
-            cd /home/cubancigarsinusa/public_html/cubancigarsinusa/
-            git add .
-            git commit -m "merge previous changes"
+
+            # Deploy application
+            cd /home/cubancigarsinusa/public_html/cubancigarsinusa/  # Correct path
             git pull origin main
             npm run setup
             npm run build
