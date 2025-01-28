@@ -18,7 +18,7 @@ jobs:
         with:
           host: ${{ secrets.SSH_HOST }}
           username: ${{ secrets.SSH_USER }}
-          password: ${{ secrets.SSH_PRIVATE_KEY }}
+          password: ${{ secrets.SSH_PASSWORD }}  # Here use SSH_PASSWORD instead of SSH_PRIVATE_KEY
           script: |
             cd /home/cubancigarsinusa/public_html/
             git add .
