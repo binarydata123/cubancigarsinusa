@@ -20,6 +20,11 @@ jobs:
           username: ${{ secrets.SSH_USER }}
           password: ${{ secrets.SSH_PASSWORD }}  # Here use SSH_PASSWORD instead of SSH_PRIVATE_KEY
           script: |
+
+             # Install Node.js and npm
+            sudo apt update
+            sudo apt install -y nodejs npm
+            
             cd /home/cubancigarsinusa/public_html/cubancigarsinusa/
             git add .
             git commit -m "merge previous changes"
