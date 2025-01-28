@@ -17,7 +17,6 @@ export async function generateStaticParams() {
   }));
 }
 
-// fetch data
 export default function page({ params }) {
   const blog = allBlogs.filter((elm) => elm.id == params.id)[0] || allBlogs[0];
   return (
