@@ -21,9 +21,13 @@ jobs:
           password: ${{ secrets.SSH_PASSWORD }}
           script: |
             # Set Git user details to avoid author identity issues
-            
+            git config --global user.email binarydata.sales@gmail.com
+            git config --global user.name binarydata123
 
-            # Install Node.js and npm
+            # Set pull.rebase option to avoid divergent branches error
+            git config pull.rebase false
+
+            # Install Node.js and npm without requiring sudo password
             sudo apt update
             sudo apt install -y nodejs npm
 
