@@ -92,27 +92,52 @@ export default function RootLayout({ children }) {
       window.removeEventListener("scroll", handleScroll);
     };
   }, [pathname]);
+
+  // useEffect(() => {
+  //   // Close any open modal
+  //   const bootstrap = require("bootstrap"); // dynamically import bootstrap
+  //   const modalElements = document.querySelectorAll(".modal.show");
+  //   modalElements.forEach((modal) => {
+  //     const modalInstance = bootstrap.Modal.getInstance(modal);
+  //     if (modalInstance) {
+  //       modalInstance.hide();
+  //     }
+  //   });
+
+  //   // Close any open offcanvas
+  //   const offcanvasElements = document.querySelectorAll(".offcanvas.show");
+  //   offcanvasElements.forEach((offcanvas) => {
+  //     const offcanvasInstance = bootstrap.Offcanvas.getInstance(offcanvas);
+  //     if (offcanvasInstance) {
+  //       offcanvasInstance.hide();
+  //     }
+  //   });
+  // }, [pathname]); // Runs every time the route changes
+
   useEffect(() => {
-    // Close any open modal
-    const bootstrap = require("bootstrap"); // dynamically import bootstrap
-    const modalElements = document.querySelectorAll(".modal.show");
-    modalElements.forEach((modal) => {
-      const modalInstance = bootstrap.Modal.getInstance(modal);
-      if (modalInstance) {
-        modalInstance.hide();
-      }
-    });
-
-    // Close any open offcanvas
-    const offcanvasElements = document.querySelectorAll(".offcanvas.show");
-    offcanvasElements.forEach((offcanvas) => {
-      const offcanvasInstance = bootstrap.Offcanvas.getInstance(offcanvas);
-      if (offcanvasInstance) {
-        offcanvasInstance.hide();
-      }
-    });
+    // Dynamically import bootstrap only on the client-side
+    if (typeof window !== "undefined") {
+      import("bootstrap").then((bootstrap) => {
+        const modalElements = document.querySelectorAll(".modal.show");
+        modalElements.forEach((modal) => {
+          const modalInstance = bootstrap.Modal.getInstance(modal);
+          if (modalInstance) {
+            modalInstance.hide();
+          }
+        });
+  
+        // Close any open offcanvas
+        const offcanvasElements = document.querySelectorAll(".offcanvas.show");
+        offcanvasElements.forEach((offcanvas) => {
+          const offcanvasInstance = bootstrap.Offcanvas.getInstance(offcanvas);
+          if (offcanvasInstance) {
+            offcanvasInstance.hide();
+          }
+        });
+      });
+    }
   }, [pathname]); // Runs every time the route changes
-
+  
   useEffect(() => {
     const header = document.querySelector("header");
     if (header) {
@@ -123,14 +148,28 @@ export default function RootLayout({ children }) {
       }
     }
   }, [scrollDirection]);
+  // useEffect(() => {
+  //   const { WOW } = require("wowjs");
+  //   const wow = new WOW({
+  //     mobile: false,
+  //     live: false,
+  //   });
+  //   wow.init();
+  // }, [pathname]);
   useEffect(() => {
-    const { WOW } = require("wowjs");
-    const wow = new WOW({
-      mobile: false,
-      live: false,
-    });
-    wow.init();
+    // Dynamically import WOW.js only on the client-side
+    if (typeof window !== "undefined") {
+      import("wowjs").then((module) => {
+        const { WOW } = module;
+        const wow = new WOW({
+          mobile: false,
+          live: false,
+        });
+        wow.init();
+      });
+    }
   }, [pathname]);
+  
 
   useEffect(() => {
     const initializeDirection = () => {
@@ -155,6 +194,11 @@ export default function RootLayout({ children }) {
 
   return (
     <html lang="en">
+      <head>
+      <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+      <link rel="manifest" href="/site.webmanifest" />
+
+      </head>
       <body className="preload-wrapper">
         <div className="preload preload-container" id="preloader">
           <div className="preload-logo">

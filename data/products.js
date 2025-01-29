@@ -4,7 +4,7 @@ export const products1 = [
     imgSrc: "/images/products/one.jpg",
     imgHoverSrc: "/images/products/one.jpg",
     title: "Cohiba Behike BHK 52",
-    price: 16.95,
+    price: 1200,
     description:
       "The Cohiba Behike BHK 52, a 4 3/4 x 52 Cuban cigar, features rare Medio Tiempo leaves, exceptional flavor complexity, and luxurious 10-cigar boxes.",
     filterCategories: ["Best seller", "On Sale"],

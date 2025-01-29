@@ -37,7 +37,7 @@ export default function Footer6() {
                       <Image
                         alt="image"
                         src="/images/logo/logo.svg"
-                        width={136}
+                        width={100}
                         height={21}
                       />
                     </Link>
@@ -45,8 +45,11 @@ export default function Footer6() {
                   <ul>
                     <li>
                       <p>
-                        Address: 1234 Fashion Street, Suite 567, <br />
-                        New York, NY 10001
+                      Address: Caribbean Place, <br />
+                        248 West Bay Road
+                        Seven Mile Beach, <br />
+                        Grand Cayman KY1-1204, <br />
+                        Cayman Islands
                       </p>
                     </li>
                     <li>

@@ -24,7 +24,11 @@ export default function Map2() {
                 <p className="mb_15">
                   <strong>Address</strong>
                 </p>
-                <p>66 Mott St, New York, New York, Zip Code: 10006, AS</p>
+                <p>Caribbean Place
+                  248 West Bay Road
+                  Seven Mile Beach
+                  Grand Cayman KY1-1204
+                  Cayman Islands</p>
               </div>
               <div className="mb_20">
                 <p className="mb_15">

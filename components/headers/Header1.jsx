@@ -34,9 +34,9 @@ export default function Header1() {
               <Image
                 alt="logo"
                 className="logo"
-                src="/images/logo/logo.svg"
+                src="/images/logo/logo.png"
                 width="136"
-                height="21"
+                height="10"
               />
             </Link>
           </div>

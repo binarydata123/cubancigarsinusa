@@ -40,86 +40,89 @@ export default function MobileMenu() {
         data-bs-dismiss="offcanvas"
         aria-label="Close"
       />
-     <div className="mb-canvas-content">
-  <div className="mb-body">
-    <ul className="nav-ul-mb" id="wrapper-menu-navigation">
-      <li className="nav-mb-item">
-        <a href="/home-multi-brand" className="mb-menu-link current">
-          <span>Home</span>
-        </a>
-      </li>
-      <li className="nav-mb-item">
-        <a href="/about-us" className="mb-menu-link">
-          <span>About Us</span>
-        </a>
-      </li>
-      <li className="nav-mb-item">
-        <a href="/shop-default" className="mb-menu-link">
-          <span>Shop</span>
-        </a>
-      </li>
-      <li className="nav-mb-item">
-        <a href="/blog-list" className="mb-menu-link">
-          <span>Blog</span>
-        </a>
-      </li>
-    
-      <li className="nav-mb-item">
-        <a href="/contact-1" className="mb-menu-link">
-          <span>Contact Us</span>
-        </a>
-      </li>
-    </ul>
+      <div className="mb-canvas-content">
+        <div className="mb-body">
+          <ul className="nav-ul-mb" id="wrapper-menu-navigation">
+            <li className="nav-mb-item">
+              <a href="/home-multi-brand" className="mb-menu-link current">
+                <span>Home</span>
+              </a>
+            </li>
+            <li className="nav-mb-item">
+              <a href="/about-us" className="mb-menu-link">
+                <span>About Us</span>
+              </a>
+            </li>
+            <li className="nav-mb-item">
+              <a href="/shop-default" className="mb-menu-link">
+                <span>Shop</span>
+              </a>
+            </li>
+            <li className="nav-mb-item">
+              <a href="/blog-list" className="mb-menu-link">
+                <span>Blog</span>
+              </a>
+            </li>
 
-    <div className="mb-other-content">
-      <div className="d-flex group-icon">
-        <Link href={`/wishlist`} className="site-nav-icon">
-          <i className="icon icon-heart" />
-          Wishlist
-        </Link>
-        <Link href={`/home-search`} className="site-nav-icon">
-          <i className="icon icon-search" />
-          Search
-        </Link>
+            <li className="nav-mb-item">
+              <a href="/contact-1" className="mb-menu-link">
+                <span>Contact Us</span>
+              </a>
+            </li>
+          </ul>
+
+          <div className="mb-other-content">
+            <div className="d-flex group-icon">
+              <Link href={`/wishlist`} className="site-nav-icon">
+                <i className="icon icon-heart" />
+                Wishlist
+              </Link>
+              <Link href={`/home-search`} className="site-nav-icon">
+                <i className="icon icon-search" />
+                Search
+              </Link>
+            </div>
+            <div className="mb-notice">
+              <Link href={`/contact-1`} className="text-need">
+                Need help ?
+              </Link>
+            </div>
+            <ul className="mb-info">
+              <li>
+                Address: Caribbean Place, <br />
+                248 West Bay Road
+                Seven Mile Beach, <br />
+                Grand Cayman KY1-1204, <br />
+                Cayman Islands
+              </li>
+              <li>
+                Email: <b>info@fashionshop.com</b>
+              </li>
+              <li>
+                Phone: <b>(212) 555-1234</b>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div className="mb-bottom">
+          <Link href={`/login`} className="site-nav-icon">
+            <i className="icon icon-account" />
+            Login
+          </Link>
+          <div className="bottom-bar-language">
+            <div className="tf-currencies">
+              <CurrencySelect />
+            </div>
+            <div className="tf-languages">
+              <LanguageSelect
+                parentClassName={
+                  "image-select center style-default type-languages"
+                }
+              />
+            </div>
+          </div>
+        </div>
       </div>
-      <div className="mb-notice">
-        <Link href={`/contact-1`} className="text-need">
-          Need help ?
-        </Link>
-      </div>
-      <ul className="mb-info">
-        <li>
-          Address: 1234 Fashion Street, Suite 567, <br />
-          New York, NY 10001
-        </li>
-        <li>
-          Email: <b>info@fashionshop.com</b>
-        </li>
-        <li>
-          Phone: <b>(212) 555-1234</b>
-        </li>
-      </ul>
-    </div>
-  </div>
-  <div className="mb-bottom">
-    <Link href={`/login`} className="site-nav-icon">
-      <i className="icon icon-account" />
-      Login
-    </Link>
-    <div className="bottom-bar-language">
-      <div className="tf-currencies">
-        <CurrencySelect />
-      </div>
-      <div className="tf-languages">
-        <LanguageSelect
-          parentClassName={
-            "image-select center style-default type-languages"
-          }
-        />
-      </div>
-    </div>
-  </div>
-</div>
 
     </div>
   );
