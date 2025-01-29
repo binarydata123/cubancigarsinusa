@@ -26,7 +26,7 @@ export default function Footer7({ bgColor = "" }) {
         heading.removeEventListener("click", toggleOpen);
       });
     };
-  }, []); // Empty dependency array means this will run only once on mount
+  }, []); // Empty dependency array means this will run only once on moun
 
   const formRef = useRef();
   const [success, setSuccess] = useState(true);
