@@ -16,13 +16,13 @@ jobs:
       - name: SSH to VPS and deploy
         uses: appleboy/ssh-action@master
         with:
-          host: ${{ secrets.SSH_HOST }}
-          username: ${{ secrets.SSH_USER }}
-          password: ${{ secrets.SSH_PRIVATE_KEY }}
+          host: 162.0.226.65
+          username: cubancigarsinusa
+          password: 9p9(3RUfLy_1
           script: |
             cd /home/cubancigarsinusa/public_html
             git add .
             git commit -m "merge previous changes"
             git pull origin main
-            npm run setup
+            npm install
             npm run build
