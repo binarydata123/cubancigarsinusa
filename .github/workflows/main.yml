@@ -20,9 +20,9 @@ jobs:
           username: cubancigarsinusa
           password: 9p9(3RUfLy_1
           script: |
-            cd /home/cubancigarsinusa/public_html
+            cd /home/cubancigarsinusa/repositories/cubancigarsinusa	
             git add .
             git commit -m "merge previous changes"
             git pull origin main
             npm install
-            npm run build
+            npm run export
