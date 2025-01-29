@@ -16,9 +16,9 @@ jobs:
       - name: SSH to VPS and deploy
         uses: appleboy/ssh-action@master
         with:
-          host: 162.0.226.65
-          username: cubancigarsinusa
-          password: 9p9(3RUfLy_1
+          host: ${{ secrets.SSH_HOST }}
+          username: ${{ secrets.SSH_USER }}
+          password: ${{ secrets.SSH_PASSWORD }}
           script: |
             cd /home/cubancigarsinusa/repositories/cubancigarsinusa	
             git add .
@@ -26,3 +26,4 @@ jobs:
             git pull origin main
             npm install
             npm run export
+
