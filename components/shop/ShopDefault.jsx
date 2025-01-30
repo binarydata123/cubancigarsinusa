@@ -1,15 +1,21 @@
 "use client";
 import { layouts } from "@/data/shop";
 import ProductGrid from "./ProductGrid";
-import { useState } from "react";
+import { useState, useEffect  } from "react";
 import Pagination from "../common/Pagination";
 import ShopFilter from "./ShopFilter";
 import Sorting from "./Sorting";
+import { products1 } from "@/data/products";
 
 export default function ShopDefault() {
   const [gridItems, setGridItems] = useState(4);
   const [products, setProducts] = useState([]);
   const [finalSorted, setFinalSorted] = useState([]);
+
+  useEffect(()=>{
+    setProducts(products1);
+    setFinalSorted(products1);
+  }, )
 
   return (
     <>

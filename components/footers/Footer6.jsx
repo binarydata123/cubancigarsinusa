@@ -54,7 +54,8 @@ export default function Footer6() {
                     </li>
                     <li>
                       <p>
-                        Email: <a href="#">info@fashionshop.com</a>
+                        Email: <a href="#">info@cubancigarsinusa.com
+                        </a>
                       </p>
                     </li>
                     <li>
@@ -180,7 +181,7 @@ export default function Footer6() {
             </div>
           </div>
         </div>
-        <div className="footer-bottom">
+        {/* <div className="footer-bottom">
           <div className="container">
             <div className="row">
               <div className="col-12">
@@ -204,7 +205,7 @@ export default function Footer6() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </footer>
   );

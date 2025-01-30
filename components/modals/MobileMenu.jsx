@@ -96,7 +96,7 @@ export default function MobileMenu() {
                 Cayman Islands
               </li>
               <li>
-                Email: <b>info@fashionshop.com</b>
+                Email: <b> info@cubancigarsinusa.com</b>
               </li>
               <li>
                 Phone: <b>(212) 555-1234</b>

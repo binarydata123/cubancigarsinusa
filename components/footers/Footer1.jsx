@@ -86,7 +86,8 @@ export default function Footer1({ bgColor = "" }) {
                     </li>
                     <li>
                       <p>
-                        Email: <a href="#">info@fashionshop.com</a>
+                        Email: <a href="#">info@cubancigarsinusa.com
+                        </a>
                       </p>
                     </li>
                     <li>
@@ -257,12 +258,13 @@ export default function Footer1({ bgColor = "" }) {
           <div className="container">
             <div className="row">
               <div className="col-12">
-                <div className="footer-bottom-wrap d-flex gap-20 flex-wrap justify-content-between align-items-center">
-                  <div className="footer-menu_item">
-                    © {new Date().getFullYear()} Ecomus Store. All Rights
-                    Reserved
-                  </div>
-                  <div className="tf-payment">
+              <div className="footer-bottom-wrap d-flex flex-wrap justify-center align-items-center">
+  <div className="footer-menu_item" style={{ textAlign: 'center', width: '100%' }}>
+    © {new Date().getFullYear()}. All Rights Reserved
+  </div>
+
+
+                  {/* <div className="tf-payment">
                     {paymentImages.map((image, index) => (
                       <Image
                         key={index}
@@ -272,7 +274,7 @@ export default function Footer1({ bgColor = "" }) {
                         alt={image.alt}
                       />
                     ))}
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
