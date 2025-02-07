@@ -69,7 +69,7 @@ export default function Footer1({ bgColor = "" }) {
                       <Image
                         alt="image"
                         src="/images/logo/logo.svg"
-                        width="136"
+                        width="100"
                         height="21"
                       />
                     </Link>
@@ -77,13 +77,17 @@ export default function Footer1({ bgColor = "" }) {
                   <ul>
                     <li>
                       <p>
-                        Address: 1234 Fashion Street, Suite 567, <br />
-                        New York, NY 10001
+                        Address: Caribbean Place, <br />
+                        248 West Bay Road
+                        Seven Mile Beach, <br />
+                        Grand Cayman KY1-1204, <br />
+                        Cayman Islands
                       </p>
                     </li>
                     <li>
                       <p>
-                        Email: <a href="#">info@fashionshop.com</a>
+                        Email: <a href="#">info@cubancigarsinusa.com
+                        </a>
                       </p>
                     </li>
                     <li>
@@ -188,9 +192,8 @@ export default function Footer1({ bgColor = "" }) {
                       exclusive content, events and more!
                     </div>
                     <div
-                      className={`tfSubscribeMsg ${
-                        showMessage ? "active" : ""
-                      }`}
+                      className={`tfSubscribeMsg ${showMessage ? "active" : ""
+                        }`}
                     >
                       {success ? (
                         <p style={{ color: "rgb(52, 168, 83)" }}>
@@ -255,12 +258,13 @@ export default function Footer1({ bgColor = "" }) {
           <div className="container">
             <div className="row">
               <div className="col-12">
-                <div className="footer-bottom-wrap d-flex gap-20 flex-wrap justify-content-between align-items-center">
-                  <div className="footer-menu_item">
-                    © {new Date().getFullYear()} Ecomus Store. All Rights
-                    Reserved
-                  </div>
-                  <div className="tf-payment">
+              <div className="footer-bottom-wrap d-flex flex-wrap justify-center align-items-center">
+  <div className="footer-menu_item" style={{ textAlign: 'center', width: '100%' }}>
+    © {new Date().getFullYear()}. All Rights Reserved
+  </div>
+
+
+                  {/* <div className="tf-payment">
                     {paymentImages.map((image, index) => (
                       <Image
                         key={index}
@@ -270,7 +274,7 @@ export default function Footer1({ bgColor = "" }) {
                         alt={image.alt}
                       />
                     ))}
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>

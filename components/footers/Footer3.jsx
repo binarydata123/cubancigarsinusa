@@ -201,7 +201,7 @@ export default function Footer3() {
             </div>
           </div>
         </div>
-        <div className="footer-bottom">
+        {/* <div className="footer-bottom">
           <div className="container">
             <div className="row">
               <div className="col-12">
@@ -225,7 +225,7 @@ export default function Footer3() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </footer>
   );

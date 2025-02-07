@@ -18,11 +18,12 @@ jobs:
         with:
           host: ${{ secrets.SSH_HOST }}
           username: ${{ secrets.SSH_USER }}
-          password: ${{ secrets.SSH_PRIVATE_KEY }}
+          password: ${{ secrets.SSH_PASSWORD }}
           script: |
-            cd /home/cubancigarsinusa/public_html/
+            cd /home/cubancigarsinusa/repositories/cubancigarsinusa	
             git add .
             git commit -m "merge previous changes"
             git pull origin main
-            npm run setup
-            npm run build
+            npm install
+            npm run export
+
