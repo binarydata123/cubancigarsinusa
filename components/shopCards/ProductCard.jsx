@@ -26,7 +26,7 @@ export const ProductCard = ({ product }) => {
       boxSizing: 'border-box', 
     }}>
       <div className="card-product-wrapper">
-        <Link href={`/product-detail/${product.id}`} className="product-img">
+        <Link href={`/product/${product.slug}`} className="product-img">
           <Image
             className="lazyload img-product"
             data-src={product.imgSrc}
@@ -49,7 +49,7 @@ export const ProductCard = ({ product }) => {
         <div className="list-product-btn">
           <a
             href="#quick_add"
-            onClick={() => setQuickAddItem(product.id)}
+            onClick={() => setQuickAddItem(product.slug)}
             data-bs-toggle="modal"
             className="box-icon bg_white quick-add tf-btn-loading"
           >
@@ -118,7 +118,7 @@ export const ProductCard = ({ product }) => {
         )}
       </div>
       <div className="card-product-info">
-        <Link href={`/product-detail/${product.id}`} className="title link">
+        <Link href={`/product/${product.slug}`} className="title link">
           {product.title}
         </Link>
         <span className="price">${product.price.toFixed(2)}</span>

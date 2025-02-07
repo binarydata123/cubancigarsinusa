@@ -10,6 +10,7 @@ export const products1 = [
     filterCategories: ["Best seller", "On Sale"],
     brand: "COHIBA",
     isAvailable: true,
+    slug: "cohiba-behike-bhk-52",
   },
   {
     id: 2,
@@ -22,6 +23,8 @@ export const products1 = [
     filterCategories: ["Best seller", "New arrivals"],
     brand: "COHIBA",
     isAvailable: false,
+    slug: "cohiba-esplendidos",
+
   },
   {
     id: 3,
@@ -34,6 +37,8 @@ export const products1 = [
     filterCategories: ["Best seller", "On Sale"],
     brand: "COHIBA",
     isAvailable: true,
+    slug: "cohiba-robustos",
+
   },
   {
     id: 4,
@@ -46,6 +51,8 @@ export const products1 = [
     filterCategories: ["Best seller", "On Sale"],
     brand: "COHIBA",
     isAvailable: true,
+    slug: "cohiba-siglo-vi",
+
   },
   {
     id: 5,
@@ -58,6 +65,8 @@ export const products1 = [
     filterCategories: ["Best seller", "New arrivals"],
     brand: "Ecomus",
     isAvailable: true,
+    slug: "cohiba-behike-bhk-54",
+
   },
 
   {
@@ -102,6 +111,8 @@ export const products1 = [
     filterCategories: ["Best seller", "New arrivals"],
     brand: "COHIBA",
     isAvailable: true,
+    slug: "cohiba-maduro-5-genios",
+
   },
   {
     id: 7,
@@ -142,6 +153,8 @@ export const products1 = [
     filterCategories: ["Best seller", "New arrivals", "On Sale"],
     brand: "COHIBA",
     isAvailable: false,
+    slug: "cohiba-siglo-iv",
+
   },
   {
     id: 8,
@@ -155,6 +168,7 @@ export const products1 = [
     filterCategories: ["Best seller", "New arrivals", "On Sale"],
     brand: "COHIBA",
     isAvailable: false,
+    slug:"cohiba-behike-bhk-56",
   },
   {
     id: 9,
@@ -180,6 +194,7 @@ export const products1 = [
     filterCategories: ["Best seller", "New arrivals", "On Sale"],
     brand: "COHIBA",
     isAvailable: true,
+    slug: "cohiba-panetelas",
   },
   {
     id: 10,
@@ -205,6 +220,7 @@ export const products1 = [
     filterCategories: ["Best seller", "New arrivals", "On Sale"],
     brand: "COHIBA",
     isAvailable: true,
+    slug: "cohiba-lanceros",
   },
   {
     id: 11,
@@ -235,6 +251,7 @@ export const products1 = [
     filterCategories: ["Best seller", "New arrivals"],
     brand: "Romeo y Julieta",
     isAvailable: true,
+    slug: "romeo-y-julieta-churchills",
   },
   {
     id: 12,
@@ -260,6 +277,7 @@ export const products1 = [
     description:' The Montecristo Open Eagle is a smooth and aromatic Cuban cigar with rich wood, leather, and subtle spice notes, offering a mellow yet flavorful smoking experience.',
 
     isAvailable: false,
+    slug: "montecristo-open-eagle",
   },
   
   {
@@ -286,6 +304,7 @@ export const products1 = [
     filterCategories: ["Best seller", "New arrivals", "On Sale"],
     brand: "Montecristo",
     isAvailable: true,
+    slug: "montecristo-no-4",
   },
   {
     id: 14,
@@ -311,6 +330,7 @@ export const products1 = [
     description:'The Romeo y Julieta Wide Churchills is a full-bodied Cuban cigar with rich, complex flavors of earth, spice, sweetness, and a creamy texture for a luxurious experience.',
 
     isAvailable: true,
+    slug: "romeo-y-julieta-wide-churchills",
   },
   {
     id: 15,
@@ -336,6 +356,7 @@ export const products1 = [
     description:"The Montecristo Petit No. 2 is a robust Cuban cigar with rich cedar, leather, and spice notes, providing a complex and luxurious smoking experience.",
 
     isAvailable: true,
+    slug: "montecristo-petit-no-2",
   },
   {
     id: 16,
@@ -361,6 +382,7 @@ export const products1 = [
     description:"The Montecristo No. 5 is a full-bodied Cuban cigar with earthy, peppery, and smoky notes, delivering a rich and spicy experience for seasoned cigar enthusiasts.",
 
     isAvailable: true,
+    slug: "montecristo-no-5",
   },
   {
     id: 17,
@@ -385,6 +407,7 @@ export const products1 = [
     brand: "Montecristo",
     description:"The Montecristo Double Edmundo is a medium-bodied Cuban cigar with a smooth draw, featuring rich wood, cream, and subtle spice notes for a refined smoking experience.",
     isAvailable: true,
+    slug: "montecristo-double-edmundo",
   },
   {
     id: 18,
@@ -410,6 +433,7 @@ export const products1 = [
     description:"The Montecristo Open Master is a medium to full-bodied Cuban cigar with smooth leather, spice, and earth notes, complemented by a creamy finish for a refined smoking experience.",
 
     isAvailable: true,
+    slug: "montecristo-open-master",
   },
   {
     id: 19,
@@ -435,6 +459,7 @@ export const products1 = [
     description:"The Montecristo Edmundo is a medium to full-bodied Cuban cigar with rich earth, leather, and spice notes, delivering a smooth and luxurious smoking experience.",
 
     isAvailable: true,
+    slug: "montecristo-edmundo",
   },
   {
     id: 20,
@@ -460,6 +485,7 @@ export const products1 = [
     description:'The Montecristo No. 2 is a premium Cuban cigar with rich cedar, cocoa, and spice notes, offering a smooth, creamy finish.',
 
     isAvailable: true,
+    slug: "montecristo-no-2",
   },
 
   {
@@ -485,6 +511,8 @@ export const products1 = [
     brand: "ROMEO Y JULIETA",
     description:'The Romeo y Julieta Short Churchills is a medium to full-bodied Cuban cigar with rich, smooth flavors of earth, spice, and sweetness. A luxurious, balanced smoke.',
     isAvailable: true,
+    slug:"romeo-y-julieta-short-churchills"
+
   },
 
   {
@@ -511,6 +539,7 @@ export const products1 = [
     filterCategories: ["Best seller", "New arrivals"],
     brand: "ROMEO Y JULIETA",
     isAvailable: true,
+    slug: "romeo-y-julieta-petit-churchills"
   },
   {
     id: 23,
@@ -536,6 +565,7 @@ export const products1 = [
     filterCategories: ["Best seller", "New arrivals"],
     brand: "ROMEO Y JULIETA",
     isAvailable: true,
+    slug: "romeo-y-julieta-mille-fleurs"
   },
   {
     id: 24,
@@ -561,6 +591,7 @@ export const products1 = [
     filterCategories: ["Best seller", "New arrivals"],
     brand: "PARTAGÁS",
     isAvailable: true,
+    slug: "partagas-serie-d-no-4"
   },
   {
     id: 25,
@@ -586,6 +617,7 @@ export const products1 = [
     filterCategories: ["Best seller", "New arrivals"],
     brand: "PARTAGÁS",
     isAvailable: true,
+    slug: "partagas-serie-p-no-2"
   },
   {
     id: 26,
@@ -611,6 +643,7 @@ export const products1 = [
     filterCategories: ["Best seller", "New arrivals"],
     brand: "PARTAGÁS",
     isAvailable: true,
+    slug: "partagas-lusitanias"
   },
   {
     id: 27,
@@ -636,6 +669,7 @@ export const products1 = [
     filterCategories: ["Best seller", "New arrivals"],
     brand: "PARTAGÁS",
     isAvailable: true,
+    slug: "partagas-serie-e-no-2"
   },
   {
     id: 28,
@@ -661,6 +695,7 @@ export const products1 = [
     filterCategories: ["Best seller", "New arrivals"],
     brand: "PARTAGÁS",
     isAvailable: true,
+    slug: "partagas-serie-d-no-5"
   },
   {
     id: 29,
@@ -686,6 +721,7 @@ export const products1 = [
     description:'The Hoyo de Monterrey Epicure No. 2 is a medium-bodied Cuban cigar, offering smooth, creamy flavors with wood, leather, subtle spices, and delicate sweetness for an elegant experience.',
 
     isAvailable: true,
+    slug: "hoyo-de-monterrey-epicure-no-2"
   },
   {
     id: 30,
@@ -711,6 +747,7 @@ export const products1 = [
     description:'The Hoyo de Monterrey Double Coronas is a medium to full-bodied Cuban cigar with cedar, earth, leather, and subtle spice, offering a balanced, complex smoking experience.',
 
     isAvailable: true,
+    slug: "hoyo-de-monterrey-double-coronas"
   },
   {
     id: 31,
@@ -736,6 +773,7 @@ export const products1 = [
     description:'The Hoyo de Monterrey Epicure Especial is a medium-bodied Cuban cigar with creamy texture, rich wood, leather, and spice flavors, offering a refined, balanced smoking experience.',
 
     isAvailable: true,
+    slug: "hoyo-de-monterrey-epicure-especial"
   },
   {
     id: 32,
@@ -761,6 +799,7 @@ export const products1 = [
     description:'The Hoyo de Monterrey Petit Robusto is a medium-bodied Cuban cigar with cedar, earth, leather, spice, and sweetness, offering a quick, rich, and balanced smoke.',
 
     isAvailable: true,
+    slug: "hoyo-de-monterrey-petit-robusto"
   },
   {
     id: 33,
@@ -786,6 +825,7 @@ export const products1 = [
     description:'The H. Upmann Magnum 50 is a medium to full-bodied Cuban cigar with balanced flavors of leather, earth, and spice, offering a rich, satisfying smoking experience.',
 
     isAvailable: true,
+    slug: "h-upmann-magnum-50"
   },
   {
     id: 34,
@@ -811,6 +851,7 @@ export const products1 = [
     description:'The H. Upmann Magnum 46 is a medium to full-bodied Cuban cigar, offering smooth draw, leather, wood, spice, and a balanced, rich smoking experience with elegance.',
 
     isAvailable: true,
+    slug: "h-upmann-magnum-46"
   },
   {
     id: 35,
@@ -836,6 +877,7 @@ export const products1 = [
     description:'The H. Upmann Royal Robusto is a medium to full-bodied Cuban cigar with rich, balanced flavors of leather, wood, and spice, offering a smooth, satisfying smoke.',
 
     isAvailable: true,
+    slug: "h-upmann-royal-rousto"
   },
   {
     id: 36,
@@ -861,6 +903,7 @@ export const products1 = [
     description:'The H. Upmann Connoisseur No. 1 is a medium-bodied Cuban cigar with earth, cedar, leather, and spice notes, offering a refined, sophisticated smoking experience.',
 
     isAvailable: true,
+    slug: "h-upmann-connoisseur-no-1"
   },
   {
     id: 37,
@@ -886,6 +929,7 @@ export const products1 = [
     description:'The Bolívar Belicosos Finos is a full-bodied Cuban cigar, offering bold flavors of earth, leather, spice, and dark chocolate. Perfect for seasoned aficionados seeking intensity.',
 
     isAvailable: true,
+    slug: "bolivar-belicosos-finos"
   },
   {
     id: 38,
@@ -911,6 +955,7 @@ export const products1 = [
     description:'The Bolívar Royal Coronas is a full-bodied Cuban cigar with bold flavors of earth, leather, spice, and sweetness, offering a complex, satisfying smoking experience.',
 
     isAvailable: true,
+    slug: "bolivar-royal-coronas"
   },
   {
     id: 39,
@@ -936,6 +981,7 @@ export const products1 = [
     description:'The Bolívar Petit Coronas is a full-bodied Cuban cigar with earthy, leathery, spicy, and sweet flavors, offering a bold, satisfying, and compact smoking experience.',
 
     isAvailable: true,
+    slug: "bolivar-petit-coronas"
   },
   {
     id: 40,
@@ -961,6 +1007,7 @@ export const products1 = [
     description:'The Trinidad Fundadores is a medium to full-bodied Cuban cigar with wood, earth, subtle spices, cream, and nutty flavors, offering a refined, balanced smoking experience.',
 
     isAvailable: true,
+    slug: "trinidad-fundadores"
   },
   {
     id: 41,
@@ -986,6 +1033,7 @@ export const products1 = [
     description:'The Trinidad Reyes is a medium-bodied Cuban cigar with a 40-ring gauge, offering smooth flavors of wood, earth, spices, and a creamy, balanced finish.',
 
     isAvailable: true,
+    slug: "trinidad-reyes"
   },
   {
     id: 42,
@@ -1011,6 +1059,7 @@ export const products1 = [
     description:'The Trinidad Vigia is a full-bodied Cuban cigar with a 54-ring gauge, offering rich flavors of earth, wood, leather, pepper, spice, and sweetness for aficionados.',
 
     isAvailable: true,
+    slug: "trinidad-vigia"
   },
   {
     id: 43,
@@ -1036,6 +1085,7 @@ export const products1 = [
     description:'The Punch Punch is a medium to full-bodied Cuban cigar with rich flavors of earth, spice, leather, sweetness, and pepper, offering a satisfying, complex smoking experience.',
 
     isAvailable: true,
+    slug: "punch-punch"
   },
   {
     id: 44,
@@ -1061,6 +1111,7 @@ export const products1 = [
     description:'The Punch Double Coronas is a medium to full-bodied Cuban cigar with rich earthy, woody, leathery, and spicy notes, offering a long, bold, and satisfying smoke.',
 
     isAvailable: true,
+    slug: "punch-double-coronas"
   },
   {
     id: 45,
@@ -1086,6 +1137,7 @@ export const products1 = [
     description:"Ramón Allones Gigantes: A medium to full-bodied Cuban cigar with rich, complex flavors of earth, wood, leather, and a peppery finish, perfect for seasoned aficionados.",
 
     isAvailable: true,
+    slug: "ramon-allones-gigantes"
   },
   {
     id: 46,
@@ -1111,6 +1163,7 @@ export const products1 = [
     description:'The Ramón Allones Specially Selected is a medium to full-bodied Cuban cigar with rich flavors of leather, spice, earth, and cocoa, offering a satisfying, bold finish.',
 
     isAvailable: true,
+    slug: "ramon-allones-especially-selected"
   },
   {
     id: 47,
@@ -1136,6 +1189,7 @@ export const products1 = [
     description:'The Juan López Selección No. 2 is a medium to full-bodied Cuban cigar with a rich flavor of earth, leather, spice, cocoa, and sweetness, offering a refined experience.',
 
     isAvailable: true,
+    slug: "juan-lopez-seleccion-no-2"
   },
   {
     id: 48,
@@ -1161,6 +1215,7 @@ export const products1 = [
     description:'The San Cristóbal de La Habana Príncipes is a medium-bodied Cuban cigar, offering smooth wood, leather, earth, spice, and cream flavors for a refined, subtle experience.',
 
     isAvailable: true,
+    slug: "san-cristobal-de-la-habana-principes"
   },
   {
     id: 49,
@@ -1186,6 +1241,7 @@ export const products1 = [
     description:'The Cuaba Distinguidos is a full-bodied Cuban cigar with a 54-ring gauge, 5.9-inch length, pigtail cap, and rich flavors of wood, leather, spice, and sweetness.',
 
     isAvailable: true,
+    slug: "cuaba-distinguidos"
   },
   {
     id: 50,
@@ -1211,6 +1267,7 @@ export const products1 = [
     description:'The Diplomáticos No. 2 is a medium-bodied Cuban cigar with creamy flavors, notes of cedar, earth, spices, and sweetness, offering a balanced, refined smoking experience.',
 
     isAvailable: true,
+    slug: "diplomaticos-no-2"
   },
 ]
 
