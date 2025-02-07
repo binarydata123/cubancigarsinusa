@@ -13,20 +13,21 @@ export default function ShopDetailsTab() {
   const [currentTab, setCurrentTab] = useState(1);
   const [description, setDescription] = useState([])
   const params = useParams();
-  const productId = params?.id;
+  const productSlug = params?.id;
 
   useEffect(() => {
-    if (!productId) return;
+    if (!productSlug) return;
 
-    const product = products1.find((pro) => pro.id == productId);
+    const product = products1.find((pro) => pro.slug == productSlug);
     if (product) {
       setDescription(product.description || []);
+
     }
-  }, [productId, products1]);
+  }, [productSlug, products1]);
 
   useEffect(() => {
     setCurrentTab(1); 
-  }, [productId]);
+  }, [productSlug]);
 
 
   return (
